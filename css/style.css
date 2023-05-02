@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 &family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #1f1d1d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    position: fixed; 
+    top: 0;
+    margin-right: 50px;
+    width: 100%;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    list-style: none;
+    font-weight: 200;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff; opacity: 0.90;
+    padding: 10px;
+}
+
+.menu li a:hover, .logo a:hover {
+    font-weight: 600;
+ }
+
+.logo a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#020202;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.menu {
+    text-align: center;
+    font-weight: 400;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 10px;
+    color:#020202;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+p1 {
+    font-size: 80px;
+}
+
+p2 {
+    letter-spacing: 10px;
+    font-size: 100px;
+}
+
+.tituloyfoto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100;
+    padding: 150px;
+    background-color: #020202;
+}
+
+.hola {
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 52px;
+    letter-spacing: 3.5px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.presentacion {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    padding: 50px;
+    width: 250 px;
+    overflow: hidden;
+}
+
+.disciplinas {
+    text-align: center;
+    font-weight: 200;
+    font-size: 56px;
+    letter-spacing: 3.5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sobremi{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.textosobremi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+p3 {
+    font-weight: 400; 
+    font-size: 14px;
+}
+
+.proyectosnombres {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-weight: 200;
+    padding: 40px;
+    font-size: 32px;
+    letter-spacing: 3.5px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-style:inset ;
+    border-color: #1f1d1d;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+.digram, .keepgoing, .hayrancho, .cargadorya {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 3.5;
+    color: #020202;
+}
+
+.etiqueta {
+font-size: 12px;
+font-weight: 200;
+padding: 20px;
+}
+
+.digram:hover, .keepgoing:hover, .hayrancho:hover, .cargadorya:hover{
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 100px;
+    text-align: center;
+}
+
+.grafico {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bajada {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fecha {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 50px;
+    margin-top: -70px;
+    text-align: right;
+    color: #7f7f7f; 
+}
+
+.formulario {
+    margin: auto;
+    width: 400px;
+    padding: 2px;
+}
+
+.btn {
+    margin: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color:#e8e8e8;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    letter-spacing: 4px;
+    background-color: #1b1b1b; opacity: 0.15;
+    position: sticky;
+    bottom: 0;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+.externos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.logoli img{
+    width: 20px;
+}
+
+.logobe img{
+    width: 27px;
+}
+
+.mailfooter {
+    color:#e8e8e8;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
