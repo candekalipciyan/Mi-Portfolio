@@ -84,6 +84,18 @@ p2 {
     background-color: #020202;
 }
 
+.presentacion {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hola {
     font-size: 32px;
     font-weight: 200;
@@ -93,14 +105,17 @@ p2 {
     margin-bottom: 20px;
 }
 
-.presentacion {
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 30px;
+.lineahola {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #676767;
+    width: 60%;
+}
+
+p {
+    width: 50%;
     text-align: center;
-    padding: 50px;
-    width: 250 px;
-    overflow: hidden;
 }
 
 .disciplinas {
@@ -112,6 +127,7 @@ p2 {
     padding-bottom: 50px;
 }
 
+
 .sobremi{
     font-weight: 300;
     font-size: 14px;
@@ -120,23 +136,43 @@ p2 {
 
 .textosobremi {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    flex-direction: row;
 }
 
 p3 {
     font-weight: 400; 
     font-size: 14px;
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 10px;
 }
 
-.proyectosnombres {
+p3:hover {
+    overflow: auto;
+}
+
+p3::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+.palabrassobremi {
+    text-align: center;
     display: flex;
-    justify-content: space-between;
-    align-items: top;
-    margin-left: 50px;
-    margin-top: 50px;
+    flex-direction: row;
+    justify-content:space-around ;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.estetica, .usabilidad, .funcionalidad, .mas {
+    padding: 50px;
 }
 
 h3 {
@@ -147,36 +183,73 @@ h3 {
     font-weight: 300;
     text-align: center;
 }
-
-.caja{
+  
+  .caja {
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    border-style:inset ;
-    border-color: #1f1d1d;
-    border-radius: 3px;
-    padding: 40px;
-}
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-.digram, .keepgoing, .hayrancho, .cargadorya {
+.proyectosnombres {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .digram, .keepgoing, .hayrancho, .cargadorya {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 400;
     letter-spacing: 3.5;
     color: #020202;
-}
+    margin-top: 10px;
+  }
 
-.etiqueta {
-font-size: 12px;
-font-weight: 200;
-padding: 20px;
-}
+    
+  .etiqueta {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  
+  .lineacaja {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #676767;
+    width: 90%;
+  }
+
+  .bajadadeproyecto {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
 
 .digram:hover, .keepgoing:hover, .hayrancho:hover, .cargadorya:hover{
     font-weight: 500;
 }
+
+.digram:active, .keepgoing:active, .hayrancho:active, .cargadorya:active{
+    color: rgb(168, 168, 168);
+  }
+
+.caja:hover, .lineacaja {
+    border-width: 1px;
+    border-color: #252525;
+  }
 
 h4 {
     font-weight: 500;
@@ -208,18 +281,6 @@ h4 {
     color: #7f7f7f; 
 }
 
-.formulario {
-    margin: auto;
-    width: 400px;
-    padding: 2px;
-}
-
-.btn {
-    margin: 20px;
-    border: none;
-    display: flex;
-    justify-content: center;
-}
 
 footer {
     color:#e8e8e8;
@@ -253,6 +314,59 @@ footer:hover {
 .logobe img{
     width: 27px;
 }
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .formulario input[type="text"], .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .formulario select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .formulario .btn {
+    text-align: center;
+  }
+  
+  .formulario input[type="button"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formulario input[type="button"]:hover {
+    padding: 11px 22px;
+  }
+
+  .formulario input[type="button"]:active {
+    color: rgb(168, 168, 168);
+  }
 
 .mailfooter {
     color:#e8e8e8;
