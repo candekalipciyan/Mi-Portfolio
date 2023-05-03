@@ -144,11 +144,12 @@ p {
 p3 {
     font-weight: 400; 
     font-size: 14px;
-    width: 700px;
+    width: 600px;
     height: 300px;
     overflow: hidden;
     padding: 20px;
     padding-top: 10px;
+    line-height: 20px;
 }
 
 p3:hover {
@@ -172,6 +173,7 @@ p3::-webkit-scrollbar-track {
 }
 
 .estetica, .usabilidad, .funcionalidad, .mas {
+    margin-top: 30px;
     padding: 50px;
 }
 
@@ -295,26 +297,6 @@ footer {
     bottom: 0;
 }
 
-footer:hover {
-    opacity: 1;
-}
-
-.externos {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    align-items: center;
-}
-
-.logoli img{
-    width: 20px;
-}
-
-.logobe img{
-    width: 27px;
-}
-
 .formulario {
     max-width: 400px;
     margin: 0 auto;
@@ -368,6 +350,22 @@ footer:hover {
     color: rgb(168, 168, 168);
   }
 
+.externos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.logoli img{
+    width: 20px;
+}
+
+.logobe img{
+    width: 27px;
+}
+
 .mailfooter {
     color:#e8e8e8;
     text-align: center;
@@ -375,4 +373,8 @@ footer:hover {
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
+}
+
+footer:hover {
+    opacity: 1;
 }
