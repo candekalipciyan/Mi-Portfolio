@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 &family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -12,14 +12,14 @@ body {
 }
 
 header {
-    position: fixed; 
+    position: fixed;
     top: 0;
     margin-right: 50px;
     width: 100%;
     padding: 0px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
@@ -28,21 +28,23 @@ nav ul{
     font-weight: 200;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffffff; opacity: 0.90;
+    background-color: #ffffff;
+    opacity: 0.90;
     padding: 10px;
 }
 
-.menu li a:hover, .logo a:hover {
+.menu li a:hover,
+.logo a:hover {
     font-weight: 600;
- }
+}
 
-.logo a{
+.logo a {
     text-decoration: none;
     font-weight: 500;
-    color:#020202;
+    color: #020202;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -53,11 +55,11 @@ nav{
     font-weight: 400;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     margin-left: 30px;
     margin-right: 10px;
-    color:#020202;
+    color: #020202;
 }
 
 .titulo {
@@ -75,7 +77,7 @@ p2 {
     font-size: 100px;
 }
 
-.tituloyfoto{
+.tituloyfoto {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +130,7 @@ p {
 }
 
 
-.sobremi{
+.sobremi {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
@@ -142,7 +144,7 @@ p {
 }
 
 p3 {
-    font-weight: 400; 
+    font-weight: 400;
     font-size: 14px;
     width: 600px;
     height: 300px;
@@ -164,7 +166,7 @@ p3::-webkit-scrollbar-track {
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content:space-around ;
+    justify-content: space-around;
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 2px;
@@ -172,7 +174,10 @@ p3::-webkit-scrollbar-track {
     margin-right: 35%;
 }
 
-.estetica, .usabilidad, .funcionalidad, .mas {
+.estetica,
+.usabilidad,
+.funcionalidad,
+.mas {
     margin-top: 30px;
     padding: 50px;
 }
@@ -185,8 +190,8 @@ h3 {
     font-weight: 300;
     text-align: center;
 }
-  
-  .caja {
+
+.caja {
     width: 250px;
     margin: 0 auto;
     border: 1px solid #ccc;
@@ -196,16 +201,20 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
+    margin: 10px;
+}
 
 .proyectosnombres {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  }
-  
-  .digram, .keepgoing, .hayrancho, .cargadorya {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.digram,
+.keepgoing,
+.hayrancho,
+.cargadorya {
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -217,41 +226,48 @@ h3 {
     letter-spacing: 3.5;
     color: #020202;
     margin-top: 10px;
-  }
+}
 
-    
-  .etiqueta {
+
+.etiqueta {
     font-size: 12px;
     font-weight: 300;
     padding: 10px;
-  }
-  
-  .lineacaja {
+}
+
+.lineacaja {
     margin-top: 10px;
     margin-bottom: 20px;
     border: none;
     border-top: 1px solid #676767;
     width: 90%;
-  }
+}
 
-  .bajadadeproyecto {
+.bajadadeproyecto {
     margin-top: 10px;
     font-size: 12px;
     font-weight: 400;
-  }
+}
 
-.digram:hover, .keepgoing:hover, .hayrancho:hover, .cargadorya:hover{
+.digram:hover,
+.keepgoing:hover,
+.hayrancho:hover,
+.cargadorya:hover {
     font-weight: 500;
 }
 
-.digram:active, .keepgoing:active, .hayrancho:active, .cargadorya:active{
+.digram:active,
+.keepgoing:active,
+.hayrancho:active,
+.cargadorya:active {
     color: rgb(168, 168, 168);
-  }
+}
 
-.caja:hover, .lineacaja {
+.caja:hover,
+.lineacaja {
     border-width: 1px;
     border-color: #252525;
-  }
+}
 
 h4 {
     font-weight: 500;
@@ -280,19 +296,19 @@ h4 {
     padding-right: 50px;
     margin-top: -70px;
     text-align: right;
-    color: #7f7f7f; 
+    color: #7f7f7f;
 }
 
-
 footer {
-    color:#e8e8e8;
+    color: #e8e8e8;
     text-align: center;
     font-weight: 300;
     font-size: 16px;
     margin: 5px;
     padding: 10px;
     letter-spacing: 4px;
-    background-color: #1b1b1b; opacity: 0.15;
+    background-color: #1b1b1b;
+    opacity: 0.15;
     position: sticky;
     bottom: 0;
 }
@@ -303,52 +319,58 @@ footer {
     padding: 20px;
     background-color: #fafafa;
     border-radius: 5px;
-  }
-  
-  .formulario label {
+}
+
+.formulario label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-  }
-  
-  .formulario input[type="text"], .formulario textarea {
+}
+
+.formulario input[type="text"],
+.formulario textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 10px;
-  }
-  
-  .formulario select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario select {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 10px;
-  }
-  
-  .formulario .btn {
+}
+
+.formulario .btn {
     text-align: center;
-  }
-  
-  .formulario input[type="button"] {
+}
+
+.formulario input[type="button"] {
     background-color: #000000;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  .formulario input[type="button"]:hover {
-    padding: 11px 22px;
-  }
+}
 
-  .formulario input[type="button"]:active {
+.formulario select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario input[type="button"]:hover {
+    padding: 11px 22px;
+}
+
+.formulario input[type="button"]:active {
     color: rgb(168, 168, 168);
-  }
+}
 
 .externos {
     display: flex;
@@ -358,16 +380,16 @@ footer {
     align-items: center;
 }
 
-.logoli img{
+.logoli img {
     width: 20px;
 }
 
-.logobe img{
+.logobe img {
     width: 27px;
 }
 
 .mailfooter {
-    color:#e8e8e8;
+    color: #e8e8e8;
     text-align: center;
     font-weight: 300;
     font-size: 14px;
