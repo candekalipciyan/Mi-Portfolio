@@ -110,12 +110,11 @@ p2 {
 .lineahola {
     margin-top: -20px;
     margin-bottom: 20px;
-    border: none;
-    border-top: 1px solid #676767;
     width: 60%;
 }
 
 p {
+    margin-bottom: 45px;
     width: 50%;
     text-align: center;
 }
@@ -127,13 +126,6 @@ p {
     letter-spacing: 3.5px;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-
-.sobremi {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
 }
 
 .textosobremi {
@@ -299,20 +291,6 @@ h4 {
     color: #7f7f7f;
 }
 
-footer {
-    color: #e8e8e8;
-    text-align: center;
-    font-weight: 300;
-    font-size: 16px;
-    margin: 5px;
-    padding: 10px;
-    letter-spacing: 4px;
-    background-color: #1b1b1b;
-    opacity: 0.15;
-    position: sticky;
-    bottom: 0;
-}
-
 .formulario {
     max-width: 400px;
     margin: 0 auto;
@@ -336,6 +314,7 @@ footer {
     box-sizing: border-box;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
+    margin: 10px;
 }
 
 .formulario select {
@@ -345,10 +324,12 @@ footer {
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    margin: 10px;
 }
 
 .formulario .btn {
     text-align: center;
+    margin: 10px;
 }
 
 .formulario input[type="button"] {
@@ -372,31 +353,164 @@ footer {
     color: rgb(168, 168, 168);
 }
 
-.externos {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    align-items: center;
-}
-
-.logoli img {
-    width: 20px;
-}
-
-.logobe img {
-    width: 27px;
-}
-
-.mailfooter {
+footer {
     color: #e8e8e8;
     text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    letter-spacing: 4px;
+    background-color: #1b1b1b;
+    opacity: 0.15;
+    position: sticky;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-areas: 
+    "logoli nombrefooter logobe"
+    "logoli mailfooter logobe";
+  }
+  
+.logoli, .logobe {
+    display: flex;
+    flex-direction:row;
+}
+
+  .logoli img {
+    width: 20px;
+    grid-area: logoli;
+  }
+  
+  .logobe img {
+    width: 27px;
+    grid-area: logobe;
+  }
+  
+  .nombrefooter {
+    text-align: center;
+    grid-area: nombrefooter;
+  }
+  
+  .mailfooter {
+    color: #e8e8e8;
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
-}
+    grid-area: mailfooter;
+  }
 
 footer:hover {
     opacity: 1;
+}
+
+
+/*MEDIA*/
+
+@media (max-width:1100px){
+    .tituloyfoto{ /*no me esta quedando - achciar foto y tipografia*/
+        flex-direction: column;
+    }
+    p {
+        width: 70%;
+    }
+    .disciplinas{
+        font-size: 24px;
+        font-weight: 300;
+        padding-top: 0px;
+    }
+    .palabrassobremi {
+        font-size: 16px;
+    }
+    .estetica,
+    .usabilidad,
+    .funcionalidad,
+    .mas {
+        padding: 25px;
+    }
+}
+@media (max-width:700px){
+    .disciplinas{
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    nav{ /*tengo que ver porque se me va al costao la navbar*/
+        flex-direction: column;
+        text-align: center;
+     }
+     .logo {
+         padding-bottom: 10px;
+     }
+     .titulo{
+        padding: 0px;
+        margin: 20;
+    }
+    .presentacion{
+        padding: 20px;
+    }
+    .hola{
+        font-size: 25px;
+        line-height: 30px;
+        padding: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .lineahola {
+        width: 70%;
+    }
+    .textosobremi {
+        flex-direction: column;
+    }
+    p3 { /*achicar imagen*/
+        font-size: 12px;
+        width: 330px;
+    }
+    .palabrassobremi {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .estetica,
+    .usabilidad,
+    .funcionalidad,
+    .mas {
+        padding: 16px;
+    }
+    .proyectosnombres{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .caja {
+        width: 170px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:500px){
+    .disciplinas{
+        font-size: 13px;
+    }
+    .palabrassobremi {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+    .estetica,
+    .usabilidad,
+    .funcionalidad,
+    .mas {
+        padding: 10px;
+    }
+    h3 {
+        padding: 40px;
+        font-size: 26px;
+    }
+    .caja {
+        width: 150px;
+        padding: 10px;
+    }
 }
