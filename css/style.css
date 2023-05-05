@@ -263,34 +263,11 @@ h3 {
     border-color: #252525;
 }
 
-h4 {
-    font-weight: 500;
-    font-size: 36px;
-    margin: 100px;
-    text-align: center;
-}
-
-.grafico {
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-}
-
 .bajada {
     font-weight: 400;
     font-size: 13px;
     text-align: center;
     margin-top: 50px;
-}
-
-.fecha {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    padding-right: 50px;
-    margin-top: -70px;
-    text-align: right;
-    color: #7f7f7f;
 }
 
 .formulario {
@@ -412,7 +389,7 @@ footer:hover {
 /*MEDIA*/
 
 @media (max-width:1100px){
-    .tituloyfoto{ /*no me esta quedando - achciar foto y tipografia*/
+    .tituloyfoto{
         flex-direction: column;
     }
     .imagenes img{
@@ -446,7 +423,7 @@ footer:hover {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    nav{ /*tengo que ver porque se me va al costao la navbar*/
+    nav{
         flex-direction: column;
         text-align: center;
      }
@@ -560,24 +537,30 @@ footer:hover {
 
 h4{
     background-color: #676767;
+    margin:0;
 }
 .fecha{
     background-color: #880188;
+    margin:0;
 }
 
 .tipo{
     background-color: #d40f0f;
+    margin:0;
 }
 
 .bajadaindividual {
     background-color: #0976d6;
+    margin:0;
 }
 
 .fotosdeproyecto{
     background-color: #19be04;
+    margin:0;
 }
 
 .comentarios {
     font-size: 14px;
-    background-color: #f208c3
+    background-color: #f208c3;
+    margin:0;
 }
