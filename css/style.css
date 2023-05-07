@@ -390,7 +390,7 @@ footer:hover {
 h4 {
     margin: 0;
     font-weight: 200;
-    font-size: 32px;
+    font-size: 36px;
     letter-spacing: 3.5px;
     font-weight: 400;
     padding-top: 150px;
@@ -409,7 +409,7 @@ h4 {
 .tipo {
     color: #676767;
     margin: 0;
-    margin-top: -20px;
+    margin-top: -5px;
     font-size: 14px;
 }
 
@@ -598,7 +598,7 @@ h4 {
     }
 
     .tipo {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .bajadaindividual {
@@ -653,9 +653,9 @@ h4 {
         width: 150px;
         padding: 10px;
     }
-
-    footer {
-        opacity: 0.75;
+    
+    h4 {
+        font-size: 30px;
     }
 
     .comentariosder {
@@ -666,5 +666,9 @@ h4 {
     .comentariosizq {
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    footer {
+        opacity: 0.75;
     }
 }
