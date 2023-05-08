@@ -218,6 +218,8 @@ h3 {
 .digram,
 .keepgoing,
 .hayrancho,
+.ecorappi,
+.somos,
 .cargadorya {
     text-decoration: none;
     color: #333;
@@ -256,13 +258,17 @@ h3 {
 .digram:hover,
 .keepgoing:hover,
 .hayrancho:hover,
-.cargadorya:hover {
+.cargadorya:hover,
+.somos:hover,
+.ecorappi:hover {
     font-weight: 500;
 }
 
 .digram:active,
 .keepgoing:active,
 .hayrancho:active,
+.ecorappi:active,
+.somos:active,
 .cargadorya:active {
     color: rgb(168, 168, 168);
 }
@@ -435,7 +441,7 @@ h4 {
 
 .bajadaindividual {
     padding: 70px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     padding-left: 200px;
     padding-right: 200px;
