@@ -15,10 +15,13 @@ header {
     position: fixed;
     top: 0;
     margin: 0;
-    margin-right: 50px;
     width: 100%;
     padding: 0px;
 }
+
+/* elimino estilos naturales de bootstrap */
+hr {padding: 0; margin: 0;}
+ul{margin:0;}
 
 nav ul {
     display: flex;
@@ -275,7 +278,7 @@ h3 {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fafafa;
+    background-color: #f4f4f4;
     border-radius: 5px;
 }
 
@@ -292,7 +295,6 @@ h3 {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
 }
@@ -303,7 +305,6 @@ h3 {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-bottom: 10px;
     margin: 10px;
 }
 
@@ -368,19 +369,32 @@ footer {
     grid-area: logobe;
 }
 
+.logoli img:hover {
+    width: 22px;
+}
+
+.logobe img:hover {
+    width: 29px;
+}
+
 .nombrefooter {
     text-align: center;
     grid-area: nombrefooter;
     margin-bottom: 5px;
+    color: #a7a7a7;
 }
 
 .mailfooter {
     color: #e8e8e8;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
     grid-area: mailfooter;
+}
+
+.mailfooter:hover {
+    font-weight: 500;
 }
 
 footer:hover {
@@ -419,9 +433,7 @@ h4 {
     font-weight: 500;
     padding-left: 200px;
     padding-right: 200px;
-
 }
-
 
 .fotosdeproyectoizq {
     border-color: #020202;
@@ -432,8 +444,6 @@ h4 {
 }
 
 .comentariosder {
-    border-color: #020202;
-    border-style: ridge;
     font-size: 13px;
     font-weight: 400;
     margin-bottom: 50px;
@@ -447,9 +457,21 @@ h4 {
 }
 
 .comentariosizq {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.fotofinal {
     border-color: #020202;
     border-style: ridge;
-    font-size: 13px;
+    padding: 20px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.piefinal {
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 50px;
 }
