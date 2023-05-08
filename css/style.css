@@ -146,18 +146,24 @@ p3 {
     font-size: 14px;
     width: 600px;
     height: 300px;
-    overflow: hidden;
+    overflow: auto;
     padding: 20px;
     padding-top: 10px;
     line-height: 20px;
 }
 
-p3:hover {
-    overflow: auto;
+p3::-webkit-scrollbar {
+  background-color: #f1f1f1;
+  width: 7px;
 }
 
-p3::-webkit-scrollbar-track {
-    background-color: black;
+p3::-webkit-scrollbar-thumb {
+  background-color: #2c2c2c;
+  border-radius: 10px;
+}
+
+p3::-webkit-scrollbar-button {
+  display: none;
 }
 
 .palabrassobremi {
@@ -657,6 +663,11 @@ h4 {
     .palabrassobremi {
         font-size: 13px;
         letter-spacing: 0;
+    }
+
+    p3 {
+        font-size: 12px;
+        height: 750px;
     }
 
     .estetica,
