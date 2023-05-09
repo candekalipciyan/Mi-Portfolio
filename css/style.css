@@ -139,6 +139,10 @@ p {
     letter-spacing: 3.5px;
     padding-top: 50px;
     padding-bottom: 50px;
+}    
+
+.fotoyo img {
+    height: 250px;
 }
 
 .textosobremi {
@@ -697,7 +701,7 @@ h4 {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        height: 200px;
+        height: 160px;
     }
 
     .palabrassobremi {
@@ -800,6 +804,15 @@ h4 {
         padding: 10px;
     }
 
+    .formulario input[type="button"] {
+        font-size: 14px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    footer {
+        opacity: 0.75;
+    }
+
     h4 {
         font-size: 30px;
     }
@@ -812,10 +825,6 @@ h4 {
     .comentariosizq {
         margin-left: 50px;
         margin-right: 50px;
-    }
-
-    footer {
-        opacity: 0.75;
     }
 
     .scrollwebsomos {
