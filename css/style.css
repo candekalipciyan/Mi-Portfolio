@@ -20,8 +20,14 @@ header {
 }
 
 /* elimino estilos naturales de bootstrap */
-hr {padding: 0; margin: 0;}
-ul{margin:0;}
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
 
 nav ul {
     display: flex;
@@ -153,17 +159,17 @@ p3 {
 }
 
 p3::-webkit-scrollbar {
-  background-color: #ffffff;
-  width: 7px;
+    background-color: #ffffff;
+    width: 7px;
 }
 
 p3::-webkit-scrollbar-thumb {
-  background-color: #3e3e3e;
-  border-radius: 10px;
+    background-color: #3e3e3e;
+    border-radius: 10px;
 }
 
 p3::-webkit-scrollbar-button {
-  display: none;
+    display: none;
 }
 
 .palabrassobremi {
@@ -491,30 +497,46 @@ h4 {
 
 /*SOMOS*/
 
-.web {
+.scrollwebsomos {
     height: 420px;
     overflow: scroll;
     margin-bottom: 40px;
+    padding: 0;
 }
 
-.web img{
+.scrollappsomos {
+    height: 420px;
+    overflow: scroll;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.scrollwebsomos img {
     object-fit: cover;
     width: 730px;
 }
 
-.web::-webkit-scrollbar {
+.scrollappsomos img {
+    object-fit: cover;
+    width: 230px;
+}
+
+.scrollwebsomos::-webkit-scrollbar,
+.scrollappsomos::-webkit-scrollbar {
     background-color: #ffffff;
     width: 7px;
-  }
-  
- .web::-webkit-scrollbar-thumb {
+}
+
+.scrollwebsomos::-webkit-scrollbar-thumb,
+.scrollappsomos::-webkit-scrollbar-thumb {
     background-color: #3e3e3e;
     border-radius: 10px;
-  }
-  
-  .web::-webkit-scrollbar-button {
+}
+
+.scrollwebsomos::-webkit-scrollbar-button,
+.scrollappsomos::-webkit-scrollbar-button {
     display: none;
-  }
+}
 
 .fotosflyersomos {
     margin-bottom: 20px;
@@ -524,12 +546,15 @@ h4 {
     justify-content: space-around;
 }
 
-.comentariosflyersomos, .comentariosticketsomos {
+.comentariosflyersomos,
+.comentariosticketsomos {
     justify-content: center;
     font-size: 20px;
 }
 
-.flyer1 img, .flyer2 img, .flyer3 img{
+.flyer1 img,
+.flyer2 img,
+.flyer3 img {
     margin: 5px;
     height: 80%;
     object-fit: cover;
@@ -548,7 +573,12 @@ h4 {
     justify-content: space-around;
 }
 
-.storiesomos1 img, .storiesomos2 img, .storiesomos3 img, .storiesomos4 img,.storiesomos5 img,.storiesomos6 img {
+.storiesomos1 img,
+.storiesomos2 img,
+.storiesomos3 img,
+.storiesomos4 img,
+.storiesomos5 img,
+.storiesomos6 img {
     margin: 10px;
     height: 90%;
     object-fit: cover;
@@ -596,15 +626,17 @@ h4 {
         padding-right: 100px;
     }
 
-    .flyer1 img, .flyer2 img, .flyer3 img{
+    .flyer1 img,
+    .flyer2 img,
+    .flyer3 img {
         height: 150px;
     }
 
-    .web {
+    .scrollwebsomos {
         height: 420px;
     }
-    
-    .web img{
+
+    .scrollwebsomos img {
         width: 500px;
     }
 }
@@ -735,11 +767,13 @@ h4 {
         font-size: 12px;
     }
 
-    .web {
+    .scrollwebsomos {
         height: 300px;
     }
 
-    .flyer1 img, .flyer2 img, .flyer3 img{
+    .flyer1 img,
+    .flyer2 img,
+    .flyer3 img {
         height: 100px;
         margin: 5px;
     }
@@ -780,7 +814,7 @@ h4 {
         width: 150px;
         padding: 10px;
     }
-    
+
     h4 {
         font-size: 30px;
     }
@@ -799,12 +833,20 @@ h4 {
         opacity: 0.75;
     }
 
-    .web {
+    .scrollwebsomos {
         height: 215px;
     }
-    
-    .web img{
+
+    .scrollwebsomos img {
         width: 350px;
+    }
+
+    .scrollappsomos {
+        height: 350px;
+    }
+
+    .scrollappsomos img {
+        width: 180px;
     }
 
     .fototickets {
