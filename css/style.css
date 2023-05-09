@@ -708,7 +708,7 @@ h4 {
     .p3 {
         margin-top: 10px;
         width: 300px;
-        height: 180px;
+        height: 200px;
     }
 
     .estetica,
@@ -774,15 +774,13 @@ h4 {
         height: 250px;
     }
 
+    .disciplinas {
+        font-size: 13px;
+    }
+
     .fotoyo img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        height: 150px;
-    }
-
-    .disciplinas {
-        font-size: 13px;
     }
 
     .palabrassobremi {
