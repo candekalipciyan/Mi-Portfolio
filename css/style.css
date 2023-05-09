@@ -141,10 +141,6 @@ p {
     padding-bottom: 50px;
 }    
 
-.fotoyo img {
-    height: 250px;
-}
-
 .textosobremi {
     display: flex;
     justify-content: center;
@@ -704,15 +700,15 @@ h4 {
         height: 160px;
     }
 
-    .palabrassobremi {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
-
     .p3 {
         margin-top: 10px;
         width: 300px;
         height: 200px;
+    }
+
+    .palabrassobremi {
+        font-size: 14px;
+        letter-spacing: 1px;
     }
 
     .estetica,
