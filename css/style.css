@@ -698,7 +698,7 @@ h4 {
 
     p3 {
         font-size: 12px;
-        width: 330px;
+        width: 150px;
     }
 
     .palabrassobremi {
@@ -788,11 +788,6 @@ h4 {
     .palabrassobremi {
         font-size: 13px;
         letter-spacing: 0;
-    }
-    
-    p3 {
-        font-size: 12px;
-        height: 750px;
     }
 
     .estetica,
