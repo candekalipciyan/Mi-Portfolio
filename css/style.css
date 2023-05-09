@@ -94,8 +94,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 100;
-    padding: 150px;
+    padding: 120px;
     background-color: #020202;
+}
+
+.titulo {
+    padding-right: 30px;
 }
 
 .presentacion {
@@ -298,6 +302,7 @@ h3 {
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .formulario label {
@@ -334,7 +339,7 @@ h3 {
 .formulario input[type="button"] {
     background-color: #000000;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -345,7 +350,7 @@ h3 {
 }
 
 .formulario input[type="button"]:hover {
-    padding: 11px 22px;
+    padding: 20px;
 }
 
 .formulario input[type="button"]:active {
@@ -497,32 +502,33 @@ h4 {
 
 /*SOMOS*/
 
+.contenedorscrollsomos {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .scrollwebsomos {
+    text-align: center;
     height: 420px;
     overflow: scroll;
 }
 
-.imagenwebsomos {
+.imagenwebsomos img{
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 .scrollappsomos {
-    height: 420px;
+    text-align: center;
+    height: 320px;
+    width: 200px;
     overflow: scroll;
-    margin-bottom: 40px;
-    padding: 0;
-}
-
-.scrollwebsomos img {
-    object-fit: cover;
-    width: 730px;
 }
 
 .scrollappsomos img {
-    object-fit: cover;
-    width: 230px;
+    width: 100%;
 }
 
 .scrollwebsomos::-webkit-scrollbar,
@@ -764,6 +770,10 @@ h4 {
         font-size: 12px;
     }
 
+    .scrollwebsomos {
+        height: 230px;
+    }
+
     .flyer1 img,
     .flyer2 img,
     .flyer3 img {
@@ -781,7 +791,7 @@ h4 {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        height: 40%;
+        height: 150px;
     }
 
     .disciplinas {
