@@ -697,6 +697,7 @@ h4 {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        height: 200px;
     }
 
     .palabrassobremi {
@@ -777,6 +778,7 @@ h4 {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        height: 150px;
     }
 
     .disciplinas {
