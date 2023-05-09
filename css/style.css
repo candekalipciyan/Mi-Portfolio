@@ -322,15 +322,6 @@ h3 {
     margin: 10px;
 }
 
-.formulario select {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: 10px;
-}
-
 .formulario .btn {
     text-align: center;
     margin: 10px;
@@ -343,10 +334,6 @@ h3 {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.formulario select {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .formulario input[type="button"]:hover {
@@ -803,8 +790,6 @@ h4 {
         letter-spacing: 0;
     }
     
-
-
     p3 {
         font-size: 12px;
         height: 750px;
