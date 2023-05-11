@@ -1,0 +1,102 @@
+main {
+    .tituloyfoto {
+      .titulo {
+        .p1 {
+          // estilos para el primer párrafo dentro de .titulo
+        }
+        .p2 {
+          // estilos para el segundo párrafo dentro de .titulo
+        }
+      }
+      .imagenes {
+        img {
+          // estilos para la imagen dentro de .imagenes
+        }
+      }
+    }
+  
+    .presentacion {
+      .hola {
+        // estilos para el elemento .hola
+      }
+      .lineahola {
+        // estilos para el hr con clase .lineahola
+      }
+      p {
+        // estilos para los párrafos dentro de .presentacion
+      }
+    }
+  
+    .disciplinas {
+      // estilos para el elemento .disciplinas
+    }
+  
+    .subtitulos {
+      h3 {
+        // estilos para los subtítulos <h3> dentro de .subtitulos
+      }
+      .textosobremi {
+        // estilos para .textosobremi
+        .fotoyo {
+          img {
+            // estilos para la imagen dentro de .fotoyo
+          }
+        }
+        .p3 {
+          // estilos para el párrafo con clase .p3 dentro de .textosobremi
+        }
+      }
+      .palabrassobremi {
+        // estilos para .palabrassobremi
+        .estetica {
+          // estilos para el elemento .estetica dentro de .palabrassobremi
+        }
+        .mas {
+          // estilos para el elemento .mas dentro de .palabrassobremi
+        }
+        .funcionalidad {
+          // estilos para el elemento .funcionalidad dentro de .palabrassobremi
+        }
+        .usabilidad {
+          // estilos para el elemento .usabilidad dentro de .palabrassobremi
+        }
+      }
+      .proyectosnombres {
+        // estilos para .proyectosnombres
+        .caja {
+          // estilos para .caja
+          a {
+            // estilos para los enlaces dentro de .caja
+          }
+          .etiqueta {
+            // estilos para el elemento .etiqueta dentro de .caja
+          }
+          hr.lineacaja {
+            // estilos para el hr con clase .lineacaja dentro de .caja
+          }
+          .bajadadeproyecto {
+            // estilos para el elemento .bajadadeproyecto dentro de .caja
+          }
+        }
+      }
+    }
+  
+    #contacto {
+      // estilos para el elemento con id #contacto
+    }
+    .formulario {
+      input[type="text"],
+      textarea {
+        // estilos para los campos de texto y área de texto dentro de .formulario
+      }
+      textarea {
+        // estilos adicionales para el área de texto dentro de .formulario
+      }
+      .btn {
+        // estilos para el contenedor del botón dentro de .formulario
+        input[type="button"] {
+          // estilos para el botón 'ENVIAR' dentro de .formulario
+        }
+      }
+    }
+  }

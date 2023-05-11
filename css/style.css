@@ -11,7 +11,7 @@ body {
     font-weight: 400;
 }
 
-header {
+/*header {
     position: fixed;
     top: 0;
     margin: 0;
@@ -20,12 +20,12 @@ header {
 }
 
 /* elimino estilos naturales de bootstrap */
-hr {
+/*hr {
     padding: 0;
     margin: 0;
 }
 
-nav ul {
+/*nav ul {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,7 @@ nav {
     margin-left: 30px;
     color: #020202;
 }
-
+*/
 .titulo {
     text-align: center;
     font-weight: 300;
