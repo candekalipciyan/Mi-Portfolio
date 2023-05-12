@@ -245,18 +245,18 @@ main .formulario {
   main .formulario .btn {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px; }
-    main .formulario .btn input[type="button"] {
-      background-color: #000000;
-      color: white;
-      padding: 10px 20px 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer; }
-      main .formulario .btn input[type="button"]:hover {
-        padding: 11px 22px; }
-      main .formulario .btn input[type="button"]:active {
-        color: #a8a8a8; }
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 4px;
+    max-width: 200px;
+    cursor: pointer; }
+    main .formulario .btn:hover {
+      padding: 11px 22px; }
+    main .formulario .btn:active {
+      color: #a8a8a8; }
 
 footer {
   color: #e8e8e8;
@@ -306,3 +306,102 @@ footer {
     width: 27px; }
     .logobe img:hover {
       width: 29px; }
+
+@media (max-width: 1100px) {
+  main .tituloyfoto {
+    flex-direction: column; }
+    main .tituloyfoto .imagenes img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      height: 400px; }
+  main .presentacion p {
+    width: 70%; }
+  main .disciplinas {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 0px; }
+  main .subtitulos .palabrassobremi {
+    font-size: 16px; }
+    main .subtitulos .palabrassobremi .estetica {
+      padding: 25px; }
+    main .subtitulos .palabrassobremi .mas {
+      padding: 25px; }
+    main .subtitulos .palabrassobremi .funcionalidad {
+      padding: 25px; }
+    main .subtitulos .palabrassobremi .usabilidad {
+      padding: 25px; } }
+
+@media (max-width: 700px) {
+  header nav {
+    flex-direction: column;
+    text-align: center; }
+    header nav .logo {
+      padding-bottom: 10px; }
+  header .menu li a {
+    margin: 20px; }
+  main .tituloyfoto .titulo {
+    padding: 0px;
+    margin: 20; }
+    main .tituloyfoto .titulo .p1 {
+      font-size: 50px;
+      margin-bottom: -20px; }
+    main .tituloyfoto .titulo .p2 {
+      font-size: 60px;
+      letter-spacing: 8px; }
+  main .tituloyfoto .imagenes img {
+    height: 250px; }
+  main .presentacion .hola {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px; }
+  main .presentacion .lineahola {
+    width: 70%; }
+  main .presentacion p {
+    font-size: 14px; }
+  main .subtitulos .textosobremi .fotoyo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 150px; }
+  main .subtitulos .textosobremi .p3 {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px; }
+  main .subtitulos .palabrassobremi {
+    font-size: 14px;
+    letter-spacing: 1px; }
+    main .subtitulos .palabrassobremi .estetica {
+      padding: 16px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    main .subtitulos .palabrassobremi .mas {
+      padding: 16px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    main .subtitulos .palabrassobremi .funcionalidad {
+      padding: 16px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    main .subtitulos .palabrassobremi .usabilidad {
+      padding: 16px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  main .subtitulos .proyectosnombres {
+    margin-left: 30px;
+    margin-right: 30px; }
+    main .subtitulos .proyectosnombres .caja {
+      width: 170px;
+      margin-bottom: 20px; } }
+
+.formulario footer .externos .nombrefooter {
+  font-size: 14px; }
+
+.formulario footer .externos .logoli img {
+  width: 20px; }
+
+.formulario footer .externos .mailfooter {
+  font-size: 12px; }
+
+.logobe img {
+  width: 24px; }
