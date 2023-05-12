@@ -191,17 +191,21 @@ main {
       // estilos para el elemento con id #contacto
     }
     .formulario {
-      input[type="text"],
-      textarea {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f4f4f4;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      input{
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10px;
         margin-bottom: 10px;
-        font-weight: bold;
       }
       textarea {
         width: 100%;
@@ -217,13 +221,13 @@ main {
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
-        input[type="button"] {
-          background-color: #000000;
-          color: white;
-          padding: 10px 20px 10px 20px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        border-radius: 4px;
+        max-width: 200px;
+        cursor: pointer;
           &:hover{
             padding: 11px 22px;
           }

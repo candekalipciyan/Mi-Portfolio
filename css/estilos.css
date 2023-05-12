@@ -217,43 +217,46 @@ main .subtitulos .proyectosnombres {
       font-size: 12px;
       font-weight: 400; }
 
-main .formulario input[type="text"],
-main .formulario textarea {
+main .formulario {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 5px;
-  margin-bottom: 20px;
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold; }
-
-main .formulario textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-main .formulario .btn {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-  main .formulario .btn input[type="button"] {
-    background-color: #000000;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    border: none;
+  margin-bottom: 20px; }
+  main .formulario input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    cursor: pointer; }
-    main .formulario .btn input[type="button"]:hover {
-      padding: 11px 22px; }
-    main .formulario .btn input[type="button"]:active {
-      color: #a8a8a8; }
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  main .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  main .formulario .btn {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    main .formulario .btn input[type="button"] {
+      background-color: #000000;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer; }
+      main .formulario .btn input[type="button"]:hover {
+        padding: 11px 22px; }
+      main .formulario .btn input[type="button"]:active {
+        color: #a8a8a8; }
 
 footer {
   color: #e8e8e8;
@@ -277,10 +280,11 @@ footer {
       color: #a7a7a7; }
     footer .externos .logoli {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      grid-area: logoli;
+      align-self: center; }
       footer .externos .logoli img {
-        width: 20px;
-        grid-area: logoli; }
+        width: 20px; }
         footer .externos .logoli img:hover {
           width: 22px; }
     footer .externos .mailfooter {
@@ -295,9 +299,10 @@ footer {
 
 .logobe {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  grid-area: logobe;
+  align-self: center; }
   .logobe img {
-    width: 27px;
-    grid-area: logobe; }
+    width: 27px; }
     .logobe img:hover {
       width: 29px; }

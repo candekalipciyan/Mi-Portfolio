@@ -25,9 +25,10 @@ footer {
       .logoli {
         display: flex;
         justify-content: center;
+        grid-area: logoli;
+        align-self:center;
         img {
           width: 20px;
-          grid-area: logoli;
           &:hover{
             width: 22px;
           }
@@ -51,9 +52,10 @@ footer {
 .logobe {
   display: flex;
   justify-content: center;
+  grid-area: logobe;
+  align-self:center;
   img {
     width: 27px;
-    grid-area: logobe;
      &:hover{
        width: 29px;
       }
