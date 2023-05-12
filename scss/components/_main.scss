@@ -1,11 +1,25 @@
 main {
     .tituloyfoto {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 100;
+      padding: 120px;
+      padding-bottom: 180px;
+      background-color: #020202;
       .titulo {
+        text-align: center;
+        font-weight: 300;
+        color: #fafafa;
+        padding-right: 30px;
         .p1 {
-          // estilos para el primer párrafo dentro de .titulo
+          font-size: 80px;
+          margin-bottom: -20px;
         }
         .p2 {
-          // estilos para el segundo párrafo dentro de .titulo
+          letter-spacing: 8px;
+          font-size: 100px;
+          font-weight: 400;
         }
       }
       .imagenes {
@@ -16,66 +30,158 @@ main {
     }
   
     .presentacion {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 30px;
+      text-align: center;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       .hola {
-        // estilos para el elemento .hola
+        font-size: 32px;
+        font-weight: 200;
+        line-height: 52px;
+        letter-spacing: 3.5px;
+        padding: 30px;
+        margin-bottom: 20px;
       }
       .lineahola {
-        // estilos para el hr con clase .lineahola
+        margin-top: -20px;
+        margin-bottom: 20px;
+        width: 60%;
       }
       p {
-        // estilos para los párrafos dentro de .presentacion
+        margin-bottom: 45px;
+        width: 50%;
+        text-align: center;
       }
     }
   
     .disciplinas {
-      // estilos para el elemento .disciplinas
+      text-align: center;
+      font-weight: 200;
+      font-size: 50px;
+      letter-spacing: 3.5px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
   
     .subtitulos {
       h3 {
-        // estilos para los subtítulos <h3> dentro de .subtitulos
+        font-weight: 200;
+        padding: 40px;
+        font-size: 32px;
+        letter-spacing: 3.5px;
+        font-weight: 300;
+        text-align: center;
       }
       .textosobremi {
-        // estilos para .textosobremi
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
         .fotoyo {
           img {
-            // estilos para la imagen dentro de .fotoyo
+            width: 100%;
           }
         }
         .p3 {
-          // estilos para el párrafo con clase .p3 dentro de .textosobremi
+          font-weight: 400;
+          font-size: 14px;
+          width: 600px;
+          height: 300px;
+          overflow: auto;
+          padding: 20px;
+          padding-top: 10px;
+          line-height: 20px;
+          border-radius: 5px;
+          box-shadow: inset 0px -8px 20px -5px rgba(0,0,0,0.1);
         }
       }
       .palabrassobremi {
-        // estilos para .palabrassobremi
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-left: 35%;
+        margin-right: 35%;
         .estetica {
-          // estilos para el elemento .estetica dentro de .palabrassobremi
+          margin-top: 30px;
+          padding: 50px;
         }
         .mas {
-          // estilos para el elemento .mas dentro de .palabrassobremi
+          margin-top: 30px;
+          padding: 50px;
         }
         .funcionalidad {
-          // estilos para el elemento .funcionalidad dentro de .palabrassobremi
+          margin-top: 30px;
+          padding: 50px;
         }
         .usabilidad {
-          // estilos para el elemento .usabilidad dentro de .palabrassobremi
+          margin-top: 30px;
+          padding: 50px;
         }
       }
       .proyectosnombres {
-        // estilos para .proyectosnombres
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
         .caja {
-          // estilos para .caja
+          width: 250px;
+          margin: 0 auto;
+          border: 1px solid #ccc;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          margin: 10px;
+            &:hover{
+              border-width: 1px;
+              border-color: #252525;
+          }
           a {
-            // estilos para los enlaces dentro de .caja
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 3.5;
+            color: #020202;
+            margin-top: 10px;
+              &:hover {
+                font-weight: 500;
+            }
+              &:active {
+               color: rgb(168, 168, 168);
+            }
           }
           .etiqueta {
-            // estilos para el elemento .etiqueta dentro de .caja
+            font-size: 12px;
+            font-weight: 300;
+            padding: 10px;
           }
           hr.lineacaja {
-            // estilos para el hr con clase .lineacaja dentro de .caja
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-top: 1px solid #676767;
+            width: 90%;
           }
           .bajadadeproyecto {
-            // estilos para el elemento .bajadadeproyecto dentro de .caja
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: 400;
           }
         }
       }
@@ -87,15 +193,43 @@ main {
     .formulario {
       input[type="text"],
       textarea {
-        // estilos para los campos de texto y área de texto dentro de .formulario
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
       }
       textarea {
-        // estilos adicionales para el área de texto dentro de .formulario
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
       .btn {
-        // estilos para el contenedor del botón dentro de .formulario
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
         input[type="button"] {
-          // estilos para el botón 'ENVIAR' dentro de .formulario
+          background-color: #000000;
+          color: white;
+          padding: 10px 20px 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          &:hover{
+            padding: 11px 22px;
+          }
+          &:active{
+            color: rgb(168, 168, 168);
+          }
         }
       }
     }

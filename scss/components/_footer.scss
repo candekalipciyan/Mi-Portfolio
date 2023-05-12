@@ -1,20 +1,61 @@
 footer {
+  color: #e8e8e8;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 4px;
+  background-color: #1b1b1b;
+  opacity: 0.15;
+  position: sticky;
+  bottom: 0;
+    &:hover{
+    opacity: 1;
+  }
     .externos {
+      display: grid;
+      align-items: center;
+      grid-template-areas:
+          "logoli nombrefooter logobe"
+          "logoli mailfooter logobe";
       .nombrefooter {
-        // estilos para el elemento .nombrefooter
+        text-align: center;
+        grid-area: nombrefooter;
+        margin-bottom: 5px;
+        color: #a7a7a7;
       }
-      a.logoli {
+      .logoli {
+        display: flex;
+        justify-content: center;
         img {
-          // estilos para la imagen dentro del enlace con clase .logoli
+          width: 20px;
+          grid-area: logoli;
+          &:hover{
+            width: 22px;
+          }
         }
       }
-      a.mailfooter {
-        // estilos para el enlace con clase .mailfooter
+      .mailfooter {
+        color: #e8e8e8;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        grid-area: mailfooter;
+        &:hover {
+          font-weight: 500;
       }
-      a.logobe {
-        img {
-          // estilos para la imagen dentro del enlace con clase .logobe
-        }
-      }
+      
     }
   }
+}
+
+.logobe {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 27px;
+    grid-area: logobe;
+     &:hover{
+       width: 29px;
+      }
+  }
+}

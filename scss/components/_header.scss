@@ -21,6 +21,7 @@ header {
           letter-spacing: 3px;
           &:hover {     
             font-weight: 600;  
+          }
         }
       }
       .menu {
@@ -31,14 +32,17 @@ header {
         letter-spacing: 1.3px;
         list-style: none;
         font-weight: 400;
-        li a {
+        li{
+          a {
               text-decoration: none;
               margin-left: 30px;
               color: #020202;
                 &:hover {   
                  font-weight: 600;
+                }
             }
         }
+         
       }
     }
     hr {
@@ -46,4 +50,3 @@ header {
       margin: 0;
     }
   }
-}

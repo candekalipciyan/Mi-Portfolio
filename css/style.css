@@ -69,7 +69,7 @@ nav {
     color: #020202;
 }
 */
-.titulo {
+/*.titulo {
     text-align: center;
     font-weight: 300;
     color: #fafafa;
@@ -415,6 +415,11 @@ footer {
 footer:hover {
     opacity: 1;
 }
+*/
+
+
+
+
 
 h4 {
     margin: 0;

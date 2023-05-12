@@ -5,4 +5,28 @@
     padding: 0px;
 }
 
+body {
+    color: #1f1d1d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.p3::-webkit-scrollbar {
+    background-color: #ffffff;
+    width: 7px;
+}
+
+.p3::-webkit-scrollbar-thumb {
+    background-color: #a3a3a364;
+    border-radius: 10px;
+}
+
+.p3:hover::-webkit-scrollbar-thumb {
+    background-color: #3e3e3e;
+}
+
+.p3::-webkit-scrollbar-button {
+    display: none;
+}
+
 // aca irian clases de bootstrap o clases que reutilice
