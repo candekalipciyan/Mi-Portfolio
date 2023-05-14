@@ -785,8 +785,9 @@ h4 {
         height: 100px;
         margin: 5px;
     }
-}
 
+
+    /*
 @media (max-width:500px) {
     .imagenes img {
         height: 250px;
@@ -831,6 +832,8 @@ h4 {
         opacity: 0.75;
     }
 
+    */
+    
     h4 {
         font-size: 30px;
     }
