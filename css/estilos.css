@@ -287,6 +287,7 @@ footer {
   position: sticky;
   bottom: 0; }
   footer:hover {
+    transition: 0.2s ease-in-out;
     opacity: 1; }
   footer .externos {
     display: grid;
@@ -303,9 +304,14 @@ footer {
       grid-area: logoli;
       align-self: center; }
       footer .externos .logoli img {
-        width: 20px; }
+        width: 20px;
+        opacity: 0.7; }
         footer .externos .logoli img:hover {
-          width: 22px; }
+          transition: 0.2s ease-in-out;
+          opacity: 1; }
+        footer .externos .logoli img:active {
+          transition: 0s;
+          opacity: 0.5; }
     footer .externos .mailfooter {
       color: #e8e8e8;
       font-weight: 400;
@@ -314,6 +320,7 @@ footer {
       text-decoration: none;
       grid-area: mailfooter; }
       footer .externos .mailfooter:hover {
+        transition: 0.3s ease-in-out;
         font-weight: 500; }
 
 .logobe {
@@ -322,9 +329,14 @@ footer {
   grid-area: logobe;
   align-self: center; }
   .logobe img {
-    width: 27px; }
+    opacity: 0.7;
+    width: 22px; }
     .logobe img:hover {
-      width: 29px; }
+      transition: 0.2s ease-in-out;
+      opacity: 1; }
+    .logobe img:active {
+      transition: 0s;
+      opacity: 0.5; }
 
 @media (max-width: 1100px) {
   main .tituloyfoto {

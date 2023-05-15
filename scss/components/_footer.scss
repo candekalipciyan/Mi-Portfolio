@@ -7,44 +7,60 @@ footer {
   opacity: 0.15;
   position: sticky;
   bottom: 0;
-    &:hover{
+
+  &:hover {
+    transition: 0.2s ease-in-out;
     opacity: 1;
   }
-    .externos {
-      display: grid;
-      align-items: center;
-      grid-template-areas:
-          "logoli nombrefooter logobe"
-          "logoli mailfooter logobe";
-      .nombrefooter {
-        text-align: center;
-        grid-area: nombrefooter;
-        margin-bottom: 5px;
-        color: #a7a7a7;
-      }
-      .logoli {
-        display: flex;
-        justify-content: center;
-        grid-area: logoli;
-        align-self:center;
-        img {
-          width: 20px;
-          &:hover{
-            width: 22px;
-          }
+
+  .externos {
+    display: grid;
+    align-items: center;
+    grid-template-areas:
+      "logoli nombrefooter logobe"
+      "logoli mailfooter logobe";
+
+    .nombrefooter {
+      text-align: center;
+      grid-area: nombrefooter;
+      margin-bottom: 5px;
+      color: #a7a7a7;
+    }
+
+    .logoli {
+      display: flex;
+      justify-content: center;
+      grid-area: logoli;
+      align-self: center;
+
+      img {
+        width: 20px;
+        opacity: 0.7;
+
+        &:hover {
+          transition: 0.2s ease-in-out;
+          opacity: 1;
+        }
+        &:active {
+          transition: 0s;
+          opacity: 0.5;
         }
       }
-      .mailfooter {
-        color: #e8e8e8;
-        font-weight: 400;
-        font-size: 14px;
-        letter-spacing: 1px;
-        text-decoration: none;
-        grid-area: mailfooter;
-        &:hover {
-          font-weight: 500;
+    }
+
+    .mailfooter {
+      color: #e8e8e8;
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      grid-area: mailfooter;
+
+      &:hover {
+        transition: 0.3s ease-in-out;
+        font-weight: 500;
       }
-      
+
     }
   }
 }
@@ -53,11 +69,18 @@ footer {
   display: flex;
   justify-content: center;
   grid-area: logobe;
-  align-self:center;
+  align-self: center;
+
   img {
-    width: 27px;
-     &:hover{
-       width: 29px;
-      }
+    opacity: 0.7;
+    width: 22px;
+    &:hover {
+      transition: 0.2s ease-in-out;
+      opacity: 1;
+    }
+    &:active {
+      transition: 0s;
+      opacity: 0.5;
+    }
   }
 }
