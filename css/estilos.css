@@ -3,6 +3,9 @@
   margin: 0px;
   padding: 0px; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   color: #1f1d1d;
   font-family: 'Montserrat', sans-serif;
@@ -220,6 +223,9 @@ main .subtitulos .proyectosnombres {
       font-weight: 400; }
 
 main .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -244,19 +250,20 @@ main .formulario {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .formulario .btn {
+  main .formulario button {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #fafafa;
     background-color: #000000;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 0px 10px 0px;
     border: none;
     border-radius: 4px;
     max-width: 200px;
     cursor: pointer; }
-    main .formulario .btn:hover {
+    main .formulario button:hover {
       padding: 11px 22px; }
-    main .formulario .btn:active {
+    main .formulario button:active {
       color: #a8a8a8; }
 
 footer {
@@ -442,9 +449,8 @@ footer {
   main .subtitulos .proyectosnombres .caja {
     width: 150px;
     padding: 10px; }
-  .formulario .btn {
+  .formulario button {
     font-size: 14px;
-    padding: 10px 20px 10px 20px; } }
-
-footer {
-  opacity: 0.75; }
+    padding: 10px 20px 10px 20px; }
+  footer {
+    opacity: 0.75; } }
