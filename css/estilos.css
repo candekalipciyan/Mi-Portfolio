@@ -113,37 +113,12 @@ main .presentacion {
     width: 60%;
     -webkit-animation-name: slideLeftReturn;
     animation-name: slideLeftReturn; }
+  main .presentacion p {
+    margin-bottom: 45px;
+    width: 50%;
+    text-align: center; }
 
-@-webkit-keyframes lineahola {
-  0% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%); }
-  100% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%); } }
-
-@keyframes lineahola {
-  0% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%); }
-  100% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%); } }
-
-main p {
-  margin-bottom: 45px;
-  width: 50%;
-  text-align: center; }
-
-.disciplinas {
+main .disciplinas {
   text-align: center;
   font-weight: 200;
   font-size: 50px;
@@ -151,7 +126,7 @@ main p {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-.subtitulos h3 {
+main .subtitulos h3 {
   font-weight: 200;
   padding: 40px;
   font-size: 32px;
@@ -159,14 +134,14 @@ main p {
   font-weight: 300;
   text-align: center; }
 
-.subtitulos .textosobremi {
+main .subtitulos .textosobremi {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row; }
-  .subtitulos .textosobremi .fotoyo img {
+  main .subtitulos .textosobremi .fotoyo img {
     width: 100%; }
-  .subtitulos .textosobremi .p3 {
+  main .subtitulos .textosobremi .p3 {
     font-weight: 400;
     font-size: 14px;
     width: 600px;
@@ -178,7 +153,7 @@ main p {
     border-radius: 5px;
     box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
 
-.subtitulos .palabrassobremi {
+main .subtitulos .palabrassobremi {
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -188,25 +163,25 @@ main p {
   letter-spacing: 2px;
   margin-left: 35%;
   margin-right: 35%; }
-  .subtitulos .palabrassobremi .estetica {
+  main .subtitulos .palabrassobremi .estetica {
     margin-top: 30px;
     padding: 50px; }
-  .subtitulos .palabrassobremi .mas {
+  main .subtitulos .palabrassobremi .mas {
     margin-top: 30px;
     padding: 50px; }
-  .subtitulos .palabrassobremi .funcionalidad {
+  main .subtitulos .palabrassobremi .funcionalidad {
     margin-top: 30px;
     padding: 50px; }
-  .subtitulos .palabrassobremi .usabilidad {
+  main .subtitulos .palabrassobremi .usabilidad {
     margin-top: 30px;
     padding: 50px; }
 
-.subtitulos .proyectosnombres {
+main .subtitulos .proyectosnombres {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap; }
-  .subtitulos .proyectosnombres .caja {
+  main .subtitulos .proyectosnombres .caja {
     color: #000000;
     text-decoration: none;
     width: 250px;
@@ -220,13 +195,13 @@ main p {
     justify-content: center;
     text-align: center;
     margin: 10px; }
-    .subtitulos .proyectosnombres .caja:hover {
+    main .subtitulos .proyectosnombres .caja:hover {
       transition: 0.5s ease-in-out;
       border-color: #1f1f1f;
       border-width: 1px; }
-    .subtitulos .proyectosnombres .caja:active {
+    main .subtitulos .proyectosnombres .caja:active {
       color: #a8a8a8; }
-    .subtitulos .proyectosnombres .caja .cargadorya, .subtitulos .proyectosnombres .caja .digram, .subtitulos .proyectosnombres .caja .somos, .subtitulos .proyectosnombres .caja .ecorappi, .subtitulos .proyectosnombres .caja .hayrancho, .subtitulos .proyectosnombres .caja .keepgoing {
+    main .subtitulos .proyectosnombres .caja .cargadorya, main .subtitulos .proyectosnombres .caja .digram, main .subtitulos .proyectosnombres .caja .somos, main .subtitulos .proyectosnombres .caja .ecorappi, main .subtitulos .proyectosnombres .caja .hayrancho, main .subtitulos .proyectosnombres .caja .keepgoing {
       text-decoration: none;
       color: #333;
       font-weight: bold;
@@ -238,22 +213,22 @@ main p {
       letter-spacing: 3.5;
       color: #020202;
       margin-top: 10px; }
-    .subtitulos .proyectosnombres .caja .etiqueta {
+    main .subtitulos .proyectosnombres .caja .etiqueta {
       font-size: 12px;
       font-weight: 300;
       padding: 10px; }
-    .subtitulos .proyectosnombres .caja hr.lineacaja {
+    main .subtitulos .proyectosnombres .caja hr.lineacaja {
       margin-top: 10px;
       margin-bottom: 20px;
       border: none;
       border-top: 1px solid #676767;
       width: 90%; }
-    .subtitulos .proyectosnombres .caja .bajadadeproyecto {
+    main .subtitulos .proyectosnombres .caja .bajadadeproyecto {
       margin-top: 10px;
       font-size: 12px;
       font-weight: 400; }
 
-.formulario {
+main .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,7 +238,7 @@ main p {
   background-color: #f4f4f4;
   border-radius: 5px;
   margin-bottom: 20px; }
-  .formulario input {
+  main .formulario input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -272,7 +247,7 @@ main p {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .formulario textarea {
+  main .formulario textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid white;
@@ -281,7 +256,7 @@ main p {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .formulario button {
+  main .formulario button {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -294,11 +269,11 @@ main p {
     color: #171616;
     border-color: #1f1f1f;
     cursor: pointer; }
-    .formulario button:hover {
+    main .formulario button:hover {
       transition: 0.5s ease-in-out;
       color: #fafafa;
       background-color: #000000; }
-    .formulario button:active {
+    main .formulario button:active {
       transition: 0.1s ease-in-out;
       background-color: #c2c2c2; }
 

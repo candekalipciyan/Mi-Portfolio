@@ -22,11 +22,6 @@ main {
           font-weight: 400;
         }
       }
-      .imagenes {
-        img {
-          // estilos para la imagen dentro de .imagenes
-        }
-      }
     }
   
     .presentacion {
@@ -190,9 +185,6 @@ main {
         }
       }
     }
-  
-    #contacto {
-    }
     .formulario {
       display: flex;
       flex-direction: column;
@@ -248,4 +240,4 @@ main {
         }
       }
     
-  
+    }  
