@@ -46,8 +46,40 @@ main {
         margin-top: -20px;
         margin-bottom: 20px;
         width: 60%;
-        -webkit-animation-name: slideLeftReturn;
-        animation-name: slideLeftReturn;
+        .lineahola {
+          -webkit-animation-name: slideLeftReturn;
+          animation-name: slideLeftReturn;
+        }
+        @-webkit-keyframes lineahola {
+          0% {
+            -webkit-transform-origin: 0 0;
+            transform-origin:center;
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+          }
+        
+          100% {
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+          }
+        }
+        @keyframes lineahola {
+          0% {
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+          }
+        
+          100% {
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+          }
+        }
         }
       p {
         margin-bottom: 45px;
