@@ -8,9 +8,9 @@
 
             .titulo {
                 padding-bottom: 20px;
-                .p1 {}
+                h1 {}
 
-                .p2 {}
+                h2 {}
             }
 
             .imagenes {
@@ -141,14 +141,15 @@
                 padding: 0px;
                 margin: 20;
 
-                .p1 {
+                h1 {
                     font-size: 50px;
                     margin-bottom: -20px;
                 }
 
-                .p2 {
+                h2 {
                     font-size: 60px;
                     letter-spacing: 8px;
+                    margin-bottom: 20px;
                 }
             }
 
@@ -291,9 +292,10 @@
     main {
         .tituloyfoto {
             .titulo {
-                .p1 {}
+                h1 {}
 
-                .p2 {}
+                h2 {
+                }
             }
 
             .imagenes {

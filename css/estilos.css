@@ -28,6 +28,7 @@ body {
 header {
   font-family: 'Montserrat', sans-serif;
   position: fixed;
+  z-index: 1;
   top: 0;
   margin: 0;
   width: 100%;
@@ -79,16 +80,16 @@ main .tituloyfoto {
   background-color: #020202; }
   main .tituloyfoto .titulo {
     text-align: center;
-    font-weight: 300;
     color: #fafafa;
     padding-right: 30px; }
-    main .tituloyfoto .titulo .p1 {
+    main .tituloyfoto .titulo h1 {
+      font-weight: 300;
       font-size: 80px;
       margin-bottom: -20px; }
-    main .tituloyfoto .titulo .p2 {
+    main .tituloyfoto .titulo h2 {
+      font-weight: 300;
       letter-spacing: 8px;
-      font-size: 100px;
-      font-weight: 400; }
+      font-size: 100px; }
 
 main .presentacion {
   font-size: 17px;
@@ -302,6 +303,19 @@ main .formulario {
       transition: 0.1s ease-in-out;
       background-color: #c2c2c2; }
 
+main .carrouseles {
+  margin-top: 50px;
+  width: 60%; }
+  main .carrouseles .carrouselizquierda {
+    margin: 0;
+    padding: 0; }
+  main .carrouseles .carrousemedio {
+    margin: 0;
+    padding: 0; }
+  main .carrouseles .carrouselderecha {
+    margin: 0;
+    padding: 0; }
+
 footer {
   color: #e8e8e8;
   text-align: center;
@@ -401,12 +415,13 @@ footer {
   main .tituloyfoto .titulo {
     padding: 0px;
     margin: 20; }
-    main .tituloyfoto .titulo .p1 {
+    main .tituloyfoto .titulo h1 {
       font-size: 50px;
       margin-bottom: -20px; }
-    main .tituloyfoto .titulo .p2 {
+    main .tituloyfoto .titulo h2 {
       font-size: 60px;
-      letter-spacing: 8px; }
+      letter-spacing: 8px;
+      margin-bottom: 20px; }
   main .tituloyfoto .imagenes img {
     height: 250px; }
   main .presentacion .hola {

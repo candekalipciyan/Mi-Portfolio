@@ -9,17 +9,17 @@ main {
       background-color: #020202;
       .titulo {
         text-align: center;
-        font-weight: 300;
         color: #fafafa;
         padding-right: 30px;
-        .p1 {
+        h1 {
+          font-weight: 300;
           font-size: 80px;
           margin-bottom: -20px;
         }
-        .p2 {
+        h2 {
+          font-weight: 300;
           letter-spacing: 8px;
           font-size: 100px;
-          font-weight: 400;
         }
       }
     }
@@ -171,6 +171,8 @@ main {
           border-radius: 2px;
           display: flex;
           flex-direction: column;
+          align-items: center;
+          justify-content: center;
           text-align: center;
           margin: 10px;
             &:hover{
@@ -271,3 +273,93 @@ main {
       }
     
     }  
+
+
+    // DIGRAM
+
+html {
+  // Estilos para el elemento <html>
+}
+
+body {
+  // Estilos para el elemento <body>
+}
+
+header {
+  // Estilos para el elemento <header>
+  
+  nav {
+    // Estilos para el elemento <nav>
+    
+    .logo {
+      // Estilos para el elemento con la clase "logo" dentro de <nav>
+    }
+    
+    .menu {
+      // Estilos para el elemento con la clase "menu" dentro de <nav>
+      
+      li {
+        // Estilos para los elementos <li> dentro de .menu
+        a {
+          // Estilos para los elementos <a> dentro de los <li> en .menu
+        }
+      }
+    }
+  }
+  
+  hr {
+    // Estilos para el elemento <hr> dentro de <header>
+  }
+}
+
+main {
+  // Estilos para el elemento <main>
+  
+  .container {
+    // Estilos para el elemento con la clase "container" dentro de <main>
+    
+    .row {
+      // Estilos para los elementos con la clase "row" dentro de .container
+      
+      h4 {
+        // Estilos para el elemento <h4> dentro de .row
+      }
+      
+      p {
+        // Estilos para los elementos <p> dentro de .row
+      }
+    }
+    
+    .digramcomposiciones {
+      // Estilos para el elemento con la clase "digramcomposiciones" dentro de .container
+    }
+    
+    .digramtexto {
+      // Estilos para el elemento con la clase "digramtexto" dentro de .container
+    }
+  }
+  
+  .carrouseles {
+    margin-top: 50px;
+    width: 60%;
+    
+    .carrouselizquierda {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .carrousemedio {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .carrouselderecha {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  .piefinal {
+    // Estilos para el elemento con la clase "piefinal" dentro de <main>
+  }
+}
