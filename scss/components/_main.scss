@@ -1,281 +1,317 @@
 main {
-    .tituloyfoto {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 100;
-      padding: 120px;
-      padding-bottom: 180px;
-      background-color: #020202;
-      .titulo {
-        text-align: center;
-        color: #fafafa;
-        padding-right: 30px;
-        h1 {
-          font-weight: 300;
-          font-size: 80px;
-          margin-bottom: -20px;
+  .tituloyfoto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100;
+    padding: 120px;
+    padding-bottom: 180px;
+    background-color: #020202;
+
+    .titulo {
+      text-align: center;
+      color: #fafafa;
+      padding-right: 30px;
+
+      h1 {
+        font-weight: 300;
+        font-size: 80px;
+        margin-bottom: -20px;
+      }
+
+      h2 {
+        font-weight: 300;
+        letter-spacing: 8px;
+        font-size: 100px;
+      }
+    }
+  }
+
+  .presentacion {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .hola {
+      font-size: 32px;
+      font-weight: 200;
+      line-height: 52px;
+      letter-spacing: 3.5px;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    .lineahola {
+      margin-top: -20px;
+      margin-bottom: 20px;
+      width: 60%;
+
+      .lineahola {
+        -webkit-animation-name: slideLeftReturn;
+        animation-name: slideLeftReturn;
+      }
+
+      @-webkit-keyframes lineahola {
+        0% {
+          -webkit-transform-origin: 0 0;
+          transform-origin: center;
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
         }
-        h2 {
-          font-weight: 300;
-          letter-spacing: 8px;
-          font-size: 100px;
+
+        100% {
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+        }
+      }
+
+      @keyframes lineahola {
+        0% {
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+        }
+
+        100% {
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: translateX(0%);
+          transform: translateX(0%);
         }
       }
     }
-  
-    .presentacion {
-      font-size: 17px;
-      font-weight: 300;
-      line-height: 30px;
+
+    p {
+      margin-bottom: 45px;
+      width: 50%;
       text-align: center;
-      padding: 50px;
+    }
+  }
+
+  .disciplinas {
+    text-align: center;
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .subtitulos {
+    h3 {
+      font-weight: 200;
+      padding: 40px;
+      font-size: 32px;
+      letter-spacing: 3.5px;
+      font-weight: 300;
+      text-align: center;
+    }
+
+    .textosobremi {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      .hola {
-        font-size: 32px;
-        font-weight: 200;
-        line-height: 52px;
-        letter-spacing: 3.5px;
-        padding: 30px;
-        margin-bottom: 20px;
+      flex-direction: row;
+
+      .fotoyo {
+        img {
+          width: 100%;
+        }
       }
-      .lineahola {
-        margin-top: -20px;
-        margin-bottom: 20px;
-        width: 60%;
-        .lineahola {
-          -webkit-animation-name: slideLeftReturn;
-          animation-name: slideLeftReturn;
-        }
-        @-webkit-keyframes lineahola {
-          0% {
-            -webkit-transform-origin: 0 0;
-            transform-origin:center;
-            -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-          }
-        
-          100% {
-            -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-            -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-          }
-        }
-        @keyframes lineahola {
-          0% {
-            -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-            -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-          }
-        
-          100% {
-            -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-            -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-          }
-        }
-        }
-      p {
-        margin-bottom: 45px;
-        width: 50%;
-        text-align: center;
+
+      .p3 {
+        font-weight: 400;
+        font-size: 14px;
+        width: 600px;
+        height: 300px;
+        overflow: auto;
+        padding: 20px;
+        padding-top: 10px;
+        line-height: 20px;
+        border-radius: 5px;
+        box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
       }
     }
-  
-    .disciplinas {
+
+    .palabrassobremi {
       text-align: center;
-      font-weight: 200;
-      font-size: 50px;
-      letter-spacing: 3.5px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-  
-    .subtitulos {
-      h3 {
-        font-weight: 200;
-        padding: 40px;
-        font-size: 32px;
-        letter-spacing: 3.5px;
-        font-weight: 300;
-        text-align: center;
-      }
-      .textosobremi {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        .fotoyo {
-          img {
-            width: 100%;
-          }
-        }
-        .p3 {
-          font-weight: 400;
-          font-size: 14px;
-          width: 600px;
-          height: 300px;
-          overflow: auto;
-          padding: 20px;
-          padding-top: 10px;
-          line-height: 20px;
-          border-radius: 5px;
-          box-shadow: inset 0px -8px 20px -5px rgba(0,0,0,0.1);
-        }
-      }
-      .palabrassobremi {
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        font-weight: 600;
-        font-size: 20px;
-        letter-spacing: 2px;
-        margin-left: 35%;
-        margin-right: 35%;
-        .estetica {
-          margin-top: 30px;
-          padding: 50px;
-        }
-        .mas {
-          margin-top: 30px;
-          padding: 50px;
-        }
-        .funcionalidad {
-          margin-top: 30px;
-          padding: 50px;
-        }
-        .usabilidad {
-          margin-top: 30px;
-          padding: 50px;
-        }
-      }
-      .proyectosnombres {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        .caja {
-          color: #000000;
-          text-decoration: none;
-          width: 250px;
-          margin: 0 auto;
-          border: 1px solid #ccc;
-          padding: 20px;
-          border-radius: 2px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          margin: 10px;
-            &:hover{
-              transition: 0.5s ease-in-out;
-              border-color: #1f1f1f;
-              border-width: 1px;
-            }
-            &:active {
-              color: rgb(168, 168, 168);
-            }
-          .cargadorya, .digram, .somos, .ecorappi, .hayrancho, .keepgoing {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: 500;
-            letter-spacing: 3.5;
-            color: #020202;
-            margin-top: 10px;
-            
-          }
-          .etiqueta {
-            font-size: 12px;
-            font-weight: 300;
-            padding: 10px;
-          }
-          hr.lineacaja {
-            margin-top: 10px;
-            margin-bottom: 20px;
-            border: none;
-            border-top: 1px solid #676767;
-            width: 90%;
-          }
-          .bajadadeproyecto {
-            margin-top: 10px;
-            font-size: 12px;
-            font-weight: 400;
-          }
-        }
-      }
-    }
-    .formulario {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-around;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin-left: 35%;
+      margin-right: 35%;
+
+      .estetica {
+        margin-top: 30px;
+        padding: 50px;
+      }
+
+      .mas {
+        margin-top: 30px;
+        padding: 50px;
+      }
+
+      .funcionalidad {
+        margin-top: 30px;
+        padding: 50px;
+      }
+
+      .usabilidad {
+        margin-top: 30px;
+        padding: 50px;
+      }
+    }
+
+    .proyectosnombres {
+      display: flex;
+      justify-content: space-around;
       align-items: center;
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #f4f4f4;
-      border-radius: 5px;
-      margin-bottom: 20px;
-      input{
-        width: 100%;
-        padding: 8px;
+      flex-wrap: wrap;
+
+      .caja {
+        color: #000000;
+        text-decoration: none;
+        width: 250px;
+        margin: 0 auto;
         border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
-      textarea {
-        width: 100%;
-        padding: 8px;
-        border: 1px solid white;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
-      button {
+        padding: 20px;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: 10px;
+
+        &:hover {
+          transition: 0.5s ease-in-out;
+          border-color: #1f1f1f;
+          border-width: 1px;
+        }
+
+        &:active {
+          color: rgb(168, 168, 168);
+        }
+
+        .cargadorya,
+        .digram,
+        .somos,
+        .ecorappi,
+        .hayrancho,
+        .keepgoing {
+          text-decoration: none;
+          color: #333;
+          font-weight: bold;
+          display: inline-block;
+          text-align: center;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 500;
+          letter-spacing: 3.5;
+          color: #020202;
+          margin-top: 10px;
+
+        }
+
+        .etiqueta {
+          font-size: 12px;
+          font-weight: 300;
+          padding: 10px;
+        }
+
+        hr.lineacaja {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          border: none;
+          border-top: 1px solid #676767;
+          width: 90%;
+        }
+
+        .bajadadeproyecto {
+          margin-top: 10px;
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid white;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #fafafa;
+      background-color: #000000;
+      padding: 11px 22px 11px 22px;
+      border-radius: 6px;
+      border-style: ridge;
+      background-color: #f4f4f4;
+      color: #171616;
+      border-color: #1f1f1f;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.5s ease-in-out;
         color: #fafafa;
         background-color: #000000;
-        padding: 11px 22px 11px 22px;
-        border-radius: 6px;
-        border-style: ridge;
-        background-color: #f4f4f4;
-        color: #171616;
-        border-color: #1f1f1f;
-        cursor: pointer;
-          &:hover{
-            transition: 0.5s ease-in-out;
-            color: #fafafa;
-            background-color: #000000;
-          }
-          &:active{
-            transition: 0.1s ease-in-out;
-            background-color: rgb(194, 194, 194);
-          }
-        }
       }
-    
-    }  
+
+      &:active {
+        transition: 0.1s ease-in-out;
+        background-color: rgb(194, 194, 194);
+      }
+    }
+  }
+
+}
 
 
-    // DIGRAM
+// DIGRAM
 
 html {
   // Estilos para el elemento <html>
@@ -287,18 +323,19 @@ body {
 
 header {
   // Estilos para el elemento <header>
-  
+
   nav {
     // Estilos para el elemento <nav>
-    
+
     .logo {
       // Estilos para el elemento con la clase "logo" dentro de <nav>
     }
-    
+
     .menu {
       // Estilos para el elemento con la clase "menu" dentro de <nav>
-      
+
       li {
+
         // Estilos para los elementos <li> dentro de .menu
         a {
           // Estilos para los elementos <a> dentro de los <li> en .menu
@@ -306,7 +343,7 @@ header {
       }
     }
   }
-  
+
   hr {
     // Estilos para el elemento <hr> dentro de <header>
   }
@@ -314,51 +351,56 @@ header {
 
 main {
   // Estilos para el elemento <main>
-  
+
   .container {
     // Estilos para el elemento con la clase "container" dentro de <main>
-    
+
     .row {
       // Estilos para los elementos con la clase "row" dentro de .container
-      
+
       h4 {
         // Estilos para el elemento <h4> dentro de .row
       }
-      
+
       p {
         // Estilos para los elementos <p> dentro de .row
       }
     }
-    
+
     .digramcomposiciones {
       // Estilos para el elemento con la clase "digramcomposiciones" dentro de .container
     }
-    
+
     .digramtexto {
       // Estilos para el elemento con la clase "digramtexto" dentro de .container
     }
   }
-  
-  .carrouseles {
+
+  .digramcomposiciones {
     margin-top: 50px;
-    width: 60%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+
     .carrouselizquierda {
       margin: 0;
       padding: 0;
+      width: 100%;
     }
-    
+
     .carrousemedio {
       margin: 0;
       padding: 0;
+      width: 100%;
     }
-    
+
     .carrouselderecha {
       margin: 0;
       padding: 0;
+      width: 100%;
     }
   }
-  
+
   .piefinal {
     // Estilos para el elemento con la clase "piefinal" dentro de <main>
   }

@@ -227,7 +227,12 @@ main .subtitulos .proyectosnombres {
       border-width: 1px; }
     main .subtitulos .proyectosnombres .caja:active {
       color: #a8a8a8; }
-    main .subtitulos .proyectosnombres .caja .cargadorya, main .subtitulos .proyectosnombres .caja .digram, main .subtitulos .proyectosnombres .caja .somos, main .subtitulos .proyectosnombres .caja .ecorappi, main .subtitulos .proyectosnombres .caja .hayrancho, main .subtitulos .proyectosnombres .caja .keepgoing {
+    main .subtitulos .proyectosnombres .caja .cargadorya,
+    main .subtitulos .proyectosnombres .caja .digram,
+    main .subtitulos .proyectosnombres .caja .somos,
+    main .subtitulos .proyectosnombres .caja .ecorappi,
+    main .subtitulos .proyectosnombres .caja .hayrancho,
+    main .subtitulos .proyectosnombres .caja .keepgoing {
       text-decoration: none;
       color: #333;
       font-weight: bold;
@@ -303,18 +308,23 @@ main .formulario {
       transition: 0.1s ease-in-out;
       background-color: #c2c2c2; }
 
-main .carrouseles {
+main .digramcomposiciones {
   margin-top: 50px;
-  width: 60%; }
-  main .carrouseles .carrouselizquierda {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px; }
+  main .digramcomposiciones .carrouselizquierda {
     margin: 0;
-    padding: 0; }
-  main .carrouseles .carrousemedio {
+    padding: 0;
+    width: 100%; }
+  main .digramcomposiciones .carrousemedio {
     margin: 0;
-    padding: 0; }
-  main .carrouseles .carrouselderecha {
+    padding: 0;
+    width: 100%; }
+  main .digramcomposiciones .carrouselderecha {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    width: 100%; }
 
 footer {
   color: #e8e8e8;
