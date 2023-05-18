@@ -77,7 +77,7 @@ main .tituloyfoto {
   margin: 100;
   padding: 120px;
   padding-bottom: 180px;
-  background-color: #020202; }
+  background-color: #000000; }
   main .tituloyfoto .titulo {
     text-align: center;
     color: #fafafa;
@@ -112,39 +112,13 @@ main .presentacion {
     margin-top: -20px;
     margin-bottom: 20px;
     width: 60%; }
-    main .presentacion .lineahola .lineahola {
-      -webkit-animation-name: slideLeftReturn;
-      animation-name: slideLeftReturn; }
 
-@-webkit-keyframes lineahola {
-  0% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: center;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%); }
-  100% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%); } }
+main p {
+  margin-bottom: 45px;
+  width: 50%;
+  text-align: center; }
 
-@keyframes lineahola {
-  0% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%); }
-  100% {
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%); } }
-  main .presentacion p {
-    margin-bottom: 45px;
-    width: 50%;
-    text-align: center; }
-
-main .disciplinas {
+.disciplinas {
   text-align: center;
   font-weight: 200;
   font-size: 50px;
@@ -152,7 +126,7 @@ main .disciplinas {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-main .subtitulos h3 {
+.subtitulos h3 {
   font-weight: 200;
   padding: 40px;
   font-size: 32px;
@@ -160,14 +134,14 @@ main .subtitulos h3 {
   font-weight: 300;
   text-align: center; }
 
-main .subtitulos .textosobremi {
+.subtitulos .textosobremi {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row; }
-  main .subtitulos .textosobremi .fotoyo img {
+  .subtitulos .textosobremi .fotoyo img {
     width: 100%; }
-  main .subtitulos .textosobremi .p3 {
+  .subtitulos .textosobremi .p3 {
     font-weight: 400;
     font-size: 14px;
     width: 600px;
@@ -179,7 +153,7 @@ main .subtitulos .textosobremi {
     border-radius: 5px;
     box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
 
-main .subtitulos .palabrassobremi {
+.subtitulos .palabrassobremi {
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -189,30 +163,30 @@ main .subtitulos .palabrassobremi {
   letter-spacing: 2px;
   margin-left: 35%;
   margin-right: 35%; }
-  main .subtitulos .palabrassobremi .estetica {
+  .subtitulos .palabrassobremi .estetica {
     margin-top: 30px;
     padding: 50px; }
-  main .subtitulos .palabrassobremi .mas {
+  .subtitulos .palabrassobremi .mas {
     margin-top: 30px;
     padding: 50px; }
-  main .subtitulos .palabrassobremi .funcionalidad {
+  .subtitulos .palabrassobremi .funcionalidad {
     margin-top: 30px;
     padding: 50px; }
-  main .subtitulos .palabrassobremi .usabilidad {
+  .subtitulos .palabrassobremi .usabilidad {
     margin-top: 30px;
     padding: 50px; }
 
-main .subtitulos .proyectosnombres {
+.subtitulos .proyectosnombres {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap; }
-  main .subtitulos .proyectosnombres .caja {
+  .subtitulos .proyectosnombres .caja {
     color: #000000;
     text-decoration: none;
     width: 250px;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid #1f1f1f;
     padding: 20px;
     border-radius: 2px;
     display: flex;
@@ -221,20 +195,20 @@ main .subtitulos .proyectosnombres {
     justify-content: center;
     text-align: center;
     margin: 10px; }
-    main .subtitulos .proyectosnombres .caja:hover {
+    .subtitulos .proyectosnombres .caja:hover {
       transition: 0.5s ease-in-out;
-      border-color: #1f1f1f;
-      border-width: 1px; }
-    main .subtitulos .proyectosnombres .caja:active {
-      color: #a8a8a8; }
-    main .subtitulos .proyectosnombres .caja .cargadorya,
-    main .subtitulos .proyectosnombres .caja .digram,
-    main .subtitulos .proyectosnombres .caja .somos,
-    main .subtitulos .proyectosnombres .caja .ecorappi,
-    main .subtitulos .proyectosnombres .caja .hayrancho,
-    main .subtitulos .proyectosnombres .caja .keepgoing {
+      border-color: #000000;
+      border-width: 2px; }
+    .subtitulos .proyectosnombres .caja:active {
+      color: #fafafa; }
+    .subtitulos .proyectosnombres .caja .cargadorya,
+    .subtitulos .proyectosnombres .caja .digram,
+    .subtitulos .proyectosnombres .caja .somos,
+    .subtitulos .proyectosnombres .caja .ecorappi,
+    .subtitulos .proyectosnombres .caja .hayrancho,
+    .subtitulos .proyectosnombres .caja .keepgoing {
       text-decoration: none;
-      color: #333;
+      color: #000000;
       font-weight: bold;
       display: inline-block;
       text-align: center;
@@ -242,52 +216,52 @@ main .subtitulos .proyectosnombres {
       font-size: 20px;
       font-weight: 500;
       letter-spacing: 3.5;
-      color: #020202;
+      color: #000000;
       margin-top: 10px; }
-    main .subtitulos .proyectosnombres .caja .etiqueta {
+    .subtitulos .proyectosnombres .caja .etiqueta {
       font-size: 12px;
       font-weight: 300;
       padding: 10px; }
-    main .subtitulos .proyectosnombres .caja hr.lineacaja {
+    .subtitulos .proyectosnombres .caja hr.lineacaja {
       margin-top: 10px;
       margin-bottom: 20px;
       border: none;
       border-top: 1px solid #676767;
       width: 90%; }
-    main .subtitulos .proyectosnombres .caja .bajadadeproyecto {
+    .subtitulos .proyectosnombres .caja .bajadadeproyecto {
       margin-top: 10px;
       font-size: 12px;
       font-weight: 400; }
 
-main .formulario {
+.formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #fafafa;
   border-radius: 5px;
   margin-bottom: 20px; }
-  main .formulario input {
+  .formulario input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #1f1f1f;
     border-radius: 4px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .formulario textarea {
+  .formulario textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid white;
+    border: 1px solid #1f1f1f;
     border-radius: 4px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  main .formulario button {
+  .formulario button {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -296,17 +270,17 @@ main .formulario {
     padding: 11px 22px 11px 22px;
     border-radius: 6px;
     border-style: ridge;
-    background-color: #f4f4f4;
-    color: #171616;
+    background-color: #fafafa;
+    color: #1f1f1f;
     border-color: #1f1f1f;
     cursor: pointer; }
-    main .formulario button:hover {
+    .formulario button:hover {
       transition: 0.5s ease-in-out;
       color: #fafafa;
       background-color: #000000; }
-    main .formulario button:active {
+    .formulario button:active {
       transition: 0.1s ease-in-out;
-      background-color: #c2c2c2; }
+      background-color: #fafafa; }
 
 main .carrouselPadre {
   width: 60%; }

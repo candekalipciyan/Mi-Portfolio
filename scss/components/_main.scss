@@ -6,11 +6,11 @@ main {
     margin: 100;
     padding: 120px;
     padding-bottom: 180px;
-    background-color: #020202;
+    background-color: $negroPleno;
 
     .titulo {
       text-align: center;
-      color: #fafafa;
+      color: $fondo;
       padding-right: 30px;
 
       h1 {
@@ -52,43 +52,7 @@ main {
       margin-bottom: 20px;
       width: 60%;
 
-      .lineahola {
-        -webkit-animation-name: slideLeftReturn;
-        animation-name: slideLeftReturn;
-      }
-
-      @-webkit-keyframes lineahola {
-        0% {
-          -webkit-transform-origin: 0 0;
-          transform-origin: center;
-          -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-        }
-
-        100% {
-          -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-          -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-        }
-      }
-
-      @keyframes lineahola {
-        0% {
-          -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-          -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-        }
-
-        100% {
-          -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-          -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-        }
-      }
-    }
+    }}
 
     p {
       margin-bottom: 45px;
@@ -181,11 +145,11 @@ main {
       flex-wrap: wrap;
 
       .caja {
-        color: #000000;
+        color: $negroPleno;
         text-decoration: none;
         width: 250px;
         margin: 0 auto;
-        border: 1px solid #ccc;
+        border: 1px solid $negroLavado;
         padding: 20px;
         border-radius: 2px;
         display: flex;
@@ -197,12 +161,12 @@ main {
 
         &:hover {
           transition: 0.5s ease-in-out;
-          border-color: #1f1f1f;
-          border-width: 1px;
+          border-color: $negroPleno;
+          border-width: 2px;
         }
 
         &:active {
-          color: rgb(168, 168, 168);
+          color: $fondo;
         }
 
         .cargadorya,
@@ -212,7 +176,7 @@ main {
         .hayrancho,
         .keepgoing {
           text-decoration: none;
-          color: #333;
+          color: $negroPleno;
           font-weight: bold;
           display: inline-block;
           text-align: center;
@@ -220,7 +184,7 @@ main {
           font-size: 20px;
           font-weight: 500;
           letter-spacing: 3.5;
-          color: #020202;
+          color: $negroPleno;
           margin-top: 10px;
 
         }
@@ -255,14 +219,14 @@ main {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: $fondo;
     border-radius: 5px;
     margin-bottom: 20px;
 
     input {
       width: 100%;
       padding: 8px;
-      border: 1px solid #ccc;
+      border: 1px solid $negroLavado;
       border-radius: 4px;
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
@@ -273,7 +237,7 @@ main {
     textarea {
       width: 100%;
       padding: 8px;
-      border: 1px solid white;
+      border: 1px solid $negroLavado;
       border-radius: 4px;
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
@@ -285,30 +249,28 @@ main {
       text-align: center;
       margin-top: 10px;
       margin-bottom: 10px;
-      color: #fafafa;
-      background-color: #000000;
+      color: $fondo;
+      background-color: $negroPleno;
       padding: 11px 22px 11px 22px;
       border-radius: 6px;
       border-style: ridge;
-      background-color: #f4f4f4;
-      color: #171616;
-      border-color: #1f1f1f;
+      background-color: $fondo;
+      color: $negroLavado;
+      border-color: $negroLavado;
       cursor: pointer;
 
       &:hover {
         transition: 0.5s ease-in-out;
-        color: #fafafa;
-        background-color: #000000;
+        color:$fondo;
+        background-color: $negroPleno;
       }
 
       &:active {
         transition: 0.1s ease-in-out;
-        background-color: rgb(194, 194, 194);
+        background-color: $fondo;
       }
     }
   }
-
-}
 
 
 // DIGRAM
