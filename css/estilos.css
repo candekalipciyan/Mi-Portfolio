@@ -308,20 +308,23 @@ main .formulario {
       transition: 0.1s ease-in-out;
       background-color: #c2c2c2; }
 
-main .digramcomposiciones {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 600px; }
-  main .digramcomposiciones .carrouselizquierda {
+main .dganchocarrousel {
+  width: 60%; }
+  main .dganchocarrousel .carrouselizquierda {
+    display: flex;
+    justify-content: end;
     margin: 0;
     padding: 0;
     width: 100%; }
-  main .digramcomposiciones .carrousemedio {
+  main .dganchocarrousel .carrousemedio {
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
     width: 100%; }
-  main .digramcomposiciones .carrouselderecha {
+  main .dganchocarrousel .carrouselderecha {
+    display: flex;
+    justify-content: start;
     margin: 0;
     padding: 0;
     width: 100%; }

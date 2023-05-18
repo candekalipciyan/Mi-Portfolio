@@ -376,25 +376,28 @@ main {
     }
   }
 
-  .digramcomposiciones {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
+  .dganchocarrousel {
+    width: 60%;
 
     .carrouselizquierda {
+      display: flex;
+      justify-content: end;
       margin: 0;
       padding: 0;
       width: 100%;
     }
 
     .carrousemedio {
+      display: flex;
+      justify-content: center;
       margin: 0;
       padding: 0;
       width: 100%;
     }
 
     .carrouselderecha {
+      display: flex;
+      justify-content: start;
       margin: 0;
       padding: 0;
       width: 100%;
