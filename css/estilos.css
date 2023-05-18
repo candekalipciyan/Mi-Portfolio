@@ -309,7 +309,11 @@ main .formulario {
       background-color: #c2c2c2; }
 
 main .dganchocarrousel {
-  width: 60%; }
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  main .dganchocarrousel .carrouselPadre {
+    width: 60%; }
   main .dganchocarrousel .carrouselizquierda {
     display: flex;
     justify-content: end;
