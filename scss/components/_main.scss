@@ -376,15 +376,14 @@ main {
     }
   }
 
+  .carrouselPadre {
+    width: 60%;
 
   .dganchocarrousel {
     width: 100%;
     display: flex;
     justify-content: center;
-
-    .carrouselPadre{
-      width:60%; 
-      }
+    }
 
     .carrouselizquierda {
       display: flex;

@@ -308,25 +308,25 @@ main .formulario {
       transition: 0.1s ease-in-out;
       background-color: #c2c2c2; }
 
-main .dganchocarrousel {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  main .dganchocarrousel .carrouselPadre {
-    width: 60%; }
-  main .dganchocarrousel .carrouselizquierda {
+main .carrouselPadre {
+  width: 60%; }
+  main .carrouselPadre .dganchocarrousel {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  main .carrouselPadre .carrouselizquierda {
     display: flex;
     justify-content: end;
     margin: 0;
     padding: 0;
     width: 100%; }
-  main .dganchocarrousel .carrousemedio {
+  main .carrouselPadre .carrousemedio {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
     width: 100%; }
-  main .dganchocarrousel .carrouselderecha {
+  main .carrouselPadre .carrouselderecha {
     display: flex;
     justify-content: start;
     margin: 0;
