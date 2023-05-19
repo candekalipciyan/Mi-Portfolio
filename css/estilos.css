@@ -282,30 +282,31 @@ main p {
       transition: 0.1s ease-in-out;
       background-color: #fafafa; }
 
-main .carrouselPadre {
-  width: 60%; }
-  main .carrouselPadre .dganchocarrousel {
-    width: 100%;
-    display: flex;
-    justify-content: center; }
-  main .carrouselPadre .carrouselizquierda {
-    display: flex;
-    justify-content: end;
-    margin: 0;
-    padding: 0;
-    width: 100%; }
-  main .carrouselPadre .carrousemedio {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 100%; }
-  main .carrouselPadre .carrouselderecha {
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    padding: 0;
-    width: 100%; }
+main .dganchocarrousel {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+main .carrouselizquierda {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+main .carrousemedio {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+main .carrouselderecha {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
 
 footer {
   color: #e8e8e8;
