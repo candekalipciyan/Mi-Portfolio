@@ -8,9 +8,6 @@
 
             .titulo {
                 padding-bottom: 20px;
-                h1 {}
-
-                h2 {}
             }
 
             .imagenes {
@@ -24,10 +21,6 @@
         }
 
         .presentacion {
-            .hola {}
-
-            .lineahola {}
-
             p {
                 width: 70%;
             }
@@ -40,15 +33,6 @@
         }
 
         .subtitulos {
-            h3 {}
-
-            .textosobremi {
-                .fotoyo {
-                    img {}
-                }
-
-                .p3 {}
-            }
 
             .palabrassobremi {
                 font-size: 16px;
@@ -69,38 +53,6 @@
                     padding: 25px;
                 }
             }
-
-            .proyectosnombres {
-                .caja {
-                    &:hover {}
-
-                    a {
-                        &:hover {}
-
-                        &:active {}
-                    }
-
-                    .etiqueta {}
-
-                    hr.lineacaja {}
-
-                    .bajadadeproyecto {}
-                }
-            }
-        }
-
-        #contacto {}
-
-        .formulario {
-            input {}
-
-            textarea {}
-
-            button {
-                &:hover {}
-
-                &:active {}
-            }
         }
     }
 
@@ -117,8 +69,6 @@
 
             .logo {
                 padding-bottom: 10px;
-
-                a {}
             }
         }
 
@@ -130,7 +80,6 @@
             }
         }
 
-        hr {}
     }
 
     // MAIN
@@ -176,11 +125,9 @@
             }
         }
 
-        .disciplinas {}
+
 
         .subtitulos {
-            h3 {}
-
             .textosobremi {
                 .fotoyo {
                     img {
@@ -236,26 +183,9 @@
                     margin-bottom: 20px;
                 }
 
-                a {}
-            }
-
-            .etiqueta {}
-
-            hr.lineacaja {}
-
-            .bajadadeproyecto {}
         }
     }
 }
-
-#contacto {}
-
-.formulario {
-    input {}
-
-    textarea {}
-
-    button {}
 
     // FOOTER
 
@@ -290,13 +220,6 @@
     // MAIN
 
     main {
-        .tituloyfoto {
-            .titulo {
-                h1 {}
-
-                h2 {
-                }
-            }
 
             .imagenes {
                 img {
@@ -306,9 +229,7 @@
         }
 
         .presentacion {
-            .hola {}
 
-            .lineahola {}
 
             p {
                 line-height: 25px;
@@ -370,23 +291,14 @@
                     padding: 10px;
                 }
 
-                a {}
-
-                .etiqueta {}
-
-                hr.lineacaja {}
-
-                .bajadadeproyecto {}
             }
         }
     }
 
-    #contacto {}
+
 
     .formulario {
-        input {}
 
-        textarea {}
 
         button {
             font-size: 14px;
@@ -398,20 +310,4 @@
 
 footer {
     opacity: 0.75;
-}
-
-.externos {
-    .nombrefooter {}
-
-    .logoli {
-        img {}
-    }
-
-    .mailfooter {}
-
-}
-
-.logobe {
-    img {}
-}
 }

@@ -456,55 +456,54 @@ footer {
     margin-right: 30px; }
     main .subtitulos .proyectosnombres .caja {
       width: 170px;
-      margin-bottom: 20px; } }
-
-.formulario footer .externos .nombrefooter {
-  font-size: 14px; }
-
-.formulario footer .externos .logoli img {
-  width: 20px; }
-
-.formulario footer .externos .mailfooter {
-  font-size: 12px; }
+      margin-bottom: 20px; }
+  footer .externos .nombrefooter {
+    font-size: 14px; }
+  footer .externos .logoli img {
+    width: 20px; }
+  footer .externos .mailfooter {
+    font-size: 12px; } }
 
 .logobe img {
   width: 24px; }
 
 @media (max-width: 500px) {
-  main .tituloyfoto .imagenes img {
+  main .imagenes img {
     height: 250px; }
-  main .presentacion p {
+  .presentacion p {
     line-height: 25px; }
-  main .disciplinas {
+  .disciplinas {
     font-size: 13px; }
-  main .subtitulos h3 {
+  .subtitulos h3 {
     padding: 40px;
     font-size: 26px; }
-  main .subtitulos .textosobremi {
+  .subtitulos .textosobremi {
     flex-direction: column; }
-    main .subtitulos .textosobremi .fotoyo img {
+    .subtitulos .textosobremi .fotoyo img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       height: 150px; }
-    main .subtitulos .textosobremi .p3 .p3::-webkit-scrollbar-thumb {
+    .subtitulos .textosobremi .p3 .p3::-webkit-scrollbar-thumb {
       background-color: #3b3a3a; }
-  main .subtitulos .palabrassobremi {
+  .subtitulos .palabrassobremi {
     font-size: 13px;
     letter-spacing: 0; }
-    main .subtitulos .palabrassobremi .estetica {
+    .subtitulos .palabrassobremi .estetica {
       padding: 10px; }
-    main .subtitulos .palabrassobremi .mas {
+    .subtitulos .palabrassobremi .mas {
       padding: 10px; }
-    main .subtitulos .palabrassobremi .funcionalidad {
+    .subtitulos .palabrassobremi .funcionalidad {
       padding: 10px; }
-    main .subtitulos .palabrassobremi .usabilidad {
+    .subtitulos .palabrassobremi .usabilidad {
       padding: 10px; }
-  main .subtitulos .proyectosnombres .caja {
+  .subtitulos .proyectosnombres .caja {
     width: 150px;
-    padding: 10px; }
-  .formulario button {
-    font-size: 14px;
-    padding: 10px 20px 10px 20px; }
-  footer {
-    opacity: 0.75; } }
+    padding: 10px; } }
+
+.formulario button {
+  font-size: 14px;
+  padding: 10px 20px 10px 20px; }
+
+footer {
+  opacity: 0.75; }
