@@ -25,6 +25,55 @@ body {
 .p3::-webkit-scrollbar-button {
   display: none; }
 
+.tituloyfoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.textosobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left; }
+
+.palabrassobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+.proyectosnombres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
 header {
   font-family: 'Montserrat', sans-serif;
   position: fixed;
@@ -71,9 +120,6 @@ header {
     margin: 0; }
 
 main .tituloyfoto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin: 100;
   padding: 120px;
   padding-bottom: 180px;
@@ -95,12 +141,7 @@ main .presentacion {
   font-size: 17px;
   font-weight: 300;
   line-height: 30px;
-  text-align: center;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  padding: 50px; }
   main .presentacion .hola {
     font-size: 32px;
     font-weight: 200;
@@ -134,30 +175,22 @@ main p {
   font-weight: 300;
   text-align: center; }
 
-.subtitulos .textosobremi {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row; }
-  .subtitulos .textosobremi .fotoyo img {
-    width: 100%; }
-  .subtitulos .textosobremi .p3 {
-    font-weight: 400;
-    font-size: 14px;
-    width: 600px;
-    height: 300px;
-    overflow: auto;
-    padding: 20px;
-    padding-top: 10px;
-    line-height: 20px;
-    border-radius: 5px;
-    box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
+.subtitulos .textosobremi .fotoyo img {
+  width: 100%; }
+
+.subtitulos .textosobremi .p3 {
+  font-weight: 400;
+  font-size: 14px;
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+  padding: 20px;
+  padding-top: 10px;
+  line-height: 20px;
+  border-radius: 5px;
+  box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
 
 .subtitulos .palabrassobremi {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 2px;
@@ -177,9 +210,6 @@ main p {
     padding: 50px; }
 
 .subtitulos .proyectosnombres {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap; }
   .subtitulos .proyectosnombres .caja {
     color: #000000;
@@ -189,11 +219,6 @@ main p {
     border: 1px solid #1f1f1f;
     padding: 20px;
     border-radius: 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     margin: 10px; }
     .subtitulos .proyectosnombres .caja:hover {
       transition: 0.5s ease-in-out;
@@ -231,12 +256,10 @@ main p {
     .subtitulos .proyectosnombres .caja .bajadadeproyecto {
       margin-top: 10px;
       font-size: 12px;
-      font-weight: 400; }
+      font-weight: 400;
+      text-align: left; }
 
 .formulario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;

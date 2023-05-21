@@ -1,8 +1,5 @@
 main {
   .tituloyfoto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 100;
     padding: 120px;
     padding-bottom: 180px;
@@ -31,12 +28,7 @@ main {
     font-size: 17px;
     font-weight: 300;
     line-height: 30px;
-    text-align: center;
     padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     .hola {
       font-size: 32px;
@@ -81,10 +73,6 @@ main {
     }
 
     .textosobremi {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
 
       .fotoyo {
         img {
@@ -107,10 +95,6 @@ main {
     }
 
     .palabrassobremi {
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
       font-weight: 600;
       font-size: 20px;
       letter-spacing: 2px;
@@ -139,9 +123,6 @@ main {
     }
 
     .proyectosnombres {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
       flex-wrap: wrap;
 
       .caja {
@@ -152,11 +133,6 @@ main {
         border: 1px solid $negroLavado;
         padding: 20px;
         border-radius: 2px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
         margin: 10px;
 
         &:hover {
@@ -186,7 +162,6 @@ main {
           letter-spacing: 3.5;
           color: $negroPleno;
           margin-top: 10px;
-
         }
 
         .etiqueta {
@@ -207,15 +182,13 @@ main {
           margin-top: 10px;
           font-size: 12px;
           font-weight: 400;
+          text-align: left;
         }
       }
     }
   }
 
   .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -370,9 +343,5 @@ main {
       padding: 0;
       width: 100%;
     }
-  }
-
-  .piefinal {
-    // Estilos para el elemento con la clase "piefinal" dentro de <main>
   }
 }

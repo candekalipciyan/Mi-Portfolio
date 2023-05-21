@@ -1,3 +1,40 @@
 $negroPleno: #000000;
 $negroLavado: #1f1f1f;
 $fondo: #fafafa;
+
+
+@mixin flex ($flex, $direction, $justify, $align, $text) {
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    text-align: $text;
+}
+
+.tituloyfoto{
+    @include flex (flex, row, space-between, center, center)
+}
+
+.presentacion{
+    @include flex (flex, column, center, center, center)
+}
+
+.textosobremi{
+    @include flex (flex, row, center, center, left)
+}
+
+.palabrassobremi{
+    @include flex (flex, row, space-around, center, center)
+}
+
+.proyectosnombres{
+    @include flex (flex, row, space-around, center, center)
+}
+
+.caja{
+    @include flex (flex, column, center, center, center)
+}
+
+.formulario{
+    @include flex (flex, column, center, center, center)
+}
