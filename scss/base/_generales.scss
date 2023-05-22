@@ -15,6 +15,8 @@ body {
     font-weight: 400;
 }
 
+// barra scroll index
+
 .p3::-webkit-scrollbar {
     background-color: #ffffff;
     width: 7px;
@@ -33,3 +35,129 @@ body {
     display: none;
 }
 
+// barra scroll somos
+
+.scrollwebsomos::-webkit-scrollbar,
+.scrollappsomos::-webkit-scrollbar {
+    background-color: #ffffff;
+    width: 7px;
+}
+
+.scrollwebsomos::-webkit-scrollbar-thumb,
+.scrollappsomos::-webkit-scrollbar-thumb {
+    background-color: #3e3e3e;
+    border-radius: 10px;
+}
+
+.scrollwebsomos::-webkit-scrollbar-button,
+.scrollappsomos::-webkit-scrollbar-button {
+    display: none;
+}
+
+
+
+
+
+// esta en generales porque se repite en todos los html menos en el index
+
+h4 {
+    margin: 0;
+    font-weight: 200;
+    font-size: 36px;
+    letter-spacing: 3.5px;
+    font-weight: 400;
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+
+.fecha {
+    color: #676767;
+    font-weight: 200;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-top: 150px;
+}
+
+.tipo {
+    color: #676767;
+    margin: 0;
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.bajadaindividual{
+    margin-top: 100px;
+    width: 800px;
+}
+
+.comentariosder {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.fotosdeproyectoder {
+    border-color: #020202;
+    border-style: ridge;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.comentariosizq {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.fotofinal {
+    border-color: #020202;
+    border-style: ridge;
+    padding: 20px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.piefinal {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 40px;
+}
+
+
+// Clases de bootstrap
+
+.carrouselPadre {
+    width: 60%;
+
+    .dganchocarrousel {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .carrouselizquierda {
+      display: flex;
+      justify-content: end;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    .carrousemedio {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    .carrouselderecha {
+      display: flex;
+      justify-content: start;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+}

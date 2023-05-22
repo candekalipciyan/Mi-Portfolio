@@ -56,6 +56,16 @@
         }
     }
 
+    .bajadaindividual {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .flyer1 img,
+    .flyer2 img,
+    .flyer3 img {
+        height: 150px;
+    }
 }
 
 @media (max-width:700px) {
@@ -212,6 +222,30 @@
     img {
         width: 24px;
     }
+
+    .fecha {
+        display: none;
+    }
+
+    .tipo {
+        margin-top: 30px;
+    }
+
+    .bajadaindividual {
+        padding: 50px;
+        font-size: 13px;
+    }
+
+    .scrollwebsomos {
+        height: 230px;
+    }
+
+    .flyer1 img,
+    .flyer2 img,
+    .flyer3 img {
+        height: 100px;
+        margin: 5px;
+    }
 }
 
 
@@ -293,12 +327,7 @@
 
             }
         }
-    }
-
-
-
     .formulario {
-
 
         button {
             font-size: 14px;
@@ -311,3 +340,35 @@
 footer {
     opacity: 0.75;
 }
+
+
+        h4 {
+            font-size: 30px;
+        }
+    
+        .comentariosder {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    
+        .comentariosizq {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    
+        .scrollwebsomos {
+            height: 200px;
+        }
+    
+        .scrollappsomos {
+            height: 350px;
+        }
+    
+        .scrollappsomos img {
+            width: 180px;
+        }
+    
+        .fototickets {
+            width: 40%;
+        }
+    }

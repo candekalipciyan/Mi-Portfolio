@@ -7,31 +7,27 @@ $fondo: #fafafa;
 // LISTAS
 
 $weight:
-200,
-300,
-400,
-500,
-600;
+(200,300,400,500,600);
 
 
 .hola, .disciplinas, h3{
-    font-weight: nth($weight, 1);
+    font-weight: index($weight, 1);
 }
 
 h1, h2, .presentacion{
-    font-weight: nth($weight, 2);
+    font-weight: index($weight, 2);
 }
 
-.menu, .p3, .mailfooter{
-    font-weight: nth($weight, 3);
+.menu, .p3, .aua, .cargadorya, .digram, .somos, .ecorappi, .hayrancho, .keepgoing, .mailfooter{
+    font-weight: index($weight, 3);
 }
 
-.logo a, .aua, .cargadorya, .digram, .somos, .ecorappi, .hayrancho, .keepgoing, .mailfooter:hover{
-    font-weight: nth($weight, 4);
+.logo a, .mailfooter:hover{
+    font-weight: index($weight, 4);
 }
 
-.menu li a, .palabrassobremi{
-    font-weight: nth($weight, 5);
+.palabrassobremi{
+    font-weight: index($weight, 5);
 }
 
 

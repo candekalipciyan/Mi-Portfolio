@@ -40,300 +40,328 @@ main {
       margin-bottom: 20px;
       width: 60%;
 
-    }}
-
-    p {
-      margin-bottom: 45px;
-      width: 50%;
-      text-align: center;
     }
   }
 
-  .disciplinas {
+  p {
+    margin-bottom: 45px;
+    width: 50%;
     text-align: center;
-    font-size: 50px;
+  }
+}
+
+.disciplinas {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3.5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.subtitulos {
+  h3 {
+    padding: 40px;
+    font-size: 32px;
     letter-spacing: 3.5px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-weight: 300;
+    text-align: center;
   }
 
-  .subtitulos {
-    h3 {
-      padding: 40px;
-      font-size: 32px;
-      letter-spacing: 3.5px;
-      font-weight: 300;
-      text-align: center;
-    }
+  .textosobremi {
 
-    .textosobremi {
-
-      .fotoyo {
-        img {
-          width: 100%;
-        }
-      }
-
-      .p3 {
-        font-size: 14px;
-        width: 600px;
-        height: 300px;
-        overflow: auto;
-        padding: 20px;
-        padding-top: 10px;
-        line-height: 20px;
-        border-radius: 5px;
-        box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
+    .fotoyo {
+      img {
+        width: 100%;
       }
     }
 
-    .palabrassobremi {
-      font-size: 20px;
-      letter-spacing: 2px;
-      margin-left: 35%;
-      margin-right: 35%;
-
-      .estetica {
-        margin-top: 30px;
-        padding: 50px;
-      }
-
-      .mas {
-        margin-top: 30px;
-        padding: 50px;
-      }
-
-      .funcionalidad {
-        margin-top: 30px;
-        padding: 50px;
-      }
-
-      .usabilidad {
-        margin-top: 30px;
-        padding: 50px;
-      }
-    }
-
-    .proyectosnombres {
-      flex-wrap: wrap;
-
-      .caja {
-        color: $negroPleno;
-        text-decoration: none;
-        width: 250px;
-        margin: 0 auto;
-        border: 1px solid $negroLavado;
-        padding: 20px;
-        border-radius: 2px;
-        margin: 10px;
-
-        &:hover {
-          transition: 0.5s ease-in-out;
-          border-color: $negroPleno;
-          border-width: 2px;
-        }
-
-        &:active {
-          color: $fondo;
-        }
-
-        .aua,
-        .cargadorya,
-        .digram,
-        .somos,
-        .ecorappi,
-        .hayrancho,
-        .keepgoing {
-          text-decoration: none;
-          color: $negroPleno;
-          font-weight: bold;
-          display: inline-block;
-          text-align: center;
-          text-decoration: none;
-          font-size: 20px;
-          letter-spacing: 3.5;
-          color: $negroPleno;
-          margin-top: 10px;
-        }
-
-        .etiqueta {
-          font-size: 12px;
-          font-weight: 300;
-          padding: 10px;
-        }
-
-        hr.lineacaja {
-          margin-top: 10px;
-          margin-bottom: 20px;
-          border: none;
-          border-top: 1px solid #676767;
-          width: 90%;
-        }
-
-        .bajadadeproyecto {
-          margin-top: 10px;
-          font-size: 12px;
-          font-weight: 400;
-          text-align: left;
-        }
-      }
+    .p3 {
+      font-size: 14px;
+      width: 600px;
+      height: 300px;
+      overflow: auto;
+      padding: 20px;
+      padding-top: 10px;
+      line-height: 20px;
+      border-radius: 5px;
+      box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
     }
   }
 
-  .formulario {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: $fondo;
-    border-radius: 5px;
-    margin-bottom: 20px;
+  .palabrassobremi {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 35%;
+    margin-right: 35%;
 
-    input {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid $negroLavado;
-      border-radius: 4px;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-      margin-top: 10px;
-      margin-bottom: 10px;
+    .estetica {
+      margin-top: 30px;
+      padding: 50px;
     }
 
-    textarea {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid $negroLavado;
-      border-radius: 4px;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-      margin-top: 10px;
-      margin-bottom: 10px;
+    .mas {
+      margin-top: 30px;
+      padding: 50px;
     }
 
-    button {
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: $fondo;
-      background-color: $negroPleno;
-      padding: 11px 22px 11px 22px;
-      border-radius: 6px;
-      border-style: ridge;
-      background-color: $fondo;
-      color: $negroLavado;
-      border-color: $negroLavado;
-      cursor: pointer;
+    .funcionalidad {
+      margin-top: 30px;
+      padding: 50px;
+    }
+
+    .usabilidad {
+      margin-top: 30px;
+      padding: 50px;
+    }
+  }
+
+  .proyectosnombres {
+    flex-wrap: wrap;
+
+    .caja {
+      color: $negroPleno;
+      text-decoration: none;
+      width: 250px;
+      margin: 0 auto;
+      border: 1px solid $negroLavado;
+      padding: 20px;
+      border-radius: 2px;
+      margin: 10px;
 
       &:hover {
         transition: 0.5s ease-in-out;
-        color:$fondo;
-        background-color: $negroPleno;
+        border-color: $negroPleno;
+        border-width: 2px;
       }
 
       &:active {
-        transition: 0.1s ease-in-out;
-        background-color: $fondo;
+        color: $fondo;
+      }
+
+      .aua,
+      .cargadorya,
+      .digram,
+      .somos,
+      .ecorappi,
+      .hayrancho,
+      .keepgoing {
+        text-decoration: none;
+        color: $negroPleno;
+        font-weight: bold;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 3.5;
+        color: $negroPleno;
+        margin-top: 10px;
+      }
+
+      .etiqueta {
+        font-size: 12px;
+        font-weight: 300;
+        padding: 10px;
+      }
+
+      hr.lineacaja {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-top: 1px solid #676767;
+        width: 90%;
+      }
+
+      .bajadadeproyecto {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
       }
     }
   }
-
-
-// DIGRAM
-
-html {
-  // Estilos para el elemento <html>
 }
 
-body {
-  // Estilos para el elemento <body>
-}
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $fondo;
+  border-radius: 5px;
+  margin-bottom: 20px;
 
-header {
-  // Estilos para el elemento <header>
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid $negroLavado;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-  nav {
-    // Estilos para el elemento <nav>
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid $negroLavado;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-    .logo {
-      // Estilos para el elemento con la clase "logo" dentro de <nav>
+  button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $fondo;
+    background-color: $negroPleno;
+    padding: 11px 22px 11px 22px;
+    border-radius: 6px;
+    border-style: ridge;
+    background-color: $fondo;
+    color: $negroLavado;
+    border-color: $negroLavado;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.5s ease-in-out;
+      color: $fondo;
+      background-color: $negroPleno;
     }
 
-    .menu {
-      // Estilos para el elemento con la clase "menu" dentro de <nav>
+    &:active {
+      transition: 0.1s ease-in-out;
+      background-color: $fondo;
+    }
+  }
+}
 
-      li {
 
-        // Estilos para los elementos <li> dentro de .menu
-        a {
-          // Estilos para los elementos <a> dentro de los <li> en .menu
+// SOMOS
+
+body {
+  main {
+    .row.text-center.contenedorscrollsomos {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .scrollwebsomos.col-lg-8 {
+        text-align: center;
+        height: 420px;
+        overflow: scroll;
+      }
+
+      .scrollappsomos.col-lg-4 {
+        text-align: center;
+        height: 320px;
+        width: 200px;
+        overflow: scroll;
+      }
+    }
+
+    .row.text-center {
+      p.comentariosflyersomos.col {
+        justify-content: center;
+        font-size: 20px;
+      }
+
+      .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 {
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .flyer1 {
+          margin: 5px;
+          height: 80%;
+          object-fit: cover;
+          height: 200px;
+        }
+
+        .flyer2 {
+          margin: 5px;
+          height: 80%;
+          object-fit: cover;
+          height: 200px;
+        }
+
+        .flyer3 {
+          margin: 5px;
+          height: 80%;
+          object-fit: cover;
+          height: 200px;
+        }
+      }
+
+      .row.text-center {
+        .col-lg-7.col-md-7.col-sm-6 {
+          div.fototickets {
+            width: 80%;
+          }
+        }
+
+        p.comentariosticketsomos.col {
+          justify-content: center;
+          font-size: 20px;
+        }
+      }
+
+      .row.text-center {
+        .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 {
+          margin-bottom: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: space-around;
+
+          .storiesomos1 {
+            margin: 10px;
+            height: 90%;
+            object-fit: cover;
+            height: 200px;
+          }
+
+          div.storiesomos2 {
+            margin: 10px;
+            height: 90%;
+            object-fit: cover;
+            height: 200px;
+          }
+
+          div.storiesomos3 {
+            margin: 10px;
+            height: 90%;
+            object-fit: cover;
+            height: 200px;
+          }
+
+          div.storiesomos4 {
+            margin: 10px;
+            height: 90%;
+            object-fit: cover;
+            height: 200px;
+          }
+
+          div.storiesomos5 {
+            margin: 10px;
+            height: 90%;
+            object-fit: cover;
+            height: 200px;
+          }
+
+          div.storiesomos6 {
+            margin: 10px;
+            height: 90%;
+            object-fit: cover;
+            height: 200px;
+          }
         }
       }
     }
-  }
-
-  hr {
-    // Estilos para el elemento <hr> dentro de <header>
-  }
-}
-
-main {
-  // Estilos para el elemento <main>
-
-  .container {
-    // Estilos para el elemento con la clase "container" dentro de <main>
-
-    .row {
-      // Estilos para los elementos con la clase "row" dentro de .container
-
-      h4 {
-        // Estilos para el elemento <h4> dentro de .row
-      }
-
-      p {
-        // Estilos para los elementos <p> dentro de .row
-      }
-    }
-
-    .digramcomposiciones {
-      // Estilos para el elemento con la clase "digramcomposiciones" dentro de .container
-    }
-
-    .digramtexto {
-      // Estilos para el elemento con la clase "digramtexto" dentro de .container
-    }
-  }
-
-  .carrouselPadre {
-    width: 60%;
-
-  .dganchocarrousel {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    }
-
-    .carrouselizquierda {
-      display: flex;
-      justify-content: end;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-
-    .carrousemedio {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-
-    .carrouselderecha {
-      display: flex;
-      justify-content: start;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-  }
-}
+  }}
