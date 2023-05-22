@@ -1,14 +1,15 @@
 footer {
-  color: #e8e8e8;
+  color: $fondo;
   text-align: center;
   padding: 10px;
   letter-spacing: 4px;
-  background-color: #1b1b1b;
-  opacity: 0.15;
+  background-color: #434343;
+  opacity: 0.1;
   position: sticky;
   bottom: 0;
 
   &:hover {
+    background-color: $negroLavado;
     transition: 0.2s ease-in-out;
     opacity: 1;
   }
@@ -49,8 +50,7 @@ footer {
     }
 
     .mailfooter {
-      color: #e8e8e8;
-      font-weight: 400;
+      color: $fondo;
       font-size: 14px;
       letter-spacing: 1px;
       text-decoration: none;
@@ -58,7 +58,6 @@ footer {
 
       &:hover {
         transition: 0.3s ease-in-out;
-        font-weight: 500;
       }
 
     }

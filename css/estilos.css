@@ -25,6 +25,21 @@ body {
 .p3::-webkit-scrollbar-button {
   display: none; }
 
+.hola, .disciplinas, h3 {
+  font-weight: 200; }
+
+h1, h2, .presentacion {
+  font-weight: 300; }
+
+.menu, .p3, .mailfooter {
+  font-weight: 400; }
+
+.logo a, .aua, .cargadorya, .digram, .somos, .ecorappi, .hayrancho, .keepgoing, .mailfooter:hover {
+  font-weight: 500; }
+
+.menu li a, .palabrassobremi {
+  font-weight: 600; }
+
 .tituloyfoto {
   display: flex;
   flex-direction: row;
@@ -86,15 +101,14 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffffff;
+    background-color: #fafafa;
     opacity: 0.90;
     padding-top: 10px;
     padding-bottom: 10px; }
     header nav .logo a {
       text-decoration: none;
-      color: #020202;
+      color: #1f1f1f;
       font-size: 13px;
-      font-weight: 500;
       letter-spacing: 3px; }
       header nav .logo a:hover {
         transition: 0.2s ease-in-out;
@@ -106,15 +120,13 @@ header {
       font-size: 12px;
       letter-spacing: 1.3px;
       list-style: none;
-      font-weight: 400;
       margin-bottom: 0; }
       header nav .menu li a {
         text-decoration: none;
         margin-left: 30px;
-        color: #020202; }
+        color: #000000; }
         header nav .menu li a:hover {
-          transition: 0.3s ease-in-out;
-          font-weight: 600; }
+          transition: 0.3s ease-in-out; }
   header hr {
     padding: 0;
     margin: 0; }
@@ -129,22 +141,18 @@ main .tituloyfoto {
     color: #fafafa;
     padding-right: 30px; }
     main .tituloyfoto .titulo h1 {
-      font-weight: 300;
       font-size: 80px;
       margin-bottom: -20px; }
     main .tituloyfoto .titulo h2 {
-      font-weight: 300;
       letter-spacing: 8px;
       font-size: 100px; }
 
 main .presentacion {
   font-size: 17px;
-  font-weight: 300;
   line-height: 30px;
   padding: 50px; }
   main .presentacion .hola {
     font-size: 32px;
-    font-weight: 200;
     line-height: 52px;
     letter-spacing: 3.5px;
     padding: 30px;
@@ -161,14 +169,12 @@ main p {
 
 .disciplinas {
   text-align: center;
-  font-weight: 200;
   font-size: 50px;
   letter-spacing: 3.5px;
   padding-top: 50px;
   padding-bottom: 50px; }
 
 .subtitulos h3 {
-  font-weight: 200;
   padding: 40px;
   font-size: 32px;
   letter-spacing: 3.5px;
@@ -179,7 +185,6 @@ main p {
   width: 100%; }
 
 .subtitulos .textosobremi .p3 {
-  font-weight: 400;
   font-size: 14px;
   width: 600px;
   height: 300px;
@@ -191,7 +196,6 @@ main p {
   box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
 
 .subtitulos .palabrassobremi {
-  font-weight: 600;
   font-size: 20px;
   letter-spacing: 2px;
   margin-left: 35%;
@@ -226,6 +230,7 @@ main p {
       border-width: 2px; }
     .subtitulos .proyectosnombres .caja:active {
       color: #fafafa; }
+    .subtitulos .proyectosnombres .caja .aua,
     .subtitulos .proyectosnombres .caja .cargadorya,
     .subtitulos .proyectosnombres .caja .digram,
     .subtitulos .proyectosnombres .caja .somos,
@@ -239,7 +244,6 @@ main p {
       text-align: center;
       text-decoration: none;
       font-size: 20px;
-      font-weight: 500;
       letter-spacing: 3.5;
       color: #000000;
       margin-top: 10px; }
@@ -331,15 +335,16 @@ main .carrouselPadre {
     width: 100%; }
 
 footer {
-  color: #e8e8e8;
+  color: #fafafa;
   text-align: center;
   padding: 10px;
   letter-spacing: 4px;
-  background-color: #1b1b1b;
-  opacity: 0.15;
+  background-color: #434343;
+  opacity: 0.1;
   position: sticky;
   bottom: 0; }
   footer:hover {
+    background-color: #1f1f1f;
     transition: 0.2s ease-in-out;
     opacity: 1; }
   footer .externos {
@@ -366,15 +371,13 @@ footer {
           transition: 0s;
           opacity: 0.5; }
     footer .externos .mailfooter {
-      color: #e8e8e8;
-      font-weight: 400;
+      color: #fafafa;
       font-size: 14px;
       letter-spacing: 1px;
       text-decoration: none;
       grid-area: mailfooter; }
       footer .externos .mailfooter:hover {
-        transition: 0.3s ease-in-out;
-        font-weight: 500; }
+        transition: 0.3s ease-in-out; }
 
 .logobe {
   display: flex;

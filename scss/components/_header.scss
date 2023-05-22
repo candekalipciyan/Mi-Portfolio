@@ -10,16 +10,15 @@ header {
       text-align: center;
       display: flex;
       justify-content: space-evenly;
-      background-color: #ffffff;
+      background-color: $fondo;
       opacity: 0.90;
       padding-top: 10px;
       padding-bottom: 10px;
       .logo {
         a {
           text-decoration: none;
-          color: #020202;
+          color: $negroLavado;
           font-size: 13px;
-          font-weight: 500;
           letter-spacing: 3px;
           &:hover {   
             transition: 0.2s ease-in-out;  
@@ -34,16 +33,14 @@ header {
         font-size: 12px;
         letter-spacing: 1.3px;
         list-style: none;
-        font-weight: 400;
         margin-bottom: 0;
         li{
           a {
               text-decoration: none;
               margin-left: 30px;
-              color: #020202;
+              color: $negroPleno;
                 &:hover {  
                   transition: 0.3s ease-in-out;   
-                 font-weight: 600;
                 }
             }
         }
