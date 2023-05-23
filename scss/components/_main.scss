@@ -51,6 +51,7 @@ main {
 }
 
 .disciplinas {
+  color: $azul;
   text-align: center;
   font-size: 50px;
   letter-spacing: 3.5px;
@@ -119,7 +120,6 @@ main {
     flex-wrap: wrap;
 
     .caja {
-      color: $negroPleno;
       text-decoration: none;
       width: 250px;
       margin: 0 auto;
@@ -127,17 +127,21 @@ main {
       padding: 20px;
       border-radius: 2px;
       margin: 10px;
-
       &:hover {
-        transition: 0.5s ease-in-out;
-        border-color: $negroPleno;
-        border-width: 2px;
+        animation: animacioncaja 1s ease-in-out 0s 1 normal both;
+        @keyframes animacioncaja {
+          0% {
+            box-shadow: $azul;
+          }
+          100% {
+            box-shadow: 0 0 20px 0px $azul;
+            border: $azul;
+          }
+        }
       }
-
       &:active {
         color: $fondo;
       }
-
       .aua,
       .cargadorya,
       .digram,
@@ -153,30 +157,32 @@ main {
         text-decoration: none;
         font-size: 20px;
         letter-spacing: 3.5;
-        color: $negroPleno;
+        color: $negroLavado;
         margin-top: 10px;
       }
+    }
 
-      .etiqueta {
-        font-size: 12px;
-        font-weight: 300;
-        padding: 10px;
-      }
+    .etiqueta {
+      color: $gris;
+      font-size: 12px;
+      font-weight: 300;
+      padding: 10px;
+    }
 
-      hr.lineacaja {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border: none;
-        border-top: 1px solid #676767;
-        width: 90%;
-      }
+    hr.lineacaja {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-top: 1px solid $gris;
+      width: 90%;
+    }
 
-      .bajadadeproyecto {
-        margin-top: 10px;
-        font-size: 12px;
-        font-weight: 400;
-        text-align: left;
-      }
+    .bajadadeproyecto {
+      color: $negroPleno;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: left;
     }
   }
 }
@@ -357,4 +363,5 @@ body {
         }
       }
     }
-  }}
+  }
+}

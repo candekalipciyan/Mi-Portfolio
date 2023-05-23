@@ -1,4 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 &family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.tituloyfoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.textosobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left; }
+
+.palabrassobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+.proyectosnombres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -130,55 +179,6 @@ h4 {
     padding: 0;
     width: 100%; }
 
-.tituloyfoto {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center; }
-
-.presentacion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-
-.textosobremi {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: left; }
-
-.palabrassobremi {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center; }
-
-.proyectosnombres {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center; }
-
-.caja {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-
 header {
   font-family: 'Montserrat', sans-serif;
   position: fixed;
@@ -193,8 +193,8 @@ header {
     justify-content: space-evenly;
     background-color: #fafafa;
     opacity: 0.90;
-    padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-top: 15px;
+    padding-bottom: 15px; }
     header nav .logo a {
       text-decoration: none;
       color: #1f1f1f;
@@ -259,6 +259,7 @@ main p {
   text-align: center; }
 
 .disciplinas {
+  color: #2424b7;
   text-align: center;
   font-size: 50px;
   letter-spacing: 3.5px;
@@ -307,7 +308,6 @@ main p {
 .subtitulos .proyectosnombres {
   flex-wrap: wrap; }
   .subtitulos .proyectosnombres .caja {
-    color: #000000;
     text-decoration: none;
     width: 250px;
     margin: 0 auto;
@@ -316,9 +316,14 @@ main p {
     border-radius: 2px;
     margin: 10px; }
     .subtitulos .proyectosnombres .caja:hover {
-      transition: 0.5s ease-in-out;
-      border-color: #000000;
-      border-width: 2px; }
+      animation: animacioncaja 1s ease-in-out 0s 1 normal both; }
+
+@keyframes animacioncaja {
+  0% {
+    box-shadow: #2424b7; }
+  100% {
+    box-shadow: 0 0 20px 0px #2424b7;
+    border: #2424b7; } }
     .subtitulos .proyectosnombres .caja:active {
       color: #fafafa; }
     .subtitulos .proyectosnombres .caja .aua,
@@ -336,23 +341,25 @@ main p {
       text-decoration: none;
       font-size: 20px;
       letter-spacing: 3.5;
-      color: #000000;
+      color: #1f1f1f;
       margin-top: 10px; }
-    .subtitulos .proyectosnombres .caja .etiqueta {
-      font-size: 12px;
-      font-weight: 300;
-      padding: 10px; }
-    .subtitulos .proyectosnombres .caja hr.lineacaja {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      border: none;
-      border-top: 1px solid #676767;
-      width: 90%; }
-    .subtitulos .proyectosnombres .caja .bajadadeproyecto {
-      margin-top: 10px;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left; }
+  .subtitulos .proyectosnombres .etiqueta {
+    color: #353535;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px; }
+  .subtitulos .proyectosnombres hr.lineacaja {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #353535;
+    width: 90%; }
+  .subtitulos .proyectosnombres .bajadadeproyecto {
+    color: #000000;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left; }
 
 .formulario {
   max-width: 400px;
@@ -486,12 +493,12 @@ footer {
   text-align: center;
   padding: 10px;
   letter-spacing: 4px;
-  background-color: #434343;
+  background-color: #2424b7;
   opacity: 0.1;
   position: sticky;
   bottom: 0; }
   footer:hover {
-    background-color: #1f1f1f;
+    background-color: #2424b7;
     transition: 0.2s ease-in-out;
     opacity: 1; }
   footer .externos {

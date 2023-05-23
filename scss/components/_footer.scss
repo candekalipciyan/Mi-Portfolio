@@ -3,13 +3,13 @@ footer {
   text-align: center;
   padding: 10px;
   letter-spacing: 4px;
-  background-color: #434343;
+  background-color: $azul;
   opacity: 0.1;
   position: sticky;
   bottom: 0;
 
   &:hover {
-    background-color: $negroLavado;
+    background-color: $azul;
     transition: 0.2s ease-in-out;
     opacity: 1;
   }
