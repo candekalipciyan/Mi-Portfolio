@@ -64,7 +64,8 @@ h4 {
 
 .bajadaindividual {
   margin-top: 100px;
-  width: 800px; }
+  width: 800px;
+  text-align: center; }
 
 .comentariosder {
   font-size: 13px;
@@ -93,6 +94,16 @@ h4 {
   font-size: 12px;
   font-weight: 400;
   margin: 40px; }
+
+.prototipo {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3152a8;
+  margin: 20px; }
+
+.prototipo:hover {
+  font-weight: 500; }
 
 .carrouselPadre {
   width: 60%; }
@@ -398,11 +409,6 @@ body main .row.text-center.contenedorscrollsomos {
   body main .row.text-center.contenedorscrollsomos .scrollwebsomos.col-lg-8 {
     text-align: center;
     height: 420px;
-    overflow: scroll; }
-  body main .row.text-center.contenedorscrollsomos .scrollappsomos.col-lg-4 {
-    text-align: center;
-    height: 320px;
-    width: 200px;
     overflow: scroll; }
 
 body main .row.text-center p.comentariosflyersomos.col {
