@@ -118,84 +118,97 @@ main {
   .proyectosnombres {
     flex-wrap: wrap;
 
-    .caja {
-      text-decoration: none;
-      width: 250px;
-      margin: 0 auto;
-      border: 1px solid $negroLavado;
-      padding: 20px;
-      border-radius: 2px;
-      margin: 10px;
-      animation: animacioncajafuera 1s ease-in-out 0s 1 normal both;
-      @keyframes animacioncajafuera {
-        0% {
+    @keyframes animacion2 {
+      0% {
         box-shadow: 0 0 20px 0px $azul;
         border: $azul;
-        }
-        100% {
+      }
+  
+      100% {
         box-shadow: $azul;
+      }
+    }
+  
+  
+    @keyframes animacioncaja {
+      0% {
+        box-shadow: $azul;
+      }
+  
+      100% {
+        box-shadow: 0 0 20px 0px $azul;
+        border-style: none;
+      }
+    }
+  
+    .proyectosnombres {
+      flex-wrap: wrap;
+  
+      .caja {
+        text-decoration: none;
+        width: 250px;
+        margin: 0 auto;
+        border: 1px solid $negroLavado;
+        padding: 20px;
+        border-radius: 2px;
+        margin: 10px;
+        animation: animacion2 1s ease-in-out 0s 1 normal both;
+  
+  
+        &:hover {
+          animation: animacioncaja 1s ease-in-out 0s 1 normal both;
+  
         }
+  
+        &:active {
+          color: $fondo;
         }
-        }
-      &:hover {
-        animation: animacioncaja 1s ease-in-out 0s 1 normal both;
-        @keyframes animacioncaja {
-          0% {
-            box-shadow: $azul;
-          }
-          100% {
-            box-shadow: 0 0 20px 0px $azul;
-            border-style: none;
-          }
+  
+  
+        .aua,
+        .cargadorya,
+        .digram,
+        .somos,
+        .ecorappi,
+        .hayrancho,
+        .keepgoing {
+          text-decoration: none;
+          color: $negroPleno;
+          font-weight: bold;
+          display: inline-block;
+          text-align: center;
+          text-decoration: none;
+          font-size: 20px;
+          letter-spacing: 3.5;
+          color: $negroLavado;
+          margin-top: 10px;
         }
       }
-      &:active {
-        color: $fondo;
+  
+      .etiqueta {
+        color: $gris;
+        font-size: 12px;
+        font-weight: 300;
+        padding: 10px;
       }
-      .aua,
-      .cargadorya,
-      .digram,
-      .somos,
-      .ecorappi,
-      .hayrancho,
-      .keepgoing {
-        text-decoration: none;
-        color: $negroPleno;
-        font-weight: bold;
-        display: inline-block;
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-        letter-spacing: 3.5;
-        color: $negroLavado;
+  
+      hr.lineacaja {
         margin-top: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-top: 1px solid $gris;
+        width: 90%;
       }
-    }
-
-    .etiqueta {
-      color: $gris;
-      font-size: 12px;
-      font-weight: 300;
-      padding: 10px;
-    }
-
-    hr.lineacaja {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      border: none;
-      border-top: 1px solid $gris;
-      width: 90%;
-    }
-
-    .bajadadeproyecto {
-      color: $negroPleno;
-      margin-top: 10px;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left;
+  
+      .bajadadeproyecto {
+        color: $negroPleno;
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+      }
     }
   }
-}
 
 .formulario {
   max-width: 400px;
@@ -374,4 +387,4 @@ body {
       }
     }
   }
-}
+}}

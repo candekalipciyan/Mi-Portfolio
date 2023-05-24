@@ -307,16 +307,13 @@ main p {
 
 .subtitulos .proyectosnombres {
   flex-wrap: wrap; }
-  .subtitulos .proyectosnombres .caja {
-    text-decoration: none;
-    width: 250px;
-    margin: 0 auto;
-    border: 1px solid #1f1f1f;
-    padding: 20px;
-    border-radius: 2px;
-    margin: 10px; }
-    .subtitulos .proyectosnombres .caja:hover {
-      animation: animacioncaja 1s ease-in-out 0s 1 normal both; }
+
+@keyframes animacion2 {
+  0% {
+    box-shadow: 0 0 20px 0px #2424b7;
+    border: #2424b7; }
+  100% {
+    box-shadow: #2424b7; } }
 
 @keyframes animacioncaja {
   0% {
@@ -324,51 +321,64 @@ main p {
   100% {
     box-shadow: 0 0 20px 0px #2424b7;
     border-style: none; } }
-    .subtitulos .proyectosnombres .caja:active {
-      color: #fafafa; }
-    .subtitulos .proyectosnombres .caja .aua,
-    .subtitulos .proyectosnombres .caja .cargadorya,
-    .subtitulos .proyectosnombres .caja .digram,
-    .subtitulos .proyectosnombres .caja .somos,
-    .subtitulos .proyectosnombres .caja .ecorappi,
-    .subtitulos .proyectosnombres .caja .hayrancho,
-    .subtitulos .proyectosnombres .caja .keepgoing {
+  .subtitulos .proyectosnombres .proyectosnombres {
+    flex-wrap: wrap; }
+    .subtitulos .proyectosnombres .proyectosnombres .caja {
       text-decoration: none;
+      width: 250px;
+      margin: 0 auto;
+      border: 1px solid #1f1f1f;
+      padding: 20px;
+      border-radius: 2px;
+      margin: 10px;
+      animation: animacion2 1s ease-in-out 0s 1 normal both; }
+      .subtitulos .proyectosnombres .proyectosnombres .caja:hover {
+        animation: animacioncaja 1s ease-in-out 0s 1 normal both; }
+      .subtitulos .proyectosnombres .proyectosnombres .caja:active {
+        color: #fafafa; }
+      .subtitulos .proyectosnombres .proyectosnombres .caja .aua,
+      .subtitulos .proyectosnombres .proyectosnombres .caja .cargadorya,
+      .subtitulos .proyectosnombres .proyectosnombres .caja .digram,
+      .subtitulos .proyectosnombres .proyectosnombres .caja .somos,
+      .subtitulos .proyectosnombres .proyectosnombres .caja .ecorappi,
+      .subtitulos .proyectosnombres .proyectosnombres .caja .hayrancho,
+      .subtitulos .proyectosnombres .proyectosnombres .caja .keepgoing {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 3.5;
+        color: #1f1f1f;
+        margin-top: 10px; }
+    .subtitulos .proyectosnombres .proyectosnombres .etiqueta {
+      color: #353535;
+      font-size: 12px;
+      font-weight: 300;
+      padding: 10px; }
+    .subtitulos .proyectosnombres .proyectosnombres hr.lineacaja {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-top: 1px solid #353535;
+      width: 90%; }
+    .subtitulos .proyectosnombres .proyectosnombres .bajadadeproyecto {
       color: #000000;
-      font-weight: bold;
-      display: inline-block;
-      text-align: center;
-      text-decoration: none;
-      font-size: 20px;
-      letter-spacing: 3.5;
-      color: #1f1f1f;
-      margin-top: 10px; }
-  .subtitulos .proyectosnombres .etiqueta {
-    color: #353535;
-    font-size: 12px;
-    font-weight: 300;
-    padding: 10px; }
-  .subtitulos .proyectosnombres hr.lineacaja {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-top: 1px solid #353535;
-    width: 90%; }
-  .subtitulos .proyectosnombres .bajadadeproyecto {
-    color: #000000;
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: left; }
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: left; }
 
-.formulario {
+.subtitulos .formulario {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fafafa;
   border-radius: 5px;
   margin-bottom: 20px; }
-  .formulario input {
+  .subtitulos .formulario input {
     width: 100%;
     padding: 8px;
     border: 1px solid #1f1f1f;
@@ -377,7 +387,7 @@ main p {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .formulario textarea {
+  .subtitulos .formulario textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #1f1f1f;
@@ -386,7 +396,7 @@ main p {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .formulario button {
+  .subtitulos .formulario button {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -399,90 +409,90 @@ main p {
     color: #1f1f1f;
     border-color: #1f1f1f;
     cursor: pointer; }
-    .formulario button:hover {
+    .subtitulos .formulario button:hover {
       transition: 0.5s ease-in-out;
       color: #fafafa;
       background-color: #000000; }
-    .formulario button:active {
+    .subtitulos .formulario button:active {
       transition: 0.1s ease-in-out;
       background-color: #fafafa; }
 
-body main .row.text-center.contenedorscrollsomos {
+.subtitulos body main .row.text-center.contenedorscrollsomos {
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around; }
-  body main .row.text-center.contenedorscrollsomos .scrollwebsomos.col-lg-8 {
+  .subtitulos body main .row.text-center.contenedorscrollsomos .scrollwebsomos.col-lg-8 {
     text-align: center;
     height: 420px;
     overflow: scroll; }
 
-body main .row.text-center p.comentariosflyersomos.col {
+.subtitulos body main .row.text-center p.comentariosflyersomos.col {
   justify-content: center;
   font-size: 20px; }
 
-body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 {
+.subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 {
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around; }
-  body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer1 {
+  .subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer1 {
     margin: 5px;
     height: 80%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer2 {
+  .subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer2 {
     margin: 5px;
     height: 80%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer3 {
+  .subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer3 {
     margin: 5px;
     height: 80%;
     object-fit: cover;
     height: 200px; }
 
-body main .row.text-center .row.text-center .col-lg-7.col-md-7.col-sm-6 div.fototickets {
+.subtitulos body main .row.text-center .row.text-center .col-lg-7.col-md-7.col-sm-6 div.fototickets {
   width: 80%; }
 
-body main .row.text-center .row.text-center p.comentariosticketsomos.col {
+.subtitulos body main .row.text-center .row.text-center p.comentariosticketsomos.col {
   justify-content: center;
   font-size: 20px; }
 
-body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 {
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 {
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around; }
-  body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 .storiesomos1 {
+  .subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 .storiesomos1 {
     margin: 10px;
     height: 90%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos2 {
+  .subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos2 {
     margin: 10px;
     height: 90%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos3 {
+  .subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos3 {
     margin: 10px;
     height: 90%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos4 {
+  .subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos4 {
     margin: 10px;
     height: 90%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos5 {
+  .subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos5 {
     margin: 10px;
     height: 90%;
     object-fit: cover;
     height: 200px; }
-  body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos6 {
+  .subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos6 {
     margin: 10px;
     height: 90%;
     object-fit: cover;
