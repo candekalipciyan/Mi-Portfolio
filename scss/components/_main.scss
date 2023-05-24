@@ -69,7 +69,6 @@ main {
   }
 
   .textosobremi {
-
     .fotoyo {
       img {
         width: 100%;
@@ -127,6 +126,17 @@ main {
       padding: 20px;
       border-radius: 2px;
       margin: 10px;
+      animation: animacioncajafuera 1s ease-in-out 0s 1 normal both;
+      @keyframes animacioncajafuera {
+        0% {
+        box-shadow: 0 0 20px 0px $azul;
+        border: $azul;
+        }
+        100% {
+        box-shadow: $azul;
+        }
+        }
+        }
       &:hover {
         animation: animacioncaja 1s ease-in-out 0s 1 normal both;
         @keyframes animacioncaja {
@@ -135,7 +145,7 @@ main {
           }
           100% {
             box-shadow: 0 0 20px 0px $azul;
-            border: $azul;
+            border-style: none;
           }
         }
       }

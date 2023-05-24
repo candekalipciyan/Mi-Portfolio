@@ -323,7 +323,7 @@ main p {
     box-shadow: #2424b7; }
   100% {
     box-shadow: 0 0 20px 0px #2424b7;
-    border: #2424b7; } }
+    border-style: none; } }
     .subtitulos .proyectosnombres .caja:active {
       color: #fafafa; }
     .subtitulos .proyectosnombres .caja .aua,
