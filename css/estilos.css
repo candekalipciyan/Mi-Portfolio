@@ -321,9 +321,9 @@ main p {
   100% {
     box-shadow: 0 0 20px 0px #2424b7;
     border-style: none; } }
-  .subtitulos .proyectosnombres .proyectosnombres {
+  .subtitulos .proyectosnombres {
     flex-wrap: wrap; }
-    .subtitulos .proyectosnombres .proyectosnombres .caja {
+    .subtitulos .proyectosnombres .caja {
       text-decoration: none;
       width: 250px;
       margin: 0 auto;
@@ -332,17 +332,17 @@ main p {
       border-radius: 2px;
       margin: 10px;
       animation: animacion2 1s ease-in-out 0s 1 normal both; }
-      .subtitulos .proyectosnombres .proyectosnombres .caja:hover {
+      .subtitulos .proyectosnombres .caja:hover {
         animation: animacioncaja 1s ease-in-out 0s 1 normal both; }
       .subtitulos .proyectosnombres .proyectosnombres .caja:active {
         color: #fafafa; }
-      .subtitulos .proyectosnombres .proyectosnombres .caja .aua,
-      .subtitulos .proyectosnombres .proyectosnombres .caja .cargadorya,
-      .subtitulos .proyectosnombres .proyectosnombres .caja .digram,
-      .subtitulos .proyectosnombres .proyectosnombres .caja .somos,
-      .subtitulos .proyectosnombres .proyectosnombres .caja .ecorappi,
-      .subtitulos .proyectosnombres .proyectosnombres .caja .hayrancho,
-      .subtitulos .proyectosnombres .proyectosnombres .caja .keepgoing {
+      .subtitulos .proyectosnombres .caja .aua,
+      .subtitulos .proyectosnombres .caja .cargadorya,
+      .subtitulos .proyectosnombres .caja .digram,
+      .subtitulos .proyectosnombres .caja .somos,
+      .subtitulos .proyectosnombres .caja .ecorappi,
+      .subtitulos .proyectosnombres .caja .hayrancho,
+      .subtitulos .proyectosnombres .caja .keepgoing {
         text-decoration: none;
         color: #000000;
         font-weight: bold;
@@ -353,18 +353,18 @@ main p {
         letter-spacing: 3.5;
         color: #1f1f1f;
         margin-top: 10px; }
-    .subtitulos .proyectosnombres .proyectosnombres .etiqueta {
+    .subtitulos .proyectosnombres .etiqueta {
       color: #353535;
       font-size: 12px;
       font-weight: 300;
       padding: 10px; }
-    .subtitulos .proyectosnombres .proyectosnombres hr.lineacaja {
+    .subtitulos .proyectosnombres hr.lineacaja {
       margin-top: 10px;
       margin-bottom: 20px;
       border: none;
       border-top: 1px solid #353535;
       width: 90%; }
-    .subtitulos .proyectosnombres .proyectosnombres .bajadadeproyecto {
+    .subtitulos .proyectosnombres .bajadadeproyecto {
       color: #000000;
       margin-top: 10px;
       font-size: 12px;
@@ -514,7 +514,8 @@ footer {
   footer .externos {
     display: grid;
     align-items: center;
-    grid-template-areas: "logoli nombrefooter logobe" "logoli mailfooter logobe"; }
+    grid-template-areas: "logoli nombrefooter logobe"
+ "logoli mailfooter logobe"; }
     footer .externos .nombrefooter {
       text-align: center;
       grid-area: nombrefooter;
