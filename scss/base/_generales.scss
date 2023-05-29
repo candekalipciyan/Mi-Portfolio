@@ -10,25 +10,26 @@ html {
 }
 
 body {
-    color: #1f1d1d;
+    color: $negroLavado;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    background-color: $fondo;
 }
 
 // barra scroll index
 
 .p3::-webkit-scrollbar {
-    background-color: #ffffff;
+    background-color: $fondo;
     width: 7px;
 }
 
 .p3::-webkit-scrollbar-thumb {
-    background-color: #a3a3a364;
+    background-color: $rojo;
     border-radius: 10px;
 }
 
 .p3:hover::-webkit-scrollbar-thumb {
-    background-color: #3e3e3e;
+    background-color: $rojo;
 }
 
 .p3::-webkit-scrollbar-button {

@@ -2,12 +2,13 @@ main {
   .tituloyfoto {
     margin: 100;
     padding: 120px;
+    margin-right: 0;
+    padding-right: 0;
     padding-bottom: 180px;
-    background-color: $negroPleno;
 
     .titulo {
       text-align: center;
-      color: $fondo;
+      color: $negroLavado;
       padding-right: 30px;
 
       h1 {
@@ -26,20 +27,22 @@ main {
     font-size: 17px;
     line-height: 30px;
     padding: 50px;
+    color: $negroLavado;
 
     .hola {
-      font-size: 32px;
-      line-height: 52px;
+      font-size: 46px;
       letter-spacing: 3.5px;
       padding: 30px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      color: $rojo;
     }
 
     .lineahola {
       margin-top: -20px;
+      border-color: $negroLavado;
+      border-style: ridge;
       margin-bottom: 20px;
       width: 60%;
-
     }
   }
 
@@ -51,7 +54,7 @@ main {
 }
 
 .disciplinas {
-  color: $azul;
+  color: $lila;
   text-align: center;
   font-size: 50px;
   letter-spacing: 3.5px;
@@ -60,11 +63,11 @@ main {
 }
 
 .subtitulos {
+  background-color: $lila;
   h3 {
     padding: 40px;
     font-size: 32px;
     letter-spacing: 3.5px;
-    font-weight: 300;
     text-align: center;
   }
 
@@ -77,13 +80,15 @@ main {
 
     .p3 {
       font-size: 14px;
+      background-color: $rojo;
+      color: $fondo;
       width: 600px;
       height: 300px;
       overflow: auto;
       padding: 20px;
       padding-top: 10px;
       line-height: 20px;
-      border-radius: 5px;
+      border-radius: 15px;
       box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
     }
   }
@@ -120,30 +125,26 @@ main {
 
     @keyframes animacion2 {
       0% {
-        box-shadow: 0 0 20px 0px $azul;
-        border: $azul;
+        box-shadow: 0 0 20px 0px $lila;
+        border: $lila;
       }
-  
+
       100% {
-        box-shadow: $azul;
+        box-shadow: $lila;
       }
     }
-  
-  
+
+
     @keyframes animacioncaja {
       0% {
-        box-shadow: $azul;
+        box-shadow: $lila;
       }
-  
+
       100% {
-        box-shadow: 0 0 20px 0px $azul;
+        box-shadow: 0 0 20px 0px $lila;
         border-style: none;
       }
     }
-  
-    .proyectosnombres {
-      flex-wrap: wrap;
-  
       .caja {
         text-decoration: none;
         width: 250px;
@@ -153,18 +154,17 @@ main {
         border-radius: 2px;
         margin: 10px;
         animation: animacion2 1s ease-in-out 0s 1 normal both;
-  
-  
+
+
         &:hover {
           animation: animacioncaja 1s ease-in-out 0s 1 normal both;
-  
+
         }
-  
+
         &:active {
           color: $fondo;
         }
-  
-  
+
         .aua,
         .cargadorya,
         .digram,
@@ -184,14 +184,14 @@ main {
           margin-top: 10px;
         }
       }
-  
+
       .etiqueta {
         color: $gris;
         font-size: 12px;
         font-weight: 300;
         padding: 10px;
       }
-  
+
       hr.lineacaja {
         margin-top: 10px;
         margin-bottom: 20px;
@@ -199,7 +199,7 @@ main {
         border-top: 1px solid $gris;
         width: 90%;
       }
-  
+
       .bajadadeproyecto {
         color: $negroPleno;
         margin-top: 10px;
@@ -207,184 +207,185 @@ main {
         font-weight: 400;
         text-align: left;
       }
-    }
+    
   }
 
-.formulario {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: $fondo;
-  border-radius: 5px;
-  margin-bottom: 20px;
-
-  input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid $negroLavado;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid $negroLavado;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  button {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: $fondo;
-    background-color: $negroPleno;
-    padding: 11px 22px 11px 22px;
-    border-radius: 6px;
-    border-style: ridge;
+  .formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
     background-color: $fondo;
-    color: $negroLavado;
-    border-color: $negroLavado;
-    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
 
-    &:hover {
-      transition: 0.5s ease-in-out;
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid $negroLavado;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid $negroLavado;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
       color: $fondo;
       background-color: $negroPleno;
-    }
-
-    &:active {
-      transition: 0.1s ease-in-out;
+      padding: 11px 22px 11px 22px;
+      border-radius: 6px;
+      border-style: ridge;
       background-color: $fondo;
+      color: $negroLavado;
+      border-color: $negroLavado;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.5s ease-in-out;
+        color: $fondo;
+        background-color: $negroPleno;
+      }
+
+      &:active {
+        transition: 0.1s ease-in-out;
+        background-color: $fondo;
+      }
     }
   }
-}
 
 
-// SOMOS
+  // SOMOS
 
-body {
-  main {
-    .row.text-center.contenedorscrollsomos {
-      margin-bottom: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-around;
-
-      .scrollwebsomos.col-lg-8 {
-        text-align: center;
-        height: 420px;
-        overflow: scroll;
-      }
-    }
-
-    .row.text-center {
-      p.comentariosflyersomos.col {
-        justify-content: center;
-        font-size: 20px;
-      }
-
-      .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 {
+  body {
+    main {
+      .row.text-center.contenedorscrollsomos {
         margin-bottom: 20px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
 
-        .flyer1 {
-          margin: 5px;
-          height: 80%;
-          object-fit: cover;
-          height: 200px;
-        }
-
-        .flyer2 {
-          margin: 5px;
-          height: 80%;
-          object-fit: cover;
-          height: 200px;
-        }
-
-        .flyer3 {
-          margin: 5px;
-          height: 80%;
-          object-fit: cover;
-          height: 200px;
+        .scrollwebsomos.col-lg-8 {
+          text-align: center;
+          height: 420px;
+          overflow: scroll;
         }
       }
 
       .row.text-center {
-        .col-lg-7.col-md-7.col-sm-6 {
-          div.fototickets {
-            width: 80%;
-          }
-        }
-
-        p.comentariosticketsomos.col {
+        p.comentariosflyersomos.col {
           justify-content: center;
           font-size: 20px;
         }
-      }
 
-      .row.text-center {
-        .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 {
+        .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 {
           margin-bottom: 20px;
           display: flex;
           flex-wrap: wrap;
           flex-direction: row;
           justify-content: space-around;
 
-          .storiesomos1 {
-            margin: 10px;
-            height: 90%;
+          .flyer1 {
+            margin: 5px;
+            height: 80%;
             object-fit: cover;
             height: 200px;
           }
 
-          div.storiesomos2 {
-            margin: 10px;
-            height: 90%;
+          .flyer2 {
+            margin: 5px;
+            height: 80%;
             object-fit: cover;
             height: 200px;
           }
 
-          div.storiesomos3 {
-            margin: 10px;
-            height: 90%;
+          .flyer3 {
+            margin: 5px;
+            height: 80%;
             object-fit: cover;
             height: 200px;
           }
+        }
 
-          div.storiesomos4 {
-            margin: 10px;
-            height: 90%;
-            object-fit: cover;
-            height: 200px;
+        .row.text-center {
+          .col-lg-7.col-md-7.col-sm-6 {
+            div.fototickets {
+              width: 80%;
+            }
           }
 
-          div.storiesomos5 {
-            margin: 10px;
-            height: 90%;
-            object-fit: cover;
-            height: 200px;
+          p.comentariosticketsomos.col {
+            justify-content: center;
+            font-size: 20px;
           }
+        }
 
-          div.storiesomos6 {
-            margin: 10px;
-            height: 90%;
-            object-fit: cover;
-            height: 200px;
+        .row.text-center {
+          .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .storiesomos1 {
+              margin: 10px;
+              height: 90%;
+              object-fit: cover;
+              height: 200px;
+            }
+
+            div.storiesomos2 {
+              margin: 10px;
+              height: 90%;
+              object-fit: cover;
+              height: 200px;
+            }
+
+            div.storiesomos3 {
+              margin: 10px;
+              height: 90%;
+              object-fit: cover;
+              height: 200px;
+            }
+
+            div.storiesomos4 {
+              margin: 10px;
+              height: 90%;
+              object-fit: cover;
+              height: 200px;
+            }
+
+            div.storiesomos5 {
+              margin: 10px;
+              height: 90%;
+              object-fit: cover;
+              height: 200px;
+            }
+
+            div.storiesomos6 {
+              margin: 10px;
+              height: 90%;
+              object-fit: cover;
+              height: 200px;
+            }
           }
         }
       }
     }
   }
-}}
+}

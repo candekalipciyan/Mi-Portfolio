@@ -3,13 +3,12 @@ footer {
   text-align: center;
   padding: 10px;
   letter-spacing: 4px;
-  background-color: $azul;
-  opacity: 0.1;
+  background-color: $lila;
+  opacity: 0.4;
   position: sticky;
   bottom: 0;
 
   &:hover {
-    background-color: $azul;
     transition: 0.2s ease-in-out;
     opacity: 1;
   }
@@ -25,7 +24,7 @@ footer {
       text-align: center;
       grid-area: nombrefooter;
       margin-bottom: 5px;
-      color: #a7a7a7;
+      color: $gris;
     }
 
     .logoli {
