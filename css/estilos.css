@@ -117,22 +117,6 @@ h4 {
   width: 800px;
   text-align: center; }
 
-.comentariosder {
-  font-size: 13px;
-  font-weight: 400;
-  margin-bottom: 50px; }
-
-.fotosdeproyectoder {
-  border-color: #020202;
-  border-style: ridge;
-  padding: 20px;
-  margin-bottom: 50px; }
-
-.comentariosizq {
-  font-size: 13px;
-  font-weight: 400;
-  margin-bottom: 50px; }
-
 .fotofinal {
   border-color: #020202;
   border-style: ridge;
@@ -277,6 +261,7 @@ main p {
 .subtitulos {
   background-color: #CFC3E1; }
   .subtitulos h3 {
+    color: #EA542A;
     padding: 40px;
     font-size: 32px;
     letter-spacing: 3.5px;
@@ -285,8 +270,7 @@ main p {
     width: 100%; }
   .subtitulos .textosobremi .p3 {
     font-size: 14px;
-    background-color: #EA542A;
-    color: #fafafa;
+    color: #1E1E1D;
     width: 600px;
     height: 300px;
     overflow: auto;
@@ -314,25 +298,24 @@ main p {
       margin-top: 30px;
       padding: 50px; }
   .subtitulos .proyectosnombres {
-    background-color: #EA542A;
     flex-wrap: wrap; }
 
 @keyframes animacion2 {
   0% {
-    box-shadow: 0 0 20px 0px #CFC3E1;
-    border: #CFC3E1; }
+    box-shadow: 0 0 20px 0px #EA542A;
+    border: #EA542A; }
   100% {
-    box-shadow: #CFC3E1; } }
+    box-shadow: #EA542A; } }
 
 @keyframes animacioncaja {
   0% {
-    box-shadow: #CFC3E1; }
+    box-shadow: #EA542A; }
   100% {
-    box-shadow: 0 0 20px 0px #CFC3E1;
+    box-shadow: 0 0 20px 0px #EA542A;
     border-style: none; } }
     .subtitulos .proyectosnombres .caja {
       text-decoration: none;
-      background-color: #fafafa;
+      background-color: #EA542A;
       width: 250px;
       margin: 0 auto;
       border: 1px solid #fafafa;
@@ -717,17 +700,5 @@ footer {
     opacity: 0.75; }
   h4 {
     font-size: 30px; }
-  .comentariosder {
-    margin-left: 50px;
-    margin-right: 50px; }
-  .comentariosizq {
-    margin-left: 50px;
-    margin-right: 50px; }
-  .scrollwebsomos {
-    height: 200px; }
-  .scrollappsomos {
-    height: 350px; }
-  .scrollappsomos img {
-    width: 180px; }
   .fototickets {
     width: 40%; } }

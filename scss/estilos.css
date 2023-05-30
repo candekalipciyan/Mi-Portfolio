@@ -1,0 +1,906 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 &family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.tituloyfoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.textosobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.palabrassobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.proyectosnombres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1E1E1D;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #fafafa;
+}
+
+.p3::-webkit-scrollbar {
+  background-color: #CFC3E1;
+  width: 7px;
+}
+
+.p3::-webkit-scrollbar-thumb {
+  background-color: #EA542A;
+  border-radius: 10px;
+}
+
+.p3:hover::-webkit-scrollbar-thumb {
+  background-color: #EA542A;
+}
+
+.p3::-webkit-scrollbar-button {
+  display: none;
+}
+
+.scrollwebsomos::-webkit-scrollbar,
+.scrollappsomos::-webkit-scrollbar {
+  background-color: #ffffff;
+  width: 7px;
+}
+
+.scrollwebsomos::-webkit-scrollbar-thumb,
+.scrollappsomos::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e;
+  border-radius: 10px;
+}
+
+.scrollwebsomos::-webkit-scrollbar-button,
+.scrollappsomos::-webkit-scrollbar-button {
+  display: none;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 36px;
+  letter-spacing: 3.5px;
+  font-weight: 400;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+.fecha {
+  color: #676767;
+  font-weight: 200;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 150px;
+}
+
+.tipo {
+  color: #676767;
+  margin: 0;
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.bajadaindividual {
+  margin-top: 100px;
+  width: 800px;
+  text-align: center;
+}
+
+.comentariosder {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.fotosdeproyectoder {
+  border-color: #020202;
+  border-style: ridge;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.comentariosizq {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.fotofinal {
+  border-color: #020202;
+  border-style: ridge;
+  padding: 20px;
+  padding-bottom: 200px;
+  margin-bottom: 20px;
+}
+
+.piefinal {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 40px;
+}
+
+.prototipo {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3152a8;
+  margin: 20px;
+}
+
+.prototipo:hover {
+  font-weight: 500;
+}
+
+.carrouselPadre {
+  width: 60%;
+}
+.carrouselPadre .dganchocarrousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.carrouselPadre .carrouselizquierda {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.carrouselPadre .carrousemedio {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.carrouselPadre .carrouselderecha {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  padding: 0px;
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+  opacity: 0.9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header nav .logo a {
+  text-decoration: none;
+  color: #1E1E1D;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+header nav .logo a:hover {
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+}
+header nav .menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  list-style: none;
+  margin-bottom: 0;
+}
+header nav .menu li a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: #000000;
+}
+header nav .menu li a:hover {
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+}
+header hr {
+  padding: 0;
+  margin: 0;
+}
+
+main .tituloyfoto {
+  margin: 100;
+  padding: 120px;
+  margin-right: 0;
+  padding-right: 0;
+  padding-bottom: 180px;
+}
+main .tituloyfoto .titulo {
+  text-align: center;
+  color: #1E1E1D;
+  padding-right: 30px;
+}
+main .tituloyfoto .titulo h1 {
+  font-size: 80px;
+  margin-bottom: -20px;
+}
+main .tituloyfoto .titulo h2 {
+  letter-spacing: 8px;
+  font-size: 100px;
+}
+main .tituloyfoto .imagenes img {
+  width: 100%;
+}
+main .presentacion {
+  font-size: 17px;
+  line-height: 30px;
+  padding: 50px;
+  background-color: #fafafa;
+  color: #1E1E1D;
+}
+main .presentacion .hola {
+  font-size: 46px;
+  letter-spacing: 3.5px;
+  padding: 30px;
+  margin-bottom: 30px;
+  color: #EA542A;
+}
+main .presentacion .lineahola {
+  margin-top: -20px;
+  border-color: #1E1E1D;
+  border-style: ridge;
+  margin-bottom: 20px;
+  width: 60%;
+}
+main p {
+  margin-bottom: 45px;
+  width: 50%;
+  text-align: center;
+}
+
+.disciplinas {
+  color: #CFC3E1;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3.5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.subtitulos {
+  background-color: #CFC3E1;
+}
+.subtitulos h3 {
+  padding: 40px;
+  font-size: 32px;
+  letter-spacing: 3.5px;
+  text-align: center;
+}
+.subtitulos .textosobremi .fotoyo img {
+  width: 100%;
+}
+.subtitulos .textosobremi .p3 {
+  font-size: 14px;
+  color: #1E1E1D;
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+  padding: 20px;
+  padding-top: 10px;
+  line-height: 20px;
+  border-radius: 15px;
+  box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
+}
+.subtitulos .palabrassobremi {
+  color: #fafafa;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.subtitulos .palabrassobremi .estetica {
+  margin-top: 30px;
+  padding: 50px;
+}
+.subtitulos .palabrassobremi .mas {
+  margin-top: 30px;
+  padding: 50px;
+}
+.subtitulos .palabrassobremi .funcionalidad {
+  margin-top: 30px;
+  padding: 50px;
+}
+.subtitulos .palabrassobremi .usabilidad {
+  margin-top: 30px;
+  padding: 50px;
+}
+.subtitulos .proyectosnombres {
+  background-color: #EA542A;
+  flex-wrap: wrap;
+}
+@keyframes animacion2 {
+  0% {
+    box-shadow: 0 0 20px 0px #CFC3E1;
+    border: #CFC3E1;
+  }
+  100% {
+    box-shadow: #CFC3E1;
+  }
+}
+@keyframes animacioncaja {
+  0% {
+    box-shadow: #CFC3E1;
+  }
+  100% {
+    box-shadow: 0 0 20px 0px #CFC3E1;
+    border-style: none;
+  }
+}
+.subtitulos .proyectosnombres .caja {
+  text-decoration: none;
+  background-color: #fafafa;
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  animation: animacion2 1s ease-in-out 0s 1 normal both;
+}
+.subtitulos .proyectosnombres .caja:hover {
+  animation: animacioncaja 1s ease-in-out 0s 1 normal both;
+}
+.subtitulos .proyectosnombres .caja:active {
+  color: #fafafa;
+}
+.subtitulos .proyectosnombres .caja .aua,
+.subtitulos .proyectosnombres .caja .cargadorya,
+.subtitulos .proyectosnombres .caja .digram,
+.subtitulos .proyectosnombres .caja .somos,
+.subtitulos .proyectosnombres .caja .ecorappi,
+.subtitulos .proyectosnombres .caja .hayrancho,
+.subtitulos .proyectosnombres .caja .keepgoing {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 3.5;
+  color: #1E1E1D;
+  margin-top: 10px;
+}
+.subtitulos .proyectosnombres .etiqueta {
+  color: #353535;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px;
+}
+.subtitulos .proyectosnombres hr.lineacaja {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #353535;
+  width: 90%;
+}
+.subtitulos .proyectosnombres .bajadadeproyecto {
+  color: #000000;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+.subtitulos .formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.subtitulos .formulario input {
+  width: 100%;
+  background-color: #fafafa;
+  padding: 8px;
+  border: 1px solid #CFC3E1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.subtitulos .formulario textarea {
+  width: 100%;
+  background-color: #fafafa;
+  padding: 8px;
+  border: 1px solid #CFC3E1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.subtitulos .formulario button {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 11px 22px 11px 22px;
+  border-radius: 6px;
+  border-style: ridge;
+  background-color: #fafafa;
+  color: #1E1E1D;
+  border-color: #CFC3E1;
+  cursor: pointer;
+}
+.subtitulos .formulario button:hover {
+  transition: 0.5s ease-in-out;
+  color: #fafafa;
+  background-color: #1E1E1D;
+}
+.subtitulos .formulario button:active {
+  transition: 0.1s ease-in-out;
+  background-color: #fafafa;
+}
+.subtitulos body main .row.text-center.contenedorscrollsomos {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.subtitulos body main .row.text-center.contenedorscrollsomos .scrollwebsomos.col-lg-8 {
+  text-align: center;
+  height: 420px;
+  overflow: scroll;
+}
+.subtitulos body main .row.text-center p.comentariosflyersomos.col {
+  justify-content: center;
+  font-size: 20px;
+}
+.subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer1 {
+  margin: 5px;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer2 {
+  margin: 5px;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .fotosflyersomos.col-lg-8.col-md-8.col-sm-9 .flyer3 {
+  margin: 5px;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .row.text-center .col-lg-7.col-md-7.col-sm-6 div.fototickets {
+  width: 80%;
+}
+.subtitulos body main .row.text-center .row.text-center p.comentariosticketsomos.col {
+  justify-content: center;
+  font-size: 20px;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 .storiesomos1 {
+  margin: 10px;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos2 {
+  margin: 10px;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos3 {
+  margin: 10px;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos4 {
+  margin: 10px;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos5 {
+  margin: 10px;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.subtitulos body main .row.text-center .row.text-center .fotofinalsomos.col-lg-12.col-md-12.col-sm-12 div.storiesomos6 {
+  margin: 10px;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+
+footer {
+  color: #fafafa;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 4px;
+  background-color: #CFC3E1;
+  opacity: 0.4;
+  position: sticky;
+  bottom: 0;
+}
+footer:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 1;
+}
+footer .externos {
+  display: grid;
+  align-items: center;
+  grid-template-areas: "logoli nombrefooter logobe" "logoli mailfooter logobe";
+}
+footer .externos .nombrefooter {
+  text-align: center;
+  grid-area: nombrefooter;
+  margin-bottom: 5px;
+  color: #353535;
+}
+footer .externos .logoli {
+  display: flex;
+  justify-content: center;
+  grid-area: logoli;
+  align-self: center;
+}
+footer .externos .logoli img {
+  width: 20px;
+  opacity: 0.7;
+}
+footer .externos .logoli img:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 1;
+}
+footer .externos .logoli img:active {
+  transition: 0s;
+  opacity: 0.5;
+}
+footer .externos .mailfooter {
+  color: #fafafa;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  grid-area: mailfooter;
+}
+footer .externos .mailfooter:hover {
+  transition: 0.3s ease-in-out;
+}
+
+.logobe {
+  display: flex;
+  justify-content: center;
+  grid-area: logobe;
+  align-self: center;
+}
+.logobe img {
+  opacity: 0.7;
+  width: 22px;
+}
+.logobe img:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 1;
+}
+.logobe img:active {
+  transition: 0s;
+  opacity: 0.5;
+}
+
+@media (max-width: 1100px) {
+  main .tituloyfoto {
+    flex-direction: column;
+  }
+  main .tituloyfoto .titulo {
+    padding-bottom: 20px;
+  }
+  main .tituloyfoto .imagenes img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 400px;
+  }
+  main .presentacion p {
+    width: 70%;
+  }
+  main .subtitulos .palabrassobremi {
+    font-size: 16px;
+  }
+  main .subtitulos .palabrassobremi .estetica {
+    padding: 25px;
+  }
+  main .subtitulos .palabrassobremi .mas {
+    padding: 25px;
+  }
+  main .subtitulos .palabrassobremi .funcionalidad {
+    padding: 25px;
+  }
+  main .subtitulos .palabrassobremi .usabilidad {
+    padding: 25px;
+  }
+  .bajadaindividual {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .flyer1 img,
+  .flyer2 img,
+  .flyer3 img {
+    height: 150px;
+  }
+}
+@media (max-width: 700px) {
+  header nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav .logo {
+    padding-bottom: 10px;
+  }
+  header .menu li a {
+    margin: 20px;
+  }
+  main .tituloyfoto .titulo {
+    padding: 0px;
+    margin: 20;
+  }
+  main .tituloyfoto .titulo h1 {
+    font-size: 50px;
+    margin-bottom: -20px;
+  }
+  main .tituloyfoto .titulo h2 {
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+  }
+  main .tituloyfoto .imagenes img {
+    height: 250px;
+  }
+  main .presentacion .hola {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+  }
+  main .presentacion .lineahola {
+    width: 70%;
+  }
+  main .presentacion p {
+    font-size: 14px;
+  }
+  main .subtitulos .textosobremi .fotoyo img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 150px;
+  }
+  main .subtitulos .textosobremi .p3 {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+  }
+  main .subtitulos .palabrassobremi {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  main .subtitulos .palabrassobremi .estetica {
+    padding: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .subtitulos .palabrassobremi .mas {
+    padding: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .subtitulos .palabrassobremi .funcionalidad {
+    padding: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .subtitulos .palabrassobremi .usabilidad {
+    padding: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .subtitulos .proyectosnombres {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .subtitulos .proyectosnombres .caja {
+    width: 170px;
+    margin-bottom: 20px;
+  }
+  footer .externos .nombrefooter {
+    font-size: 14px;
+  }
+  footer .externos .logoli img {
+    width: 20px;
+  }
+  footer .externos .mailfooter {
+    font-size: 12px;
+  }
+}
+.logobe img {
+  width: 24px;
+}
+.logobe .fecha {
+  display: none;
+}
+.logobe .tipo {
+  margin-top: 30px;
+}
+.logobe .bajadaindividual {
+  padding: 50px;
+  font-size: 13px;
+}
+.logobe .scrollwebsomos {
+  height: 230px;
+}
+.logobe .flyer1 img,
+.logobe .flyer2 img,
+.logobe .flyer3 img {
+  height: 100px;
+  margin: 5px;
+}
+
+@media (max-width: 500px) {
+  main .imagenes img {
+    height: 250px;
+  }
+  .presentacion p {
+    line-height: 25px;
+  }
+  .subtitulos h3 {
+    padding: 40px;
+    font-size: 26px;
+  }
+  .subtitulos .textosobremi {
+    flex-direction: column;
+  }
+  .subtitulos .textosobremi .fotoyo img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 150px;
+  }
+  .subtitulos .textosobremi .p3 .p3::-webkit-scrollbar-thumb {
+    background-color: #3b3a3a;
+  }
+  .subtitulos .palabrassobremi {
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+  .subtitulos .palabrassobremi .estetica {
+    padding: 10px;
+  }
+  .subtitulos .palabrassobremi .mas {
+    padding: 10px;
+  }
+  .subtitulos .palabrassobremi .funcionalidad {
+    padding: 10px;
+  }
+  .subtitulos .palabrassobremi .usabilidad {
+    padding: 10px;
+  }
+  .subtitulos .proyectosnombres .caja {
+    width: 150px;
+    padding: 10px;
+  }
+  .formulario button {
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+  }
+  footer {
+    opacity: 0.75;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  .comentariosder {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .comentariosizq {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .scrollwebsomos {
+    height: 200px;
+  }
+  .scrollappsomos {
+    height: 350px;
+  }
+  .scrollappsomos img {
+    width: 180px;
+  }
+  .fototickets {
+    width: 40%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

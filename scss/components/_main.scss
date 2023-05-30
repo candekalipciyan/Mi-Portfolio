@@ -69,6 +69,7 @@ main {
 .subtitulos {
   background-color: $lila;
   h3 {
+    color: $rojo;
     padding: 40px;
     font-size: 32px;
     letter-spacing: 3.5px;
@@ -84,8 +85,7 @@ main {
 
     .p3 {
       font-size: 14px;
-      background-color: $rojo;
-      color: $fondo;
+      color: $negroLavado;
       width: 600px;
       height: 300px;
       overflow: auto;
@@ -126,34 +126,33 @@ main {
   }
 
   .proyectosnombres {
-    background-color: $rojo;
     flex-wrap: wrap;
 
     @keyframes animacion2 {
       0% {
-        box-shadow: 0 0 20px 0px $lila;
-        border: $lila;
+        box-shadow: 0 0 20px 0px $rojo;
+        border: $rojo;
       }
 
       100% {
-        box-shadow: $lila;
+        box-shadow: $rojo;
       }
     }
 
 
     @keyframes animacioncaja {
       0% {
-        box-shadow: $lila;
+        box-shadow: $rojo;
       }
 
       100% {
-        box-shadow: 0 0 20px 0px $lila;
+        box-shadow: 0 0 20px 0px $rojo;
         border-style: none;
       }
     }
       .caja {
         text-decoration: none;
-        background-color: $fondo;
+        background-color: $rojo;
         width: 250px;
         margin: 0 auto;
         border: 1px solid $fondo;
