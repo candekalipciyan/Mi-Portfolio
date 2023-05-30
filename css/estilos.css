@@ -62,7 +62,7 @@ body {
   background-color: #fafafa; }
 
 .p3::-webkit-scrollbar {
-  background-color: #fafafa;
+  background-color: #CFC3E1;
   width: 7px; }
 
 .p3::-webkit-scrollbar-thumb {
@@ -239,11 +239,14 @@ main .tituloyfoto {
     main .tituloyfoto .titulo h2 {
       letter-spacing: 8px;
       font-size: 100px; }
+  main .tituloyfoto .imagenes img {
+    width: 100%; }
 
 main .presentacion {
   font-size: 17px;
   line-height: 30px;
   padding: 50px;
+  background-color: #fafafa;
   color: #1E1E1D; }
   main .presentacion .hola {
     font-size: 46px;
@@ -293,6 +296,7 @@ main p {
     border-radius: 15px;
     box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
   .subtitulos .palabrassobremi {
+    color: #fafafa;
     font-size: 20px;
     letter-spacing: 2px;
     margin-left: 35%;
@@ -310,6 +314,7 @@ main p {
       margin-top: 30px;
       padding: 50px; }
   .subtitulos .proyectosnombres {
+    background-color: #EA542A;
     flex-wrap: wrap; }
 
 @keyframes animacion2 {
@@ -327,11 +332,12 @@ main p {
     border-style: none; } }
     .subtitulos .proyectosnombres .caja {
       text-decoration: none;
+      background-color: #fafafa;
       width: 250px;
       margin: 0 auto;
-      border: 1px solid #1E1E1D;
+      border: 1px solid #fafafa;
       padding: 20px;
-      border-radius: 2px;
+      border-radius: 10px;
       margin: 10px;
       animation: animacion2 1s ease-in-out 0s 1 normal both; }
       .subtitulos .proyectosnombres .caja:hover {
@@ -377,12 +383,13 @@ main p {
     margin: 0 auto;
     padding: 20px;
     background-color: #fafafa;
-    border-radius: 5px;
-    margin-bottom: 20px; }
+    border-radius: 10px;
+    padding-bottom: 20px; }
     .subtitulos .formulario input {
       width: 100%;
+      background-color: #fafafa;
       padding: 8px;
-      border: 1px solid #1E1E1D;
+      border: 1px solid #CFC3E1;
       border-radius: 4px;
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
@@ -390,8 +397,9 @@ main p {
       margin-bottom: 10px; }
     .subtitulos .formulario textarea {
       width: 100%;
+      background-color: #fafafa;
       padding: 8px;
-      border: 1px solid #1E1E1D;
+      border: 1px solid #CFC3E1;
       border-radius: 4px;
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
@@ -401,19 +409,17 @@ main p {
       text-align: center;
       margin-top: 10px;
       margin-bottom: 10px;
-      color: #fafafa;
-      background-color: #000000;
       padding: 11px 22px 11px 22px;
       border-radius: 6px;
       border-style: ridge;
       background-color: #fafafa;
       color: #1E1E1D;
-      border-color: #1E1E1D;
+      border-color: #CFC3E1;
       cursor: pointer; }
       .subtitulos .formulario button:hover {
         transition: 0.5s ease-in-out;
         color: #fafafa;
-        background-color: #000000; }
+        background-color: #1E1E1D; }
       .subtitulos .formulario button:active {
         transition: 0.1s ease-in-out;
         background-color: #fafafa; }
