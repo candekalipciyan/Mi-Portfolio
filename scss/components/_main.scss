@@ -1,5 +1,8 @@
 main {
+  background-color: $negroLavado;
   .tituloyfoto {
+    display: flex;
+    flex-direction: row;
     margin: 100;
     padding: 120px;
     margin-right: 0;
@@ -8,20 +11,25 @@ main {
 
     .titulo {
       text-align: center;
-      color: $negroLavado;
+      color: $fondo;
       padding-right: 30px;
+text-transform: uppercase;
+      font-size: 50px;
+      margin-bottom: -150px;
+      letter-spacing: 0px;
+      line-height: 80px;
+      text-align: left;
 
       h1 {
-        font-size: 80px;
-        margin-bottom: -20px;
+        margin-bottom: -50px;
       }
 
       h2 {
-        letter-spacing: 8px;
-        font-size: 100px;
+        color: $rojo;
       }
     }
-    .imagenes img{
+
+    .imagenes img {
       width: 100%;
     }
   }
@@ -58,7 +66,7 @@ main {
 }
 
 .disciplinas {
-  color: $lila;
+  color: $verde;
   text-align: center;
   font-size: 50px;
   letter-spacing: 3.5px;
@@ -67,155 +75,181 @@ main {
 }
 
 .subtitulos {
-  background-color: $lila;
-  h3 {
-    color: $rojo;
-    padding: 40px;
-    font-size: 32px;
-    letter-spacing: 3.5px;
-    text-align: center;
-  }
+  .sectorsobremi {
+    background-color: $lila;
+padding: 40px;
+    #sobremi {
+      color: $rojo;
+      opacity: 0.9;
+      padding: 40px;
+      font-size: 120px;
+      letter-spacing: 3.5px;
+      margin-bottom: -100px;
+      line-height: 100px;
+      text-align: left;
+    }
 
-  .textosobremi {
-    .fotoyo {
-      img {
-        width: 100%;
+    .textosobremi {
+      .fotoyo {
+        img {
+          width: 100%;
+        }
+      }
+
+      .p3 {
+        font-size: 14px;
+        color: $negroLavado;
+        width: 600px;
+        height: 300px;
+        overflow: auto;
+        padding: 20px;
+        padding-top: 10px;
+        line-height: 20px;
+        border-radius: 15px;
+        box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
       }
     }
 
-    .p3 {
-      font-size: 14px;
-      color: $negroLavado;
-      width: 600px;
-      height: 300px;
-      overflow: auto;
-      padding: 20px;
-      padding-top: 10px;
-      line-height: 20px;
-      border-radius: 15px;
-      box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1);
+    .palabrassobremi {
+      color: $fondo;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin-left: 35%;
+      margin-right: 35%;
+
+      .estetica {
+        margin-top: 30px;
+        padding: 50px;
+      }
+
+      .mas {
+        margin-top: 30px;
+        padding: 50px;
+      }
+
+      .funcionalidad {
+        margin-top: 30px;
+        padding: 50px;
+      }
+
+      .usabilidad {
+        margin-top: 30px;
+        padding: 50px;
+      }
     }
   }
 
-  .palabrassobremi {
-    color: $fondo;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 35%;
-    margin-right: 35%;
-
-    .estetica {
-      margin-top: 30px;
-      padding: 50px;
-    }
-
-    .mas {
-      margin-top: 30px;
-      padding: 50px;
-    }
-
-    .funcionalidad {
-      margin-top: 30px;
-      padding: 50px;
-    }
-
-    .usabilidad {
-      margin-top: 30px;
-      padding: 50px;
-    }
-  }
-
+  .sectorproyectos{
+background-color: $rojo;
+display: flex;
+flex-direction: row;
+padding-left: 60px;
+padding: 40px;
+#proyectos{
+  color: $negroLavado;
+  opacity: 0.9;
+  padding: 40px;
+  font-size: 120px;
+  letter-spacing: 3.5px;
+  line-height: 100px;
+  text-align: left;
+}
   .proyectosnombres {
-    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    text-align: right;
+    justify-content: end;
 
     @keyframes animacion2 {
       0% {
-        box-shadow: 0 0 20px 0px $rojo;
+        box-shadow: 0 0 20px 0px $fondo;
         border: $rojo;
       }
 
       100% {
-        box-shadow: $rojo;
+        box-shadow: $fondo;
       }
     }
 
 
     @keyframes animacioncaja {
       0% {
-        box-shadow: $rojo;
+        box-shadow: $fondo;
       }
 
       100% {
-        box-shadow: 0 0 20px 0px $rojo;
+        box-shadow: 0 0 20px 0px $fondo;
         border-style: none;
       }
     }
-      .caja {
+
+    .caja {
+      text-decoration: none;
+      background-color: $fondo;
+      width: 230px;
+      height: 500px;
+      margin: 0 auto;
+      border: 1px solid $fondo;
+      padding: 20px;
+      border-radius: 20px;
+      margin: 10px;
+       flex-shrink: 0;
+      animation: animacion2 1s ease-in-out 0s 1 normal both;
+      &:hover {
+        animation: animacioncaja 1s ease-in-out 0s 1 normal both;
+
+      }
+
+      &:active {
+        color: $fondo;
+      }
+
+      .aua,
+      .cargadorya,
+      .digram,
+      .somos,
+      .ecorappi,
+      .hayrancho,
+      .keepgoing {
         text-decoration: none;
-        background-color: $rojo;
-        width: 250px;
-        margin: 0 auto;
-        border: 1px solid $fondo;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 10px;
-        animation: animacion2 1s ease-in-out 0s 1 normal both;
-
-
-        &:hover {
-          animation: animacioncaja 1s ease-in-out 0s 1 normal both;
-
-        }
-
-        &:active {
-          color: $fondo;
-        }
-
-        .aua,
-        .cargadorya,
-        .digram,
-        .somos,
-        .ecorappi,
-        .hayrancho,
-        .keepgoing {
-          text-decoration: none;
-          color: $negroPleno;
-          font-weight: bold;
-          display: inline-block;
-          text-align: center;
-          text-decoration: none;
-          font-size: 20px;
-          letter-spacing: 3.5;
-          color: $negroLavado;
-          margin-top: 10px;
-        }
-      }
-
-      .etiqueta {
-        color: $gris;
-        font-size: 12px;
-        font-weight: 300;
-        padding: 10px;
-      }
-
-      hr.lineacaja {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border: none;
-        border-top: 1px solid $gris;
-        width: 90%;
-      }
-
-      .bajadadeproyecto {
         color: $negroPleno;
+        font-weight: bold;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 3.5;
+        color: $negroLavado;
         margin-top: 10px;
-        font-size: 12px;
-        font-weight: 400;
-        text-align: left;
       }
-    
-  }
+    }
 
+    .etiqueta {
+      color: $gris;
+      font-size: 12px;
+      font-weight: 300;
+      padding: 10px;
+    }
+
+    hr.lineacaja {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-top: 1px solid $gris;
+      width: 90%;
+    }
+
+    .bajadadeproyecto {
+      color: $negroPleno;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: left;
+    }
+
+  }
+}
+  
   .formulario {
     max-width: 400px;
     margin: 0 auto;
