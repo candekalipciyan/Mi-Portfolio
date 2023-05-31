@@ -176,36 +176,31 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    background-color: #fafafa;
     opacity: 0.90;
-    padding-top: 15px;
-    padding-bottom: 15px; }
+    padding-top: 15px; }
     header nav .logo a {
       text-decoration: none;
-      color: #1E1E1D;
-      font-size: 13px;
-      letter-spacing: 3px; }
-      header nav .logo a:hover {
-        transition: 0.2s ease-in-out;
-        font-weight: 600; }
+      color: #fafafa;
+      opacity: 0.7;
+      font-size: 26px;
+      letter-spacing: 3px;
+      margin-right: 60px; }
     header nav .menu {
       text-align: center;
       display: flex;
       justify-content: space-between;
-      font-size: 12px;
+      text-transform: uppercase;
+      font-size: 20px;
       letter-spacing: 1.3px;
       list-style: none;
       margin-bottom: 0; }
       header nav .menu li a {
         text-decoration: none;
         margin-left: 30px;
-        color: #000000; }
+        color: #fafafa; }
         header nav .menu li a:hover {
           transition: 0.3s ease-in-out;
           font-weight: 600; }
-  header hr {
-    padding: 0;
-    margin: 0; }
 
 main {
   background-color: #1E1E1D; }
@@ -237,8 +232,7 @@ main {
     font-size: 17px;
     line-height: 30px;
     padding: 50px;
-    background-color: #fafafa;
-    color: #1E1E1D; }
+    color: #fafafa; }
     main .presentacion .hola {
       font-size: 46px;
       letter-spacing: 3.5px;
@@ -247,7 +241,7 @@ main {
       color: #EA542A; }
     main .presentacion .lineahola {
       margin-top: -20px;
-      border-color: #1E1E1D;
+      border-color: #fafafa;
       border-style: ridge;
       margin-bottom: 20px;
       width: 60%; }
@@ -312,10 +306,12 @@ main {
   background-color: #EA542A;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   padding-left: 60px;
-  padding: 40px; }
+  padding: 40px;
+  text-align: center; }
   .subtitulos .sectorproyectos #proyectos {
-    color: #1E1E1D;
+    color: #fafafa;
     opacity: 0.9;
     padding: 40px;
     font-size: 120px;
@@ -324,7 +320,6 @@ main {
     text-align: left; }
   .subtitulos .sectorproyectos .proyectosnombres {
     width: 800px;
-    height: 600px;
     text-align: right;
     justify-content: end; }
 
@@ -343,11 +338,11 @@ main {
     border-style: none; } }
     .subtitulos .sectorproyectos .proyectosnombres .caja {
       text-decoration: none;
-      background-color: #fafafa;
+      background-color: #1E1E1D;
       width: 230px;
       height: 500px;
       margin: 0 auto;
-      border: 1px solid #fafafa;
+      border: 1px solid #1E1E1D;
       padding: 20px;
       border-radius: 20px;
       margin: 10px;
@@ -365,14 +360,13 @@ main {
       .subtitulos .sectorproyectos .proyectosnombres .caja .hayrancho,
       .subtitulos .sectorproyectos .proyectosnombres .caja .keepgoing {
         text-decoration: none;
-        color: #000000;
+        color: #C7D4B9;
         font-weight: bold;
         display: inline-block;
         text-align: center;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 26px;
         letter-spacing: 3.5;
-        color: #1E1E1D;
         margin-top: 10px; }
     .subtitulos .sectorproyectos .proyectosnombres .etiqueta {
       color: #616060;
@@ -386,7 +380,7 @@ main {
       border-top: 1px solid #616060;
       width: 90%; }
     .subtitulos .sectorproyectos .proyectosnombres .bajadadeproyecto {
-      color: #000000;
+      color: #fafafa;
       margin-top: 10px;
       font-size: 12px;
       font-weight: 400;

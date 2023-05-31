@@ -38,8 +38,7 @@ text-transform: uppercase;
     font-size: 17px;
     line-height: 30px;
     padding: 50px;
-    background-color: $fondo;
-    color: $negroLavado;
+    color: $fondo;
 
     .hola {
       font-size: 46px;
@@ -51,7 +50,7 @@ text-transform: uppercase;
 
     .lineahola {
       margin-top: -20px;
-      border-color: $negroLavado;
+      border-color: $fondo;
       border-style: ridge;
       margin-bottom: 20px;
       width: 60%;
@@ -143,10 +142,12 @@ padding: 40px;
 background-color: $rojo;
 display: flex;
 flex-direction: row;
+justify-content: space-around;
 padding-left: 60px;
 padding: 40px;
+text-align: center;
 #proyectos{
-  color: $negroLavado;
+  color: $fondo;
   opacity: 0.9;
   padding: 40px;
   font-size: 120px;
@@ -156,7 +157,6 @@ padding: 40px;
 }
   .proyectosnombres {
     width: 800px;
-    height: 600px;
     text-align: right;
     justify-content: end;
 
@@ -185,11 +185,11 @@ padding: 40px;
 
     .caja {
       text-decoration: none;
-      background-color: $fondo;
+      background-color: $negroLavado;
       width: 230px;
       height: 500px;
       margin: 0 auto;
-      border: 1px solid $fondo;
+      border: 1px solid $negroLavado;
       padding: 20px;
       border-radius: 20px;
       margin: 10px;
@@ -212,14 +212,13 @@ padding: 40px;
       .hayrancho,
       .keepgoing {
         text-decoration: none;
-        color: $negroPleno;
+        color: $verde;
         font-weight: bold;
         display: inline-block;
         text-align: center;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 26px;
         letter-spacing: 3.5;
-        color: $negroLavado;
         margin-top: 10px;
       }
     }
@@ -240,7 +239,7 @@ padding: 40px;
     }
 
     .bajadadeproyecto {
-      color: $negroPleno;
+      color: $fondo;
       margin-top: 10px;
       font-size: 12px;
       font-weight: 400;
