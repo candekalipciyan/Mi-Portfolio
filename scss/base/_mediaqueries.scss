@@ -47,18 +47,22 @@
                     padding: 25px;
                 }
             }
+
+            .sectorproyectos {
+                flex-direction: column;
+            }
         }
-    }
 
-    .bajadaindividual {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+        .bajadaindividual {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
 
-    .flyer1 img,
-    .flyer2 img,
-    .flyer3 img {
-        height: 150px;
+        .flyer1 img,
+        .flyer2 img,
+        .flyer3 img {
+            height: 150px;
+        }
     }
 }
 
@@ -185,9 +189,9 @@
                     margin-bottom: 20px;
                 }
 
+            }
         }
     }
-}
 
     // FOOTER
 
@@ -247,74 +251,76 @@
 
     main {
 
-            .imagenes {
+        .imagenes {
+            img {
+                height: 250px;
+            }
+        }
+    }
+
+    .presentacion {
+
+
+        p {
+            line-height: 25px;
+        }
+    }
+
+    .subtitulos {
+        h3 {
+            padding: 40px;
+            font-size: 26px;
+        }
+
+        .textosobremi {
+            flex-direction: column;
+
+            .fotoyo {
                 img {
-                    height: 250px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    height: 150px;
+                }
+            }
+
+            .p3 {
+                .p3::-webkit-scrollbar-thumb {
+                    background-color: #3b3a3a;
                 }
             }
         }
 
-        .presentacion {
+        .palabrassobremi {
+            font-size: 13px;
+            letter-spacing: 0;
 
+            .estetica {
+                padding: 10px;
+            }
 
-            p {
-                line-height: 25px;
+            .mas {
+                padding: 10px;
+            }
+
+            .funcionalidad {
+                padding: 10px;
+            }
+
+            .usabilidad {
+                padding: 10px;
             }
         }
 
-        .subtitulos {
-            h3 {
-                padding: 40px;
-                font-size: 26px;
+        .proyectosnombres {
+            .caja {
+                width: 150px;
+                padding: 10px;
             }
 
-            .textosobremi {
-                flex-direction: column;
-                .fotoyo {
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        height: 150px;
-                    }
-                }
-
-                .p3 {
-                    .p3::-webkit-scrollbar-thumb {
-                        background-color: #3b3a3a;
-                    }
-                }
-            }
-
-            .palabrassobremi {
-                font-size: 13px;
-                letter-spacing: 0;
-
-                .estetica {
-                    padding: 10px;
-                }
-
-                .mas {
-                    padding: 10px;
-                }
-
-                .funcionalidad {
-                    padding: 10px;
-                }
-
-                .usabilidad {
-                    padding: 10px;
-                }
-            }
-
-            .proyectosnombres {
-                .caja {
-                    width: 150px;
-                    padding: 10px;
-                }
-
-            }
         }
+    }
+
     .formulario {
 
         button {
@@ -323,18 +329,18 @@
         }
     }
 
-//FOOTER
+    //FOOTER
 
-footer {
-    opacity: 0.75;
-}
-
-
-        h4 {
-            font-size: 30px;
-        }
-    
-        .fototickets {
-            width: 40%;
-        }
+    footer {
+        opacity: 0.75;
     }
+
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .fototickets {
+        width: 40%;
+    }
+}

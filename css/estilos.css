@@ -342,11 +342,8 @@ main p {
       width: 230px;
       height: 500px;
       margin: 0 auto;
-      border: 1px solid #1E1E1D;
-      padding: 20px;
       border-radius: 20px;
       margin: 10px;
-      flex-shrink: 0;
       animation: animacion2 1s ease-in-out 0s 1 normal both; }
       .subtitulos .sectorproyectos .proyectosnombres .caja:hover {
         animation: animacioncaja 1s ease-in-out 0s 1 normal both; }
@@ -354,8 +351,7 @@ main p {
         color: #fafafa; }
       .subtitulos .sectorproyectos .proyectosnombres .caja .portada {
         width: 100%;
-        height: 100%;
-        object-fit: cover; }
+        height: 100%; }
       .subtitulos .sectorproyectos .proyectosnombres .caja .aua,
       .subtitulos .sectorproyectos .proyectosnombres .caja .cargadorya,
       .subtitulos .sectorproyectos .proyectosnombres .caja .digram,
@@ -363,9 +359,11 @@ main p {
       .subtitulos .sectorproyectos .proyectosnombres .caja .ecorappi,
       .subtitulos .sectorproyectos .proyectosnombres .caja .hayrancho,
       .subtitulos .sectorproyectos .proyectosnombres .caja .keepgoing {
+        border-radius: 10px;
+        border: 1px solid #C7D4B9;
+        padding: 5px 10px;
         text-decoration: none;
         color: #C7D4B9;
-        font-weight: bold;
         display: inline-block;
         text-align: center;
         text-decoration: none;
@@ -384,6 +382,7 @@ main p {
       border-top: 1px solid #616060;
       width: 90%; }
     .subtitulos .sectorproyectos .proyectosnombres .bajadadeproyecto {
+      padding: 20px;
       color: #fafafa;
       margin-top: 10px;
       font-size: 12px;
@@ -598,12 +597,14 @@ footer {
       padding: 25px; }
     main .subtitulos .palabrassobremi .usabilidad {
       padding: 25px; }
-  .bajadaindividual {
+  main .subtitulos .sectorproyectos {
+    flex-direction: column; }
+  main .bajadaindividual {
     padding-left: 100px;
     padding-right: 100px; }
-  .flyer1 img,
-  .flyer2 img,
-  .flyer3 img {
+  main .flyer1 img,
+  main .flyer2 img,
+  main .flyer3 img {
     height: 150px; } }
 
 @media (max-width: 700px) {
