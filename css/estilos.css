@@ -176,21 +176,22 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     opacity: 0.90;
     padding-top: 15px; }
     header nav .logo a {
       text-decoration: none;
       color: #fafafa;
       opacity: 0.7;
-      font-size: 26px;
+      font-size: 40px;
       letter-spacing: 3px;
-      margin-right: 60px; }
+      font-weight: 800; }
     header nav .menu {
       text-align: center;
       display: flex;
       justify-content: space-between;
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 16px;
       letter-spacing: 1.3px;
       list-style: none;
       margin-bottom: 0; }
@@ -319,7 +320,7 @@ main {
     line-height: 100px;
     text-align: left; }
   .subtitulos .sectorproyectos .proyectosnombres {
-    width: 800px;
+    width: 60%;
     text-align: right;
     justify-content: end; }
 
