@@ -2,8 +2,12 @@ main {
   .tituloyfoto {
     display: flex;
     flex-direction: row;
+    background-image: url("../imagenes/head-01.png");
+    background-repeat: no-repeat;
+    background-position: right;
     margin: 100;
-    padding: 120px;
+    padding-top: 200px;
+    padding-bottom: 400px;
     margin-right: 0;
     padding-right: 0;
     padding-bottom: 180px;
@@ -13,7 +17,7 @@ main {
       color: $fondo;
       padding-right: 30px;
       text-transform: uppercase;
-      font-size: 50px;
+      font-size: 40px;
       margin-bottom: -150px;
       letter-spacing: 0px;
       line-height: 80px;
@@ -75,6 +79,7 @@ main {
 .subtitulos {
   .sectorsobremi {
     background-color: $lila;
+    position: relative;
     padding: 40px;
 
     #sobremi {
@@ -86,9 +91,12 @@ main {
       margin-bottom: -100px;
       line-height: 100px;
       text-align: left;
+      position: absolute;
+      z-index: 1;
     }
 
     .textosobremi {
+      z-index: 2;
       .fotoyo {
         img {
           width: 100%;
@@ -255,23 +263,28 @@ main {
     padding: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-  #contacto{
-    color: $verde;
-    opacity: 0.9;
-    font-size: 120px;
-    letter-spacing: 3.5px;
-    line-height: 100px;
-    text-align: right;
+    justify-content: center;
+    background-image: url("../imagenes/semicirculo-04.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    #contacto {
+      color: $verde;
+      opacity: 0.9;
+      font-size: 120px;
+      letter-spacing: 3.5px;
+      line-height: 100px;
+      text-align: right;
+    }
   }
-}
 
   .formulario {
     max-width: 400px;
     margin: 0;
-    padding: 20px;
+    padding-left: 30px;
     border-radius: 10px;
     padding-bottom: 20px;
+    text-align: center;
 
     input {
       width: 100%;
