@@ -196,7 +196,7 @@ header {
       margin-bottom: 0; }
       header nav .menu li a {
         text-decoration: none;
-        margin-left: 30px;
+        margin-left: 35px;
         color: #fafafa; }
         header nav .menu li a:hover {
           transition: 0.3s ease-in-out;
@@ -311,8 +311,7 @@ main p {
   padding: 40px;
   text-align: center; }
   .subtitulos .sectorproyectos #proyectos {
-    color: #fafafa;
-    opacity: 0.9;
+    color: #CFC3E1;
     padding: 40px;
     font-size: 120px;
     letter-spacing: 3.5px;
@@ -320,8 +319,7 @@ main p {
     text-align: left; }
   .subtitulos .sectorproyectos .proyectosnombres {
     width: 60%;
-    text-align: right;
-    justify-content: end; }
+    text-align: right; }
 
 @keyframes animacion2 {
   0% {
@@ -341,8 +339,7 @@ main p {
       background-color: #1E1E1D;
       width: 230px;
       height: 500px;
-      margin: 0 auto;
-      border-radius: 20px;
+      border-radius: 30px;
       margin: 10px;
       animation: animacion2 1s ease-in-out 0s 1 normal both; }
       .subtitulos .sectorproyectos .proyectosnombres .caja:hover {
@@ -364,20 +361,17 @@ main p {
         padding: 5px 10px;
         text-decoration: none;
         color: #C7D4B9;
-        display: inline-block;
-        text-align: center;
-        text-decoration: none;
         font-size: 26px;
         letter-spacing: 3.5;
         margin-top: 10px; }
     .subtitulos .sectorproyectos .proyectosnombres .etiqueta {
-      color: #616060;
+      color: #aeacac;
       font-size: 12px;
       font-weight: 300;
       padding: 10px; }
     .subtitulos .sectorproyectos .proyectosnombres hr.lineacaja {
       margin-top: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       border: none;
       border-top: 1px solid #616060;
       width: 90%; }
@@ -389,16 +383,29 @@ main p {
       font-weight: 400;
       text-align: left; }
 
+.subtitulos .contactoyimg {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .subtitulos .contactoyimg #contacto {
+    color: #C7D4B9;
+    opacity: 0.9;
+    font-size: 120px;
+    letter-spacing: 3.5px;
+    line-height: 100px;
+    text-align: right; }
+
 .subtitulos .formulario {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0;
   padding: 20px;
-  background-color: #fafafa;
   border-radius: 10px;
   padding-bottom: 20px; }
   .subtitulos .formulario input {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #1E1E1D;
+    color: #fafafa;
     padding: 8px;
     border: 1px solid #CFC3E1;
     border-radius: 4px;
@@ -408,7 +415,8 @@ main p {
     margin-bottom: 10px; }
   .subtitulos .formulario textarea {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #1E1E1D;
+    color: #fafafa;
     padding: 8px;
     border: 1px solid #CFC3E1;
     border-radius: 4px;
@@ -423,14 +431,15 @@ main p {
     padding: 11px 22px 11px 22px;
     border-radius: 6px;
     border-style: ridge;
-    background-color: #fafafa;
-    color: #1E1E1D;
+    background-color: #1E1E1D;
+    color: #fafafa;
     border-color: #CFC3E1;
     cursor: pointer; }
     .subtitulos .formulario button:hover {
       transition: 0.5s ease-in-out;
-      color: #fafafa;
-      background-color: #1E1E1D; }
+      color: #1E1E1D;
+      background-color: #C7D4B9;
+      border-color: #C7D4B9; }
     .subtitulos .formulario button:active {
       transition: 0.1s ease-in-out;
       background-color: #fafafa; }
@@ -738,3 +747,9 @@ footer {
     font-size: 30px; }
   .fototickets {
     width: 40%; } }
+
+@media (max-width: 62rem) {
+  .slider-item-reveal {
+    --swiffy-slider-item-reveal: 17rem; }
+  .proyectonombres {
+    width: 100%; } }

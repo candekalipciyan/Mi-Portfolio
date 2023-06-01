@@ -344,3 +344,14 @@
         width: 40%;
     }
 }
+
+
+@media (max-width: 62rem){
+.slider-item-reveal {
+--swiffy-slider-item-reveal: 17rem;
+}
+
+.proyectonombres{
+width:100%
+}
+}

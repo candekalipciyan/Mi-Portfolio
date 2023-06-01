@@ -148,8 +148,7 @@ main {
     text-align: center;
 
     #proyectos {
-      color: $fondo;
-      opacity: 0.9;
+      color: $lila;
       padding: 40px;
       font-size: 120px;
       letter-spacing: 3.5px;
@@ -160,7 +159,6 @@ main {
     .proyectosnombres {
       width: 60%;
       text-align: right;
-      justify-content: end;
 
       @keyframes animacion2 {
         0% {
@@ -190,8 +188,7 @@ main {
         background-color: $negroLavado;
         width: 230px;
         height: 500px;
-        margin: 0 auto;
-        border-radius: 20px;
+        border-radius: 30px;
         margin: 10px;
         animation: animacion2 1s ease-in-out 0s 1 normal both;
 
@@ -221,9 +218,6 @@ main {
           padding: 5px 10px;
           text-decoration: none;
           color: $verde;
-          display: inline-block;
-          text-align: center;
-          text-decoration: none;
           font-size: 26px;
           letter-spacing: 3.5;
           margin-top: 10px;
@@ -231,7 +225,7 @@ main {
       }
 
       .etiqueta {
-        color: $gris;
+        color: $grisClaro;
         font-size: 12px;
         font-weight: 300;
         padding: 10px;
@@ -239,7 +233,7 @@ main {
 
       hr.lineacaja {
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border: none;
         border-top: 1px solid $gris;
         width: 90%;
@@ -257,17 +251,32 @@ main {
     }
   }
 
+  .contactoyimg {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  #contacto{
+    color: $verde;
+    opacity: 0.9;
+    font-size: 120px;
+    letter-spacing: 3.5px;
+    line-height: 100px;
+    text-align: right;
+  }
+}
+
   .formulario {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
-    background-color: $fondo;
     border-radius: 10px;
     padding-bottom: 20px;
 
     input {
       width: 100%;
-      background-color: $fondo;
+      background-color: $negroLavado;
+      color: $fondo;
       padding: 8px;
       border: 1px solid $lila;
       border-radius: 4px;
@@ -279,7 +288,8 @@ main {
 
     textarea {
       width: 100%;
-      background-color: $fondo;
+      background-color: $negroLavado;
+      color: $fondo;
       padding: 8px;
       border: 1px solid $lila;
       border-radius: 4px;
@@ -296,15 +306,16 @@ main {
       padding: 11px 22px 11px 22px;
       border-radius: 6px;
       border-style: ridge;
-      background-color: $fondo;
-      color: $negroLavado;
+      background-color: $negroLavado;
+      color: $fondo;
       border-color: $lila;
       cursor: pointer;
 
       &:hover {
         transition: 0.5s ease-in-out;
-        color: $fondo;
-        background-color: $negroLavado;
+        color: $negroLavado;
+        background-color: $verde;
+        border-color: $verde;
       }
 
       &:active {
