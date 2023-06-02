@@ -277,21 +277,21 @@ main p {
     text-align: left;
     position: absolute;
     z-index: 1; }
-  .subtitulos .sectorsobremi .textosobremi {
+  .subtitulos .sectorsobremi .textosobremi .fotoyo img {
+    width: 100%;
     z-index: 2; }
-    .subtitulos .sectorsobremi .textosobremi .fotoyo img {
-      width: 100%; }
-    .subtitulos .sectorsobremi .textosobremi .p3 {
-      font-size: 14px;
-      color: #1E1E1D;
-      width: 600px;
-      height: 300px;
-      overflow: auto;
-      padding: 20px;
-      padding-top: 10px;
-      line-height: 20px;
-      border-radius: 15px;
-      box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
+  .subtitulos .sectorsobremi .textosobremi .p3 {
+    z-index: 2;
+    font-size: 14px;
+    color: #1E1E1D;
+    width: 600px;
+    height: 300px;
+    overflow: auto;
+    padding: 20px;
+    padding-top: 10px;
+    line-height: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0px -8px 20px -5px rgba(0, 0, 0, 0.1); }
   .subtitulos .sectorsobremi .palabrassobremi {
     color: #fafafa;
     font-size: 20px;
@@ -657,31 +657,31 @@ footer {
     width: 70%; }
   main .presentacion p {
     font-size: 14px; }
-  main .subtitulos .textosobremi .fotoyo img {
+  main .subtitulos .sectorsobremi .textosobremi .fotoyo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     height: 150px; }
-  main .subtitulos .textosobremi .p3 {
+  main .subtitulos .sectorsobremi .textosobremi .p3 {
     margin-top: 10px;
     width: 300px;
     height: 200px; }
-  main .subtitulos .palabrassobremi {
+  main .subtitulos .sectorsobremi .palabrassobremi {
     font-size: 14px;
     letter-spacing: 1px; }
-    main .subtitulos .palabrassobremi .estetica {
+    main .subtitulos .sectorsobremi .palabrassobremi .estetica {
       padding: 16px;
       margin-top: 50px;
       margin-bottom: 50px; }
-    main .subtitulos .palabrassobremi .mas {
+    main .subtitulos .sectorsobremi .palabrassobremi .mas {
       padding: 16px;
       margin-top: 50px;
       margin-bottom: 50px; }
-    main .subtitulos .palabrassobremi .funcionalidad {
+    main .subtitulos .sectorsobremi .palabrassobremi .funcionalidad {
       padding: 16px;
       margin-top: 50px;
       margin-bottom: 50px; }
-    main .subtitulos .palabrassobremi .usabilidad {
+    main .subtitulos .sectorsobremi .palabrassobremi .usabilidad {
       padding: 16px;
       margin-top: 50px;
       margin-bottom: 50px; }
