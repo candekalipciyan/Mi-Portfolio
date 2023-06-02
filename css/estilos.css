@@ -60,6 +60,9 @@ body {
   font-weight: 400;
   background-color: #1E1E1D; }
 
+.cuerpoproyecto {
+  background-color: #fafafa; }
+
 .p3::-webkit-scrollbar {
   background-color: #CFC3E1;
   width: 7px; }
@@ -90,8 +93,9 @@ body {
 
 h4 {
   margin: 0;
-  font-weight: 200;
-  font-size: 36px;
+  font-weight: 800;
+  color: #EA542A;
+  font-size: 50px;
   letter-spacing: 3.5px;
   font-weight: 400;
   padding-top: 150px;
