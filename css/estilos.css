@@ -206,57 +206,58 @@ header {
           transition: 0.3s ease-in-out;
           font-weight: 600; }
 
-main .tituloyfoto {
-  display: flex;
-  flex-direction: row;
-  background-image: url("../imagenes/head-01.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  margin: 100;
-  padding-top: 200px;
-  padding-bottom: 400px;
-  margin-right: 0;
-  padding-right: 0;
-  padding-bottom: 180px; }
-  main .tituloyfoto .titulo {
-    text-align: center;
-    color: #fafafa;
-    padding-right: 30px;
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-bottom: -150px;
-    letter-spacing: 0px;
-    line-height: 80px;
-    text-align: left; }
-    main .tituloyfoto .titulo h1 {
-      margin-bottom: -50px; }
-    main .tituloyfoto .titulo h2 {
+main {
+  padding-top: 50px; }
+  main .tituloyfoto {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../imagenes/head-01.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 100;
+    padding-top: 200px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 120px; }
+    main .tituloyfoto .titulo {
+      text-align: center;
+      padding-right: 30px;
+      padding-left: 100px;
+      text-transform: uppercase;
+      font-size: 48px;
+      letter-spacing: 0px;
+      line-height: 80px;
+      text-align: left;
+      background-color: #1E1E1D;
+      opacity: 0.8;
+      border-radius: 20px; }
+      main .tituloyfoto .titulo h1 {
+        color: #fafafa; }
+      main .tituloyfoto .titulo h2 {
+        color: #EA542A; }
+  main .img {
+    text-align: right; }
+  main .presentacion {
+    font-size: 17px;
+    line-height: 30px;
+    padding: 50px;
+    color: #fafafa; }
+    main .presentacion .hola {
+      font-size: 46px;
+      letter-spacing: 3.5px;
+      padding: 30px;
+      margin-bottom: 30px;
       color: #EA542A; }
-  main .tituloyfoto .imagenes img {
-    width: 100%; }
-
-main .presentacion {
-  font-size: 17px;
-  line-height: 30px;
-  padding: 50px;
-  color: #fafafa; }
-  main .presentacion .hola {
-    font-size: 46px;
-    letter-spacing: 3.5px;
-    padding: 30px;
-    margin-bottom: 30px;
-    color: #EA542A; }
-  main .presentacion .lineahola {
-    margin-top: -20px;
-    border-color: #fafafa;
-    border-style: ridge;
-    margin-bottom: 20px;
-    width: 60%; }
-
-main p {
-  margin-bottom: 45px;
-  width: 50%;
-  text-align: center; }
+    main .presentacion .lineahola {
+      margin-top: -20px;
+      border-color: #fafafa;
+      border-style: ridge;
+      margin-bottom: 20px;
+      width: 60%; }
+  main p {
+    margin-bottom: 45px;
+    width: 50%;
+    text-align: center; }
 
 .disciplinas {
   color: #C7D4B9;
@@ -276,16 +277,11 @@ main p {
     padding: 40px;
     font-size: 120px;
     letter-spacing: 3.5px;
-    margin-bottom: -100px;
     line-height: 100px;
-    text-align: left;
-    position: absolute;
-    z-index: 1; }
+    text-align: center; }
   .subtitulos .sectorsobremi .textosobremi .fotoyo img {
-    width: 100%;
-    z-index: 2; }
+    width: 100%; }
   .subtitulos .sectorsobremi .textosobremi .p3 {
-    z-index: 2;
     font-size: 14px;
     color: #1E1E1D;
     width: 600px;
@@ -548,8 +544,8 @@ footer {
   padding: 10px;
   letter-spacing: 4px;
   background-color: #1E1E1D;
-  opacity: 0.4;
-  bottom: 0; }
+  opacity: 0.6;
+  margin-bottom: 20px; }
   footer:hover {
     transition: 0.2s ease-in-out;
     opacity: 1; }
@@ -560,8 +556,8 @@ footer {
     footer .externos .nombrefooter {
       text-align: center;
       grid-area: nombrefooter;
-      margin-bottom: 5px;
-      color: #616060; }
+      margin-bottom: 10px;
+      color: #CFC3E1; }
     footer .externos .logoli {
       display: flex;
       justify-content: center;
@@ -592,7 +588,7 @@ footer {
   align-self: center; }
   .logobe img {
     opacity: 0.7;
-    width: 22px; }
+    width: 27px; }
     .logobe img:hover {
       transition: 0.2s ease-in-out;
       opacity: 1; }
