@@ -549,7 +549,6 @@ footer {
   letter-spacing: 4px;
   background-color: #1E1E1D;
   opacity: 0.4;
-  position: sticky;
   bottom: 0; }
   footer:hover {
     transition: 0.2s ease-in-out;
