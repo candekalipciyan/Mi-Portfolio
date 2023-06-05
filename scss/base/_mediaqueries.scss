@@ -251,16 +251,13 @@
     // MAIN
 
     main {
-
-        .imagenes {
-            img {
-                height: 250px;
-            }
+.titulo{
+        h1, h2{
+            font-size: 48px;
         }
+    }
 
         .presentacion {
-
-
             p {
                 line-height: 25px;
             }
@@ -332,18 +329,19 @@
 
                 }
             }
-        }
+       
 
         .contactoyimg {
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
 
             #contacto {
                 font-size: 55px;
-
+                text-align: center;
+                line-height: 50px;
             }
         }
-
+    }
         .formulario {
 
             button {
@@ -367,16 +365,5 @@
 
     .fototickets {
         width: 40%;
-    }
-}
-
-
-@media (max-width: 62rem) {
-    .slider-item-reveal {
-        --swiffy-slider-item-reveal: 17rem;
-    }
-
-    .proyectonombres {
-        width: 100%
     }
 }

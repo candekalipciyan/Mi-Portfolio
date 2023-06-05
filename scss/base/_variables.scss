@@ -20,23 +20,23 @@ $weight:
 600;
 
 .disciplinas{
-    font-weight: index($weight, 1);
+    font-weight: nth($weight, 1);
 }
 
 h1, h2, .presentacion{
-    font-weight: index($weight, 2);
+    font-weight: nth($weight, 2);
 }
 
 .menu, .p3, h3, .aua, .cargadorya, .digram, .somos, .ecorappi, .hayrancho, .keepgoing, .mailfooter{
-    font-weight: index($weight, 3);
+    font-weight: nth($weight, 3);
 }
 
 .logo a, .mailfooter:hover{
-    font-weight: index($weight, 4);
+    font-weight: nth($weight, 4);
 }
 
 .hola, .palabrassobremi{
-    font-weight: index($weight, 5);
+    font-weight: nth($weight, 5);
 }
 
 
