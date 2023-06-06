@@ -4,13 +4,7 @@ footer {
   padding: 10px;
   letter-spacing: 4px;
   background-color: $negroLavado;
-  opacity: 0.6;
   margin-bottom: 20px;
-
-  &:hover {
-    transition: 0.2s ease-in-out;
-    opacity: 1;
-  }
 
   .externos {
     display: grid;
