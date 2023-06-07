@@ -65,7 +65,6 @@ h1, h2, .presentacion {
 
 header {
   font-family: 'Montserrat', sans-serif;
-  background-color: #1E1E1D;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -294,7 +293,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin-top: 50px;
+  padding-top: 130px;
   background-image: url("../imagenes/semicirculo-04.png");
   background-repeat: no-repeat;
   background-position: right; }
@@ -303,13 +302,14 @@ main {
     opacity: 0.9;
     font-size: 120px;
     letter-spacing: 3.5px;
-    line-height: 100px;
+    line-height: 130px;
     text-align: right; }
 
 .subtitulos .formulario {
   max-width: 400px;
   margin: 0;
   padding-left: 30px;
+  padding-top: 30px;
   border-radius: 10px;
   padding-bottom: 20px;
   text-align: center; }
