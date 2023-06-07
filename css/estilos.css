@@ -63,131 +63,6 @@ h1, h2, .presentacion {
   align-items: center;
   text-align: center; }
 
-* {
-  margin: 0px;
-  padding: 0px; }
-
-html {
-  scroll-behavior: smooth; }
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  background-color: #fafafa; }
-
-.colorfondo {
-  color: #1E1E1D !important; }
-
-.pagina {
-  background-color: #fafafa; }
-
-.cuerpoproyecto {
-  background-color: #fafafa; }
-
-.p3::-webkit-scrollbar {
-  background-color: #CFC3E1;
-  width: 7px; }
-
-.p3::-webkit-scrollbar-thumb {
-  background-color: #b0a2c4;
-  border-radius: 10px; }
-
-.p3:hover::-webkit-scrollbar-thumb {
-  background-color: #9985b7; }
-
-.p3::-webkit-scrollbar-button {
-  display: none; }
-
-.scrollwebsomos::-webkit-scrollbar,
-.scrollappsomos::-webkit-scrollbar {
-  background-color: #ffffff;
-  width: 7px; }
-
-.scrollwebsomos::-webkit-scrollbar-thumb,
-.scrollappsomos::-webkit-scrollbar-thumb {
-  background-color: #3e3e3e;
-  border-radius: 10px; }
-
-.scrollwebsomos::-webkit-scrollbar-button,
-.scrollappsomos::-webkit-scrollbar-button {
-  display: none; }
-
-h4 {
-  margin: 0;
-  font-weight: 800;
-  color: #EA542A;
-  font-size: 50px;
-  letter-spacing: 3.5px;
-  font-weight: 400;
-  padding-top: 150px;
-  padding-bottom: 0px; }
-
-.fecha {
-  color: #676767;
-  font-weight: 200;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 15px;
-  padding-top: 150px; }
-
-.tipo {
-  color: #676767;
-  margin: 0;
-  margin-top: -5px;
-  font-size: 14px; }
-
-.bajadaindividual {
-  margin-top: 100px;
-  width: 800px;
-  text-align: center; }
-
-.fotofinal {
-  border-color: #020202;
-  border-style: ridge;
-  padding: 20px;
-  padding-bottom: 200px;
-  margin-bottom: 20px; }
-
-.piefinal {
-  font-size: 12px;
-  font-weight: 400;
-  margin: 40px; }
-
-.prototipo {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 400;
-  color: #3152a8;
-  margin: 20px; }
-
-.prototipo:hover {
-  font-weight: 500; }
-
-.carrouselPadre {
-  width: 60%; }
-  .carrouselPadre .dganchocarrousel {
-    width: 100%;
-    display: flex;
-    justify-content: center; }
-  .carrouselPadre .carrouselizquierda {
-    display: flex;
-    justify-content: end;
-    margin: 0;
-    padding: 0;
-    width: 100%; }
-  .carrouselPadre .carrousemedio {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 100%; }
-  .carrouselPadre .carrouselderecha {
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    padding: 0;
-    width: 100%; }
-
 header {
   font-family: 'Montserrat', sans-serif;
   background-color: #1E1E1D;
@@ -617,6 +492,131 @@ footer {
     .logobe img:active {
       transition: 0s;
       opacity: 0.5; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background-color: #fafafa; }
+
+.colorfondo {
+  color: #1E1E1D !important; }
+
+.pagina {
+  background-color: #fafafa; }
+
+.cuerpoproyecto {
+  background-color: #fafafa; }
+
+.p3::-webkit-scrollbar {
+  background-color: #CFC3E1;
+  width: 7px; }
+
+.p3::-webkit-scrollbar-thumb {
+  background-color: #b0a2c4;
+  border-radius: 10px; }
+
+.p3:hover::-webkit-scrollbar-thumb {
+  background-color: #9985b7; }
+
+.p3::-webkit-scrollbar-button {
+  display: none; }
+
+.scrollwebsomos::-webkit-scrollbar,
+.scrollappsomos::-webkit-scrollbar {
+  background-color: #ffffff;
+  width: 7px; }
+
+.scrollwebsomos::-webkit-scrollbar-thumb,
+.scrollappsomos::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e;
+  border-radius: 10px; }
+
+.scrollwebsomos::-webkit-scrollbar-button,
+.scrollappsomos::-webkit-scrollbar-button {
+  display: none; }
+
+h4 {
+  margin: 0;
+  font-weight: 800;
+  color: #EA542A;
+  font-size: 50px;
+  letter-spacing: 3.5px;
+  font-weight: 400;
+  padding-top: 150px;
+  padding-bottom: 0px; }
+
+.fecha {
+  color: #676767;
+  font-weight: 200;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 150px; }
+
+.tipo {
+  color: #676767;
+  margin: 0;
+  margin-top: -5px;
+  font-size: 14px; }
+
+.bajadaindividual {
+  margin-top: 100px;
+  width: 800px;
+  text-align: center; }
+
+.fotofinal {
+  border-color: #020202;
+  border-style: ridge;
+  padding: 20px;
+  padding-bottom: 200px;
+  margin-bottom: 20px; }
+
+.piefinal {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 40px; }
+
+.prototipo {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3152a8;
+  margin: 20px; }
+
+.prototipo:hover {
+  font-weight: 500; }
+
+.carrouselPadre {
+  width: 60%; }
+  .carrouselPadre .dganchocarrousel {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .carrouselPadre .carrouselizquierda {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+  .carrouselPadre .carrousemedio {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+  .carrouselPadre .carrouselderecha {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
 
 @media (max-width: 1100px) {
   main .tituloyfoto {
