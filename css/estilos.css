@@ -118,7 +118,6 @@ main {
     padding-right: 0;
     padding-bottom: 120px; }
     main .tituloyfoto .titulo {
-      text-align: center;
       padding-right: 30px;
       padding-left: 100px;
       text-transform: uppercase;
@@ -133,9 +132,10 @@ main {
         color: #fafafa; }
       main .tituloyfoto .titulo h2 {
         color: #EA542A; }
-  main .img {
+  main .fotomouse {
     text-align: right;
-    width: 20px; }
+    width: 70px;
+    margin-left: 50px; }
   main .presentacion {
     font-size: 17px;
     line-height: 30px;
@@ -443,7 +443,7 @@ footer {
   padding: 10px;
   letter-spacing: 4px;
   background-color: #1E1E1D;
-  margin-bottom: 20px; }
+  padding-bottom: 20px; }
   footer .externos {
     display: grid;
     align-items: center;
@@ -739,8 +739,15 @@ h4 {
   margin: 5px; }
 
 @media (max-width: 500px) {
-  main .titulo h1, main .titulo h2 {
-    font-size: 48px; }
+  main .tituloyfoto .titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+    main .tituloyfoto .titulo h1 {
+      font-size: 48px;
+      line-height: 50px; }
+    main .tituloyfoto .titulo h2 {
+      font-size: 48px; }
   main .presentacion p {
     line-height: 25px; }
   main .subtitulos .sectorsobremi #sobremi {
@@ -773,9 +780,10 @@ h4 {
       font-size: 60px;
       text-align: center;
       line-height: 55px; }
-    main .subtitulos .sectorproyectos .proyectosnombres .caja {
-      width: 150px;
-      padding: 10px; }
+    main .subtitulos .sectorproyectos .proyectosnombres {
+      width: 90%; }
+      main .subtitulos .sectorproyectos .proyectosnombres .caja {
+        padding: 10px; }
   main .subtitulos .contactoyimg {
     flex-direction: column;
     justify-content: center; }
@@ -786,8 +794,6 @@ h4 {
   main .formulario button {
     font-size: 14px;
     padding: 10px 20px 10px 20px; }
-  footer {
-    opacity: 0.75; }
   h4 {
     font-size: 30px; }
   .fototickets {

@@ -14,7 +14,6 @@ main {
     padding-bottom: 120px;
 
     .titulo {
-      text-align: center;
       padding-right: 30px;
       padding-left: 100px;
       text-transform: uppercase;
@@ -33,9 +32,10 @@ main {
       }
     }
   }
-  .img {
+  .fotomouse {
     text-align: right;
-    width: 20px;
+    width: 70px;
+margin-left: 50px;
   }
 
   .presentacion {
