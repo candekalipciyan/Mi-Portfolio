@@ -504,7 +504,7 @@ body {
   background-color: #fafafa; }
 
 .colorfondo {
-  color: #1E1E1D !important; }
+  color: #1E1E1D; }
 
 .pagina {
   background-color: #fafafa; }
@@ -750,30 +750,34 @@ h4 {
       font-size: 48px; }
   main .presentacion p {
     line-height: 25px; }
-  main .subtitulos .sectorsobremi #sobremi {
-    padding: 40px;
-    font-size: 40px; }
-  main .subtitulos .sectorsobremi .textosobremi {
-    flex-direction: column;
-    width: 150px; }
-    main .subtitulos .sectorsobremi .textosobremi .fotoyo img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      height: 150px; }
-    main .subtitulos .sectorsobremi .textosobremi .p3 .p3::-webkit-scrollbar-thumb {
-      background-color: #3b3a3a; }
-  main .subtitulos .sectorsobremi .palabrassobremi {
-    font-size: 13px;
-    letter-spacing: 0; }
-    main .subtitulos .sectorsobremi .palabrassobremi .estetica {
-      padding: 10px; }
-    main .subtitulos .sectorsobremi .palabrassobremi .mas {
-      padding: 10px; }
-    main .subtitulos .sectorsobremi .palabrassobremi .funcionalidad {
-      padding: 10px; }
-    main .subtitulos .sectorsobremi .palabrassobremi .usabilidad {
-      padding: 10px; }
+  main .subtitulos .sectorsobremi {
+    justify-content: center;
+    align-items: center; }
+    main .subtitulos .sectorsobremi #sobremi {
+      padding: 40px;
+      font-size: 40px; }
+    main .subtitulos .sectorsobremi .textosobremi {
+      flex-direction: column; }
+      main .subtitulos .sectorsobremi .textosobremi .fotoyo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        height: 150px; }
+      main .subtitulos .sectorsobremi .textosobremi .p3 {
+        width: 300px; }
+        main .subtitulos .sectorsobremi .textosobremi .p3 .p3::-webkit-scrollbar-thumb {
+          background-color: #3b3a3a; }
+    main .subtitulos .sectorsobremi .palabrassobremi {
+      font-size: 13px;
+      letter-spacing: 0; }
+      main .subtitulos .sectorsobremi .palabrassobremi .estetica {
+        padding: 10px; }
+      main .subtitulos .sectorsobremi .palabrassobremi .mas {
+        padding: 10px; }
+      main .subtitulos .sectorsobremi .palabrassobremi .funcionalidad {
+        padding: 10px; }
+      main .subtitulos .sectorsobremi .palabrassobremi .usabilidad {
+        padding: 10px; }
   main .subtitulos .sectorproyectos {
     flex-direction: column; }
     main .subtitulos .sectorproyectos #proyectos {
