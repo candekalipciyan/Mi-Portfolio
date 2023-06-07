@@ -503,8 +503,11 @@ body {
   font-weight: 400;
   background-color: #fafafa; }
 
-.colorfondo {
+.colorfondo nav ul li a, .colorfondo nav .logo a {
   color: #1E1E1D; }
+
+.colorfondo {
+  background-color: #fafafa; }
 
 .pagina {
   background-color: #fafafa; }

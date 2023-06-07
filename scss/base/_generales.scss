@@ -15,8 +15,12 @@ body {
     background-color: $fondo;
 }
 
-.colorfondo {
+.colorfondo nav ul li a, .colorfondo nav .logo a{
     color: $negroLavado;
+}
+
+.colorfondo {
+    background-color: $fondo;
 }
 
 .pagina {
